@@ -1,0 +1,176 @@
+{
+  "published_at": "2026-11-10T09:00",
+  "title": "AI 뉴스레터",
+  "emoji": "🤖",
+  "sources": ["AI Times", "지디넷코리아", "전자신문", "TechCrunch", "VentureBeat", "MIT News"],
+  "articles": [
+    {
+      "category": "genai",
+      "title": "앤트로픽 '페이블 5.2', AI 성능 평가 1위 탈환…API 가격도 20% 인하",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217196",
+      "summary": "앤트로픽이 최신 AI 모델 '클로드 페이블 5.2'를 출시했다. 아티피셜 애널리시스 성능 평가에서 구글 제미나이 4 카본을 제치고 1위를 되찾았으며, API 가격도 20% 인하됐다. 코딩·추론·과학 분야 성능이 대폭 향상됐고, 출력 속도도 최대 30% 개선됐다.",
+      "source": "AI Times",
+      "time": "11/10 06:34"
+    },
+    {
+      "category": "biz",
+      "title": "미 의회, 젠슨 황 조사 압박…중국 AI 칩 거래·정부 책임도 겨냥",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217195",
+      "summary": "미국 의회가 엔비디아 젠슨 황 CEO의 중국 스파이 의혹과 관련해 조사 압박을 가하고 있다. 공화당은 비공개 브리핑을 요구했으며, 중간선거 승리로 의회 주도권을 얻은 민주당도 상무장관 증언과 조사를 촉구했다.",
+      "source": "AI Times",
+      "time": "11/10 05:55"
+    },
+    {
+      "category": "genai",
+      "title": "메타, 에이전트 실행용 경량 모델 '뮤즈 엠버' 출시",
+      "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+      "summary": "메타가 AI 에이전트 실행에 최적화된 경량 모델 '뮤즈 엠버(Muse Ember)'를 공개했다. 추론 비용을 낮추고 반복 에이전트 작업에 적합하도록 설계된 모델로, 엣지 디바이스와 대규모 에이전트 파이프라인 모두를 겨냥한다.",
+      "source": "TechCrunch",
+      "time": "11/09 08:30"
+    },
+    {
+      "category": "biz",
+      "title": "앤트로픽, AI 전력 확보 위해 천연가스 터빈 34억 달러어치 구매",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+      "summary": "앤트로픽이 AI 데이터센터 전력 공급을 위해 34억 달러(약 4조7000억 원) 규모의 천연가스 터빈을 구매했다. 오픈AI, 마이크로소프트에 이어 AI 기업들이 급증하는 전력 수요를 직접 조달하는 흐름이 이어지고 있다.",
+      "source": "TechCrunch",
+      "time": "11/09 08:00"
+    },
+    {
+      "category": "tech",
+      "title": "오픈AI, 생명과학 AI 벤치마크 공개…GPT-6 아스트라 성능 23%P 향상",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217167",
+      "summary": "오픈AI가 실제 실험실 환경을 반영한 생명과학 AI 벤치마크 '바이오베이직스벤치'를 공개했다. GPT-6 아스트라는 이전 모델보다 22.9%포인트 높은 66.7%를 기록했다. 단백질 분석·세포 영상·핵산 분석 등 5개 분야를 평가한다.",
+      "source": "AI Times",
+      "time": "11/09 13:54"
+    },
+    {
+      "category": "tech",
+      "title": "엔비디아, 로봇 AI 추론 5배 빠르게 하는 'V플래시' 공개",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217176",
+      "summary": "엔비디아가 로봇의 이동 경로 예측 AI 추론 속도를 5배 높이는 프레임워크 'V플래시'를 공개했다. 경로 좌표를 순차적으로 생성하는 대신 전체 경로를 한 번에 병렬 예측해 속도와 정확도를 동시에 개선했으며, 로봇과 자율주행 차량의 실시간 제어에 활용 가능하다.",
+      "source": "AI Times",
+      "time": "11/09 18:11"
+    },
+    {
+      "category": "security",
+      "title": "AI 학습 데이터 0.1%만 조작해도 에이전트에 원격 코드 백도어 심을 수 있어",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217183",
+      "summary": "앤트로픽 등이 참여한 연구팀이 사전 학습 데이터의 0.1%만 오염시켜도 AI 에이전트에 원격 코드 실행(RCE) 백도어를 심을 수 있다는 사실을 입증했다. 모델 규모가 클수록 공격 성공률이 높아지는 것으로 나타났다.",
+      "source": "AI Times",
+      "time": "11/09 17:51"
+    },
+    {
+      "category": "tech",
+      "title": "PSI \"비공개 앤트로픽 AI로 18년 된 양자 난제 증명\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217177",
+      "summary": "AI 기반 물리학 연구 스타트업 PSI가 비공개 앤트로픽 AI 모델을 이용해 18년간 미해결이었던 양자컴퓨팅 난제 '아론슨-암바이니스 추측'을 사흘 만에 증명했다. 수학적 증명 검증 도구 '린'의 검증도 통과해 AI의 수학 연구 직접 수행 가능성을 보여줬다.",
+      "source": "AI Times",
+      "time": "11/09 18:26"
+    },
+    {
+      "category": "policy",
+      "title": "트럼프 \"민주당과 AI 안전 규제 협력할 의사 있어\"…중간선거 패배 후 변화",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217157",
+      "summary": "도널드 트럼프 미국 대통령이 중간선거 패배 이후 민주당과 AI 안전 규제에 협력할 의사가 있다고 밝혔다. 중국에 뒤처지지 않는다는 조건을 달았지만, 기업 자율 규제를 선호하던 트럼프 대통령이 정부 차원의 안전장치 마련에 긍정적인 태도를 보인 것이다.",
+      "source": "AI Times",
+      "time": "11/09 12:47"
+    },
+    {
+      "category": "service",
+      "title": "\"말로 설명하면 영상 완성\"…딥브레인AI, 에이전트 탑재 AI스튜디오 5.0 공개",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217165",
+      "summary": "딥브레인AI가 대화만으로 영상 기획부터 편집까지 가능한 AI 영상 제작 플랫폼 'AI스튜디오 5.0'을 출시했다. 비디오 에이전트가 사용자 설명을 받아 대본·이미지·영상·음성·AI 아바타를 자동으로 결합해 영상을 완성한다.",
+      "source": "AI Times",
+      "time": "11/09 12:21"
+    },
+    {
+      "category": "biz",
+      "title": "LG AI연구원, 'K-엑사원 2.5' 무료 개방…성능 70%↑",
+      "url": "https://zdnet.co.kr/view/?no=20261109093318",
+      "summary": "LG AI연구원이 엔비디아 AI 데이 서울 2026에서 K-엑사원 2.5 API를 무료로 개방한다고 발표했다. 8월 버전 대비 전반적 성능이 70% 이상 향상됐다.",
+      "source": "지디넷코리아",
+      "time": "11/09 09:33"
+    },
+    {
+      "category": "chip",
+      "title": "구글, 차세대 TPU 2종 공개…추론 속도 높이고 보안까지 잡는다",
+      "url": "https://zdnet.co.kr/view/?no=20261109105043",
+      "summary": "구글이 AI 에이전트 수요에 대응하는 차세대 TPU 제품군을 공개했다. 추론 지연시간을 줄이는 TPU 8tx와 에이전트 특화 TPU 8i 맥스 두 가지 모델로 성능과 보안을 동시에 개선했다.",
+      "source": "지디넷코리아",
+      "time": "11/09 10:50"
+    },
+    {
+      "category": "tech",
+      "title": "ETRI, 비전문가도 AI 모델 개발 가능한 탱고2 깃허브 공개",
+      "url": "https://zdnet.co.kr/view/?no=20261109112034",
+      "summary": "ETRI가 비전문가도 AI 모델을 개발할 수 있는 탱고2(Tango2)를 깃허브에 오픈소스로 공개했다. 기존 컴퓨터비전 중심 탱고1을 확장해 생성AI·LLM까지 지원하며, 전문가의 도움 없이 모델 개발이 가능하다.",
+      "source": "지디넷코리아",
+      "time": "11/09 11:20"
+    },
+    {
+      "category": "biz",
+      "title": "엔비디아 \"韓, 피지컬 AI 핵심 국가\"…현대차·LG·두산과 로봇 혁신 가속",
+      "url": "https://zdnet.co.kr/view/?no=20261109115937",
+      "summary": "엔비디아 AI 데이 서울에서 한국이 피지컬 AI 핵심 국가로 주목받았다. 현대차·LG·두산 등 국내 대기업들과 로봇 AI 혁신을 위한 협력을 강화한다고 발표했다.",
+      "source": "지디넷코리아",
+      "time": "11/09 11:59"
+    },
+    {
+      "category": "others",
+      "title": "영국 공공기관, AI가 쓴 민원 급증에 업무 과부하",
+      "url": "https://zdnet.co.kr/view/?no=20261109204635",
+      "summary": "영국 공공기관들이 AI로 작성된 민원 폭증으로 업무 과부하를 겪고 있다. AI가 대량 민원을 자동 생성하면서 행정 처리 부담이 급증했으며, 이에 대한 대책 마련이 시급하다는 지적이 나왔다.",
+      "source": "지디넷코리아",
+      "time": "11/09 20:46"
+    },
+    {
+      "category": "service",
+      "title": "AI에 직급 주고 개발 문턱 낮춘다…'AI 네이티브 조직' 확산",
+      "url": "https://www.etnews.com/20261109000280",
+      "summary": "국내 AI 기업들이 AI 에이전트에 직급과 업무를 부여해 조직 운영을 바꾸고 있다. 코난테크놀로지는 AI 직원 '봉대리'로 업무 60건의 투입 시간을 59% 줄였으며, 마키나락스는 AI 에이전트 5개가 작동하는 인사관리 플랫폼을 운영 중이다.",
+      "source": "전자신문",
+      "time": "11/09 17:00"
+    },
+    {
+      "category": "tech",
+      "title": "세계 900만 개발자 선택…올라마 CEO \"오픈소스-프런티어 AI 격차 4개월\"",
+      "url": "https://www.etnews.com/20261109000287",
+      "summary": "올라마 CEO는 오픈소스와 프런티어 AI 간 기술 격차가 1년 전 14개월에서 4개월로 좁혀졌다고 밝혔다. 전체 토큰의 80~90%를 오픈 모델이 처리할 것으로 전망하며, 한국에 로컬 호스팅 서비스 준비 중이다.",
+      "source": "전자신문",
+      "time": "11/09 14:25"
+    },
+    {
+      "category": "biz",
+      "title": "\"칩만 팔던 시대 끝났다\"…SKT·엔비디아·리벨리온 '소버린 토큰 동맹'",
+      "url": "https://www.etnews.com/20261109000354",
+      "summary": "SKT, 엔비디아, 리벨리온이 GPU·NPU 융합 인프라 협력을 추진한다. 엔비디아가 MGX 랙 아키텍처와 NV링크 퓨전을 리벨리온에 개방해 국산 NPU의 글로벌 시스템 진입을 돕고, SKT는 저렴한 토큰 생산을 목표로 한다.",
+      "source": "전자신문",
+      "time": "11/09 15:25"
+    },
+    {
+      "category": "policy",
+      "title": "AI 시대 교육 '백년지대계' 연구 예산 전액 삭감",
+      "url": "https://www.etnews.com/20261109000334",
+      "summary": "2027년도 정부 예산안에서 교육부 '국가AI교육연구센터' 설립·운용 예산 30억원이 전액 삭감됐다. 업계·학계는 AI 시대 중장기 교육 연구 필요성을 강조하며 국회에서 예산 복구를 촉구하고 있다.",
+      "source": "전자신문",
+      "time": "11/09 16:30"
+    },
+    {
+      "category": "genai",
+      "title": "메이투안, 비전 기능 갖춘 LongCat-2.5 LLM 가중치 MIT 라이선스로 오픈소스 공개",
+      "url": "https://venturebeat.com/technology/meituan-releases-the-open-weights-of-its-longcat-2-5-llm-with-vision-under-a-permissive-mit-license",
+      "summary": "메이투안이 시각 기능을 갖춘 LongCat-2.5의 모델 가중치를 MIT 라이선스로 허깅페이스에 공개했다. 스크린샷·영상 이해와 다단계 코딩이 가능하며 전작 대비 코딩 성능이 크게 향상됐고, API 가격도 저렴하다.",
+      "source": "VentureBeat",
+      "time": "11/09 10:00"
+    },
+    {
+      "category": "tech",
+      "title": "MIT, 단일 AI 모델로 모래 흐름부터 단백질 접힘까지 여러 물질 거동 시뮬레이션",
+      "url": "https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109",
+      "summary": "MIT·UBC 연구진이 모래·유체·단백질 등 다양한 물리 현상을 하나의 딥러닝 모델 'WorldParticle'로 시뮬레이션하는 방법을 발표했다. 기존 수치 시뮬레이터 대비 약 100배 빠르며, 소프트 로봇·신소재·신약 연구에 활용 가능하다.",
+      "source": "MIT News",
+      "time": "11/09 00:00"
+    }
+  ]
+}
