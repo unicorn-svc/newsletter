@@ -1,0 +1,271 @@
+{
+  "published_at": "2026-11-10T19:21",
+  "title": "로봇 뉴스레터",
+  "emoji": "🤖",
+  "sources": [
+    "로봇신문",
+    "지디넷코리아",
+    "전자신문",
+    "The Robot Report",
+    "IEEE Spectrum",
+    "헬로티"
+  ],
+  "articles": [
+    {
+      "category": "humanoid",
+      "title": "美 보스턴 다이내믹스, 바퀴 달린 아틀라스 로봇 실험 영상 공개",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49502",
+      "summary": "보스턴 다이내믹스가 다리에 바퀴를 단 아틀라스로 360도 회전 점프까지 해내는 영상을 공개했어요. 강화학습으로 험한 지형에서도 균형을 잡는지 시험하는 연구용 모델이에요.",
+      "source": "로봇신문",
+      "time": "11/10 18:41"
+    },
+    {
+      "category": "humanoid",
+      "title": "클로봇, '다중 휴머노이드 협업 기술 개발'로 자동차 공장 현장 적용 추진",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49505",
+      "summary": "클로봇이 정부 과제(55.6억원, 2031년까지) 주관기관으로 선정돼 여러 휴머노이드가 도어 패널 같은 대형 부품을 함께 옮기는 기술을 개발합니다. 자동차 공장 적용이 목표예요.",
+      "source": "로봇신문",
+      "time": "11/10 18:45"
+    },
+    {
+      "category": "humanoid",
+      "title": "마이다스H&T, 삼성 휴머노이드 손에 '전자피부' 입힌다",
+      "url": "https://zdnet.co.kr/view/?no=20261110103557",
+      "summary": "마이다스H&T가 삼성전자 휴머노이드 손에 붙일 전자피부를 개발·테스트 중이에요. 기존 촉각센서보다 두께는 1/40 이하, 가격은 1/3 이하로 미세한 촉감까지 감지합니다.",
+      "source": "지디넷코리아",
+      "time": "11/10 10:46"
+    },
+    {
+      "category": "humanoid",
+      "title": "[영상] 애플, '맥 미니'로 휴머노이드 로봇 움직였다",
+      "url": "https://zdnet.co.kr/view/?no=20261110144219",
+      "summary": "애플 연구진이 맥 미니 한 대로 유니트리 G1 휴머노이드를 훈련·조종하는 'HALO' 논문을 냈어요. 가상의 집에서만 학습했는데도 처음 보는 공간에서 잘 움직였다고 해요.",
+      "source": "지디넷코리아",
+      "time": "11/10 15:02"
+    },
+    {
+      "category": "humanoid",
+      "title": "탕지엔 중국 로봇혁신센터 CTO \"2027년 피지컬 AI 로봇 상시 근무 열린다\"",
+      "url": "https://www.etnews.com/20261110000249",
+      "summary": "베이징휴머노이드로봇혁신센터 CTO는 2027년이면 휴머노이드가 산업 현장에서 상시 근무할 것이라고 전망했어요. 상용화 열쇠로 범용성과 작업 성공률을 꼽았습니다.",
+      "source": "전자신문",
+      "time": "11/10 17:00"
+    },
+    {
+      "category": "humanoid",
+      "title": "용접할 곳도 스스로 찾는다…중국의 '용접 로봇'",
+      "url": "https://www.etnews.com/20261109000285",
+      "summary": "중국 스피드봇이 라이다·3D 카메라로 용접 부위를 스스로 찾아 이동하는 휴머노이드 'W1'을 공개했어요. 연말 대형 조선소에서 성능 검증에 나섭니다.",
+      "source": "전자신문",
+      "time": "11/09 22:30"
+    },
+    {
+      "category": "humanoid",
+      "title": "스위스 임디드 AI, 사람과 함께 일하는 차륜형 휴머노이드 'AIR' 공개",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49484",
+      "summary": "EPFL 분사 스타트업이 산업 현장 협업용 바퀴형 휴머노이드 'AIR'를 공개했어요. 무거운 구동부는 몸통에 모으고 가벼운 팔을 써서 작업자와 부딪힐 위험을 줄였어요.",
+      "source": "로봇신문",
+      "time": "11/09 20:05"
+    },
+    {
+      "category": "physical_ai",
+      "title": "엔비디아, CoRL에서 GR00T 2와 Isaac Lab 3.0 공개",
+      "url": "https://www.therobotreport.com/nvidia-launches-gr00t-2-isaac-lab-3-0-corl/",
+      "summary": "엔비디아가 사람·로봇 데이터로 학습한 개방형 월드 액션 모델 GR00T 2와 오픈소스 로봇 학습 프레임워크 Isaac Lab 3.0을 발표했어요. 한국 스타트업 투자 계획도 함께 밝혔습니다.",
+      "source": "The Robot Report",
+      "time": "11/10 06:52"
+    },
+    {
+      "category": "physical_ai",
+      "title": "엔비디아, 삼성·LG전자·카카오모빌리티와 한국 피지컬 AI 생태계 확대",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49492",
+      "summary": "엔비디아가 삼성전자(반도체 공정), LG전자(제조 로봇 학습·평가), 카카오모빌리티(레벨4 자율주행)와 손잡고 한국 피지컬 AI 생태계를 넓힙니다.",
+      "source": "로봇신문",
+      "time": "11/10 11:20"
+    },
+    {
+      "category": "physical_ai",
+      "title": "에이전틱 로보틱스는 로봇 공학의 데이터 확장 문제를 해결할 수 있을까?",
+      "url": "https://spectrum.ieee.org/agentic-robotics",
+      "summary": "UC 버클리·엔비디아가 AI 코딩 에이전트가 로봇 제어 코드를 직접 짜는 '에이전틱 로보틱스'를 선보였어요. 성공률이 최대 99%로, 모방학습(약 20%)을 크게 앞섰습니다.",
+      "source": "IEEE Spectrum",
+      "time": "11/09 23:00"
+    },
+    {
+      "category": "physical_ai",
+      "title": "리얼월드, 엔비디와 손잡고 로봇 손 조작 벤치마크 '덱스벤치' 공개",
+      "url": "https://zdnet.co.kr/view/?no=20261110135514",
+      "summary": "리얼월드가 엔비디아와 휴머노이드 손 조작 능력을 평가하는 '덱스벤치'를 공개했어요. 유통·물류·조립·호텔 4개 환경, 15개 작업으로 처음 보는 환경 대응력을 측정해요.",
+      "source": "지디넷코리아",
+      "time": "11/10 14:50"
+    },
+    {
+      "category": "physical_ai",
+      "title": "日 AI로봇협회, 로봇 파운데이션 모델 'AIRoA-0' 공개",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49498",
+      "summary": "일본 AI로봇협회가 사람이 착용형 장치로 기록한 동작을 로봇이 배우는 파운데이션 모델 'AIRoA-0'을 공개했어요. 데이터 처리부터 실제 로봇 동작까지 한 번에 통합했어요.",
+      "source": "로봇신문",
+      "time": "11/10 11:49"
+    },
+    {
+      "category": "physical_ai",
+      "title": "美 MIT, 사람의 말 속 숨은 의도까지 이해하는 로봇 AI 개발",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49486",
+      "summary": "MIT·NYU가 LLM으로 말 속 숨은 의도를 읽는 로봇 AI '플렉스'를 개발했어요. '노트북에 커피 쏟지 마'라고 하면 다른 전자기기까지 피해 움직입니다.",
+      "source": "로봇신문",
+      "time": "11/09 20:13"
+    },
+    {
+      "category": "physical_ai",
+      "title": "美 MIPS, 휴머노이드 관절 제어용 피지컬 AI 반도체 플랫폼 공개",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49488",
+      "summary": "MIPS가 모터 제어·실시간 통신·엣지 AI 추론을 하나로 묶은 관절 제어 칩 플랫폼 '액터스'를 공개했어요. 모터 제어 연산을 일반 SW보다 16배 이상 빠르게 처리해요.",
+      "source": "로봇신문",
+      "time": "11/10 09:29"
+    },
+    {
+      "category": "physical_ai",
+      "title": "MDS테크, '2026 로보월드'서 글로벌 파트너와 피지컬 AI 솔루션 선보여",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49496",
+      "summary": "MDS테크가 엔비디아 등과 공동 부스를 꾸려 AI 컴퓨팅·비전·데이터 연결·보안을 아우르는 피지컬 AI 솔루션을 소개했어요.",
+      "source": "로봇신문",
+      "time": "11/10 11:29"
+    },
+    {
+      "category": "physical_ai",
+      "title": "네이블, 슈어소프트테크와 전략적 제휴… 이음5G 기반 피지컬 AI 사업 확대",
+      "url": "https://www.etnews.com/20261110000277",
+      "summary": "네이블이 슈어소프트테크와 이음5G 통신과 SW 검증 기술을 결합해 자율주행 로봇·스마트팩토리 시장을 함께 공략하기로 했어요.",
+      "source": "전자신문",
+      "time": "11/10 13:44"
+    },
+    {
+      "category": "industrial",
+      "title": "코윈로보틱스, 글로벌 ESS 기업에 제조라인 로봇 시스템 공급",
+      "url": "https://www.etnews.com/20261110000367",
+      "summary": "코윈로보틱스가 글로벌 ESS 기업에 6축 로봇과 초고중량 AMR을 묶은 제조라인 로봇 시스템을 수주했어요. 북미 기가팩토리 증설 건도 협의 중이에요.",
+      "source": "전자신문",
+      "time": "11/10 15:08"
+    },
+    {
+      "category": "industrial",
+      "title": "伊 조이텍·덴마크 카소 로봇 등, AMR코봇 기반 자동키팅시스템 개발",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49503",
+      "summary": "유럽 4개사가 AMR 위에 7축 코봇 팔 두 개를 얹은 자동차용 자동 키팅 시스템을 개발했어요. 필요한 부품을 집어 세트로 정리하는 일을 자동화합니다.",
+      "source": "로봇신문",
+      "time": "11/10 11:54"
+    },
+    {
+      "category": "industrial",
+      "title": "브릴스, 현대차·기아 '바디감성 컨퍼런스'서 피지컬 AI 안전관제·방범 로봇 시연",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49504",
+      "summary": "브릴스가 현대차·기아 행사에서 4족보행 로봇과 휴머노이드로 공장 위험구역을 무인 순찰하는 안전관제·방범 로봇을 시연했어요.",
+      "source": "로봇신문",
+      "time": "11/10 18:48"
+    },
+    {
+      "category": "industrial",
+      "title": "자율이동로봇(AMR)의 와이파이 로밍 끊김을 최소화하는 방법",
+      "url": "https://www.therobotreport.com/how-minimize-wi-fi-roaming-interruptions-autonomous-mobile-robots/",
+      "summary": "AMR은 이동 중 와이파이 구역을 바꿀 때 통신이 잠깐 끊겨요. 시냅틱스는 탐색 전용 저전력 무선을 따로 둬 지연·패킷 손실을 줄이는 구조를 제안했어요.",
+      "source": "The Robot Report",
+      "time": "11/10 00:40"
+    },
+    {
+      "category": "industrial",
+      "title": "콜로세움, 물류 자동화 플랫폼 볼트로 CES 2027 공급망·물류 부문 혁신상 수상",
+      "url": "https://www.hellot.net/news/article.html?no=116148",
+      "summary": "콜로세움의 '볼트'는 AI 진단으로 고객에게 맞는 물류 자동화 패키지를 추천해요. 2~3개월 걸리던 현장 진단을 최대 2주로 줄여 CES 혁신상을 받았어요.",
+      "source": "헬로티",
+      "time": "11/10 12:50"
+    },
+    {
+      "category": "industrial",
+      "title": "네오와이즈, '네오트윈' CES서 혁신상…드론·로봇 영상으로 건설 현장 3D 재현",
+      "url": "https://www.etnews.com/20261109000081",
+      "summary": "네오와이즈가 드론·로봇 영상으로 건설 현장을 15초 만에 3D로 재현하고 설계(BIM)와 비교해 시공 오류를 찾는 '네오트윈'으로 CES 혁신상을 받았어요.",
+      "source": "전자신문",
+      "time": "11/10 13:00"
+    },
+    {
+      "category": "service",
+      "title": "장애아동 재활로봇, 성장·운동기능에 맞춘다…맞춤형 치료 확대 모색",
+      "url": "https://www.etnews.com/20261110000369",
+      "summary": "국립재활원이 소아재활로봇 워크숍을 열고, 성인용 장비가 아이 체형에 맞지 않는 한계를 짚으며 성장 단계별 맞춤 치료와 건강보험 적용 방안을 논의했어요.",
+      "source": "전자신문",
+      "time": "11/10 17:00"
+    },
+    {
+      "category": "service",
+      "title": "바카티오, CES 2027 로보틱스 부문 혁신상 수상",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49497",
+      "summary": "바카티오의 '로봇 OS'는 여러 제조사의 서비스 로봇이 한 호텔에서 함께 일하도록 조율하는 협업 플랫폼으로, CES 2027 로보틱스 혁신상을 받았어요.",
+      "source": "로봇신문",
+      "time": "11/10 11:36"
+    },
+    {
+      "category": "service",
+      "title": "\"과학과 예술의 만남\"…갤럭시코퍼레이션 'AI·엔터테크' 융합상 제시",
+      "url": "https://www.etnews.com/20261110000447",
+      "summary": "갤럭시코퍼레이션이 로봇파크에서 로봇개 마술쇼와 휴머노이드 군무 공연을 선보이며 AI·로봇을 접목한 엔터테크 모델을 제시했어요.",
+      "source": "전자신문",
+      "time": "11/10 16:49"
+    },
+    {
+      "category": "business",
+      "title": "피지클, 로봇 AI 학습용 고정밀 시뮬레이션 개발…1000만달러 투자 유치",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49485",
+      "summary": "로봇 학습 데이터 기업 피지클이 1000만달러(약 145억원) 시드 투자를 유치했어요. 1만 개 3D 환경으로 로봇 학습용 가상환경·합성데이터를 만드는 '스튜디오'도 공개했어요.",
+      "source": "로봇신문",
+      "time": "11/09 20:24"
+    },
+    {
+      "category": "business",
+      "title": "中 카스봇, 휴머노이드 대규모 투자 유치…제화공장·광산으로 사업 확대",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49487",
+      "summary": "중국 휴머노이드 스타트업 카스봇이 시리즈 A++로 수억 위안을 조달했어요. 피지컬 AI 모델 개발과 양산에 쓰고 제화공장·광산 등 현장으로 사업을 넓힙니다.",
+      "source": "로봇신문",
+      "time": "11/09 20:21"
+    },
+    {
+      "category": "policy_event",
+      "title": "[CES 2027] 최고혁신상 60% 韓 차지…로봇·AI칩 '왕좌'는 中·美",
+      "url": "https://www.etnews.com/20261110000251",
+      "summary": "CES 2027 최고혁신상 38개 중 23개를 한국이 받았지만, 로봇과 AI 반도체 부문 최고상은 중국·미국이 가져갔어요. 출품작은 약 4000개로 역대 최대예요.",
+      "source": "전자신문",
+      "time": "11/10 16:00"
+    },
+    {
+      "category": "policy_event",
+      "title": "한국AI·로봇산업협회-경기창조경제혁신센터 업무 협약 체결",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49508",
+      "summary": "두 기관이 AI·로봇 스타트업의 발굴·투자유치부터 사업화·해외진출까지 지원하기 위한 협약을 맺었어요.",
+      "source": "로봇신문",
+      "time": "11/10 18:55"
+    },
+    {
+      "category": "policy_event",
+      "title": "2026 로보월드, 대한민국 로봇산업의 희망을 보았다.",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49490",
+      "summary": "400개 기업이 참가한 역대 최대 로보월드를 돌아본 칼럼이에요. 중국 휴머노이드 약진 속에서도 한국 로봇산업이 한 단계 성장했다고 평가했어요.",
+      "source": "로봇신문",
+      "time": "11/09 22:06"
+    },
+    {
+      "category": "policy_event",
+      "title": "광운대 AI·로봇 미래교육 비전에 각계 인사 힘 보탠다",
+      "url": "https://www.etnews.com/20261110000034",
+      "summary": "광운대가 2027년 5월 국내 처음 여는 청소년 국제 로봇대회 '로보페스트 월드 챔피언십 서울'에 국회·지자체·교육청·기업이 지원을 약속했어요.",
+      "source": "전자신문",
+      "time": "11/10 09:12"
+    },
+    {
+      "category": "policy_event",
+      "title": "대경대학교와 영현로보틱스, 피지컬 AI·바이오 공동 기술개발 협약 체결",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49491",
+      "summary": "대경대와 영현로보틱스가 푸드·뷰티·국방 분야 협동로봇 교육과정을 함께 만들고 로봇 제어 기술 연구도 공동 진행하기로 했어요.",
+      "source": "로봇신문",
+      "time": "11/10 09:34"
+    }
+  ]
+}
