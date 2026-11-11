@@ -1,0 +1,59 @@
+{
+ "published_at": "2026-11-11T10:04",
+ "title": "Ontology·GraphRAG 뉴스레터",
+ "emoji": "🕸️",
+ "sources": [
+  "Neo4j 블로그",
+  "VentureBeat"
+ ],
+ "articles": [
+  {
+   "category": "semantic_layer",
+   "title": "지식 레이어 구축: AI 에이전트가 성공하도록 공유 컨텍스트를 제공하라",
+   "url": "https://neo4j.com/blog/agentic-ai/build-a-knowledge-layer-give-your-ai-agents-the-shared-context-to-succeed/",
+   "summary": "AI 파일럿이 막히는 이유는 에이전트가 관계가 드러나지 않는 표 데이터만 보기 때문이라고 짚는다. 온톨로지, 기존 시스템을 그대로 조회하는 가상 그래프, 에이전트 기억용 메모리 그래프로 구성된 '지식 레이어'를 제안하는 5부작 시리즈의 첫 글이다.",
+   "source": "Neo4j 블로그",
+   "time": "11/10 23:00"
+  },
+  {
+   "category": "ontology",
+   "title": "지식 레이어 구축: 온톨로지로 데이터를 매핑하라",
+   "url": "https://neo4j.com/blog/graph-database/build-a-knowledge-layer-map-your-data-with-an-ontology/",
+   "summary": "온톨로지 그래프로 조직 내 데이터 소스들이 어떻게 연결되는지 지도를 만든다. 에이전트는 쿼리를 쓰기 전에 이 지도를 읽으므로 소스별 구조를 프롬프트에 일일이 박아 넣지 않아도 된다.",
+   "source": "Neo4j 블로그",
+   "time": "11/10 23:00"
+  },
+  {
+   "category": "kg",
+   "title": "지식 레이어 구축: 기존 데이터를 컨텍스트로 바꾸라",
+   "url": "https://neo4j.com/blog/graph-database/build-a-knowledge-layer-turn-your-existing-data-into-context/",
+   "summary": "Document Intelligence로 대출 신청서 같은 문서를 그래프로 바꾸고, Virtual Graph로 웨어하우스 테이블을 복사 없이 모델링하는 방법이다. 에이전트가 행이나 문서 조각을 뒤지지 않고 연결된 레코드에서 정확한 답을 찾는 과정을 보여준다.",
+   "source": "Neo4j 블로그",
+   "time": "11/10 23:00"
+  },
+  {
+   "category": "kg",
+   "title": "지식 레이어 구축: 컴포지트 데이터베이스로 데이터 소스를 연결하라",
+   "url": "https://neo4j.com/blog/graph-database/build-a-knowledge-layer-connect-your-data-sources-with-a-composite-database/",
+   "summary": "컴포지트 데이터베이스를 쓰면 여러 그래프(가상 그래프, 문서 그래프, 정책 그래프, 과거 결정)를 하나의 연결로 조회할 수 있다. 원본을 수정하지 않고 서로 다른 그래프의 레코드를 잇는 '섀도' 데이터베이스도 소개한다.",
+   "source": "Neo4j 블로그",
+   "time": "11/10 23:00"
+  },
+  {
+   "category": "kg",
+   "title": "지식 레이어 구축: 선례에 근거해 의사결정하라",
+   "url": "https://neo4j.com/blog/agentic-ai/build-a-knowledge-layer-ground-decisions-in-precedent/",
+   "summary": "컨텍스트 그래프가 과거 결정과 그 근거가 된 정책 규칙을 기억해, 에이전트가 비슷한 사례를 찾아 인용하며 판단하게 해 준다. 시리즈 마지막 글로 대출 심사 에이전트 사례를 쓴다.",
+   "source": "Neo4j 블로그",
+   "time": "11/10 23:00"
+  },
+  {
+   "category": "semantic_layer",
+   "title": "PayPal, 모델 교체 없이 AI 어시스턴트 정확도를 43%에서 95%로 높였다고 밝혀",
+   "url": "https://venturebeat.com/orchestration/paypal-says-its-ai-assistant-went-from-43-to-95-accuracy-without-changing-the-model",
+   "summary": "PayPal은 업무 지표 정의, 검증된 쿼리 패턴, 분석 절차를 모델 밖에 두고 에이전트에 제공해 정확도를 크게 올렸다. 지식은 모델과 분리해 두어야 다음 모델에도 이어 쓸 수 있다는 점이 핵심이다.",
+   "source": "VentureBeat",
+   "time": "11/11 05:46"
+  }
+ ]
+}
