@@ -1,0 +1,40 @@
+{
+  "published_at": "2026-11-12T14:00",
+  "title": "온톨로지와 GraphRAG 뉴스레터",
+  "emoji": "🕸️",
+  "sources": ["지디넷코리아", "Neo4j 블로그"],
+  "articles": [
+    {
+      "category": "kg",
+      "title": "솔트룩스, 국가기록 검색에 AI 입힌다…맥락까지 파악",
+      "url": "https://zdnet.co.kr/view/?no=20261112112011",
+      "summary": "솔트룩스가 국가기록원에 맥락을 이해하는 AI 검색을 구축 중이에요. 기록물 약 2380만 건을 색인하고, 온톨로지 기반 지식그래프로 기관·정책·업무·기록물 관계를 연결해 원문 근거와 함께 답하며 환각을 줄입니다. 공공 GraphRAG 실증 사례로 참고할 만해요.",
+      "source": "지디넷코리아",
+      "time": "11/12 11:21"
+    },
+    {
+      "category": "ontology",
+      "title": "데이터브릭스, 에이전트 '지니' 업그레이드…\"복잡한 업무 스스로\"",
+      "url": "https://zdnet.co.kr/view/?no=20261112092811",
+      "summary": "데이터브릭스가 AI 에이전트 '지니'를 업그레이드했어요. 기업 데이터 간 관계와 의미를 정리한 온톨로지를 기반으로 업무 맥락을 파악해 직원 설문 분석, 영업 부진 원인 정리 같은 복잡한 업무를 처리합니다. 사용 한도 설정·오픈웨이트 모델 전환으로 비용도 관리할 수 있어요.",
+      "source": "지디넷코리아",
+      "time": "11/12 09:31"
+    },
+    {
+      "category": "kg",
+      "title": "Relate by Neo4j 공개: AI 에이전트를 위한 임베디드 데이터베이스",
+      "url": "https://neo4j.com/blog/news/meet-relate-by-neo4j-an-embedded-database-for-ai-agents/",
+      "summary": "Neo4j가 서버 없이 라이브러리·CLI·WebAssembly로 돌아가는 오픈소스 임베디드 그래프 DB 'Relate'를 출시했어요. Cypher/GQL을 지원하고, 'relate serve'로 스키마 조회·쿼리 실행을 MCP 도구로 노출해 에이전트가 바로 지식그래프를 쓸 수 있습니다.",
+      "source": "Neo4j 블로그",
+      "time": "11/11 21:00"
+    },
+    {
+      "category": "kg",
+      "title": "Relate by Neo4j 해커톤 2026 개최: 임베디드 그래프 DB로 AI 에이전트 만들기",
+      "url": "https://neo4j.com/blog/graph-database/announcing-the-relate-by-neo4j-hackathon-2026-build-ai-agents-on-an-embedded-graph-database/",
+      "summary": "Neo4j가 Relate 출시에 맞춰 'Context, Connected'를 주제로 한 달간 온라인 해커톤을 Devpost에서 엽니다. 연결 데이터를 활용한 에이전트·앱·도구를 만드는 대회로, 우승작은 12월 17일 발표돼요. 그래프 기반 에이전트 실습 기회로 활용할 만합니다.",
+      "source": "Neo4j 블로그",
+      "time": "11/12 10:55"
+    }
+  ]
+}
