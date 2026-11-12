@@ -33,6 +33,12 @@
       "emoji": "🧪",
       "label": "테스트·관측",
       "color": "#4f46e5"
+    },
+    {
+      "id": "tools",
+      "emoji": "🔌",
+      "label": "도구·프로토콜(MCP)",
+      "color": "#15803d"
     }
   ]
 }

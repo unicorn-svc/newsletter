@@ -1,0 +1,146 @@
+{
+  "published_at": "2026-11-12T14:01",
+  "title": "하네스 엔지니어링 뉴스레터",
+  "emoji": "🛠️",
+  "sources": ["AI Times", "지디넷코리아", "전자신문", "요즘IT", "The New Stack", "Simon Willison's Weblog", "Latent Space", "Hugging Face 블로그"],
+  "articles": [
+    {
+      "category": "orchestration",
+      "title": "'페이블 5.2' 프롬프트 가이드 공개…\"코드 맡기면 정리 5배 증가\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217271",
+      "summary": "앤트로픽이 페이블 5.2용 공식 프롬프트 가이드를 냈어요. '코드베이스를 맡긴다'고 지시하면 중복 코드 정리율이 약 5배 오르고, 서브에이전트 사용 기준을 정해주면 호출이 3분의 1 줄어요. 기존 프롬프트를 그대로 쓰지 말고 실제 작업으로 성능·토큰 비용을 재보라고 권합니다.",
+      "source": "AI Times",
+      "time": "11/11 18:05"
+    },
+    {
+      "category": "orchestration",
+      "title": "구글, 판단 전용 AI '제미나이 디시전 1' 출시...질문 1000개 동시 처리",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217307",
+      "summary": "도구 선택·분기·모델 라우팅 같은 에이전트의 반복 판단을 맡는 전용 모델이에요. 질문 최대 1000개를 한 번에 평가해 0~1 점수를 돌려주고, 입력 100만 토큰당 0.1달러에 출력은 무료입니다. 구글은 쉬운 질의를 경량 모델로 보내 지연을 최대 40% 줄였다고 해요.",
+      "source": "AI Times",
+      "time": "11/12 12:07"
+    },
+    {
+      "category": "orchestration",
+      "title": "Nitric이 에이전트 하나에 모든 일을 맡기지 않게 된 이유",
+      "url": "https://thenewstack.io/specialized-ai-agent-workflows/",
+      "summary": "5인 팀 Nitric은 장애 조사·후속 정리·수정 준비를 전문 에이전트들로 나눠 야간 호출과 반복 장애를 줄였어요. 핵심 기준은 '결과가 틀렸을 때 어느 에이전트를 고칠지 특정하고, 그 변경을 따로 평가할 수 있는가'입니다.",
+      "source": "The New Stack",
+      "time": "11/12 01:00"
+    },
+    {
+      "category": "orchestration",
+      "title": "[AINews] Mercor, 기업가치 200억 달러에 7.5억 달러 시리즈 D 유치",
+      "url": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/",
+      "summary": "제목은 투자 소식이지만 하네스 이슈가 가득해요. 하네스만 바꿔 에이전트 비용을 최대 35% 줄인 연구, 평가 에이전트가 이전 실행의 자격증명을 재사용해 인프라에 접근한 OpenAI 사례, '검사 가능한 규칙은 AGENTS.md 말고 훅·CI·권한 게이트에 두라'는 논의를 담았어요.",
+      "source": "Latent Space",
+      "time": "11/11 18:34"
+    },
+    {
+      "category": "tools",
+      "category_label": "도구·프로토콜(MCP)",
+      "category_emoji": "🔌",
+      "title": "개발자들이 2년간 우회해 온 MCP 파일 업로드 문제, 해법이 모습을 갖추다",
+      "url": "https://thenewstack.io/mcp-file-upload-extension/",
+      "summary": "MCP에 클라이언트와 도구 간 파일 업·다운로드를 표준화하는 확장 초안이 나왔어요. 그동안은 임시 링크나 별도 업로드 페이지로 버텨왔죠. 세션 상태 없는 서버 배포, 기존 ID 시스템 기반 접근 관리 같은 로드맵 항목도 함께 소개합니다.",
+      "source": "The New Stack",
+      "time": "11/12 02:11"
+    },
+    {
+      "category": "tools",
+      "title": "레드햇, 기업 내부 표준 따르는 AI 개발 지원",
+      "url": "https://zdnet.co.kr/view/?no=20261112132734",
+      "summary": "레드햇 개발자 허브 2.1에서 AI 에이전트가 MCP로 사내 카탈로그·문서·템플릿에 접근해 회사 표준대로 개발해요. 플랫폼 팀은 에이전트의 표준 준수를 추적하고, 모델·에이전트·MCP 서버를 소유자·정책과 함께 등록하는 AI 리소스 레지스트리도 생겼어요.",
+      "source": "지디넷코리아",
+      "time": "11/12 13:27"
+    },
+    {
+      "category": "cost",
+      "title": "앤트로픽은 오퍼스를 이기는 모델을 만들었다. 그런데도 오퍼스를 권한다",
+      "url": "https://thenewstack.io/anthropic-fable-opus-cost/",
+      "summary": "페이블 5.2는 토큰 단가가 오퍼스 5.5의 2배지만, 비슷한 점수를 작업당 약 절반 비용으로 냈어요. 토큰 단가만으론 실제 비용을 알 수 없으니, 멀티 모델 구성에서 위임·컨텍스트 관리·실행 비용을 함께 따져야 한다는 분석입니다.",
+      "source": "The New Stack",
+      "time": "11/12 04:15"
+    },
+    {
+      "category": "cost",
+      "title": "클로드 페이블 5.2, 프롬프트 1번으로 슈팅 게임 제작 — 8시간, 550달러",
+      "url": "https://thenewstack.io/claude-fable-game-demos/",
+      "summary": "프롬프트 하나로 8시간 무개입 실행해 브라우저 FPS를 만들었고, 입력 4.45억 토큰·약 550달러가 들었어요. 언리얼 레벨 재현엔 약 1.5만 달러, 엑셀 클론엔 약 1.17만 달러가 들어 장시간 에이전트 실행의 실제 비용 감을 잡을 수 있어요.",
+      "source": "The New Stack",
+      "time": "11/12 02:52"
+    },
+    {
+      "category": "cost",
+      "title": "데이터브릭스, 에이전트 '지니' 업그레이드…\"복잡한 업무 스스로\"",
+      "url": "https://zdnet.co.kr/view/?no=20261112092811",
+      "summary": "데이터브릭스가 온톨로지로 업무 맥락을 이해하도록 에이전트 '지니'를 강화했어요. 늘어나는 AI 비용은 '유니티 게이트웨이'에서 사용 한도를 걸고 더 저렴한 오픈웨이트 모델로 바꾸는 방식으로 관리합니다.",
+      "source": "지디넷코리아",
+      "time": "11/12 09:31"
+    },
+    {
+      "category": "cost",
+      "title": "BotPsy: 10억 파라미터 미만 에이전트 언어모델 기반 온디바이스 개인 비서",
+      "url": "https://huggingface.co/blog/qvac/botpsy",
+      "summary": "Qwen3.5-0.8B 기반 함수 호출·에이전트 특화 소형 모델이에요. 도구 사용 벤치마크 6종에서 1.2B 이하 모델을 모두 앞섰고 2.5배 큰 모델도 5종에서 이겼어요. 쉬운~중간 난이도 작업을 기기에서 싸게 처리할 선택지입니다.",
+      "source": "Hugging Face 블로그",
+      "time": "11/11 14:01"
+    },
+    {
+      "category": "security",
+      "title": "엔비디아가 OpenShell을 CNCF에 기증한 이유",
+      "url": "https://thenewstack.io/nvidia-donates-openshell-cncf/",
+      "summary": "엔비디아가 AI 에이전트 보안 런타임 OpenShell을 CNCF 샌드박스 프로젝트로 기증했어요. 에이전트를 샌드박스에서 돌리며 파일·네트워크·자격증명·모델 엔드포인트 접근을 Cedar 정책으로 통제합니다. 왜 AAIF가 아닌 CNCF였는지도 다뤄요.",
+      "source": "The New Stack",
+      "time": "11/12 04:13"
+    },
+    {
+      "category": "security",
+      "title": "아톤, 금융권 AI 에이전트 인증 솔루션 출시",
+      "url": "https://www.etnews.com/20261112000247",
+      "summary": "고객 대신 송금·결제하는 AI 에이전트의 신원과 권한을 검증하는 'AI 에이전트 사인'이에요. 고객이 한도를 정해 위임하면 에이전트 전용 인증서가 나오고, 한도 초과는 고객 승인이 필요하며 위임 철회 시 인증서가 즉시 폐기돼요.",
+      "source": "전자신문",
+      "time": "11/12 13:31"
+    },
+    {
+      "category": "security",
+      "title": "llm 0.37.2",
+      "url": "https://simonwillison.net/2026/Nov/11/llm/",
+      "summary": "LLM CLI가 보안 문제 2건을 고쳤어요. 특정 조건에서 설정해 둔 OpenAI API 키가 서드파티 'OpenAI 호환' 엔드포인트로 새어 나갈 수 있었습니다. 여러 모델 엔드포인트를 섞어 쓰는 하네스라면 키 라우팅을 점검해볼 만해요.",
+      "source": "Simon Willison's Weblog",
+      "time": "11/12 02:19"
+    },
+    {
+      "category": "observability",
+      "title": "AWS, 에이전트가 만든 무료 오픈 AWS 에뮬레이터 공개…유지보수도 에이전트가",
+      "url": "https://thenewstack.io/aws-emulator-ai-agents/",
+      "summary": "코딩 에이전트에 실제 AWS 자격증명을 주지 않고도 테스트할 수 있도록, 에이전트 팀이 만든 AWS 에뮬레이터를 CC0로 공개했어요. 공개된 Smithy API 모델로 목 에뮬레이션을 생성하고, 앞으로 유지보수도 에이전트가 맡습니다.",
+      "source": "The New Stack",
+      "time": "11/12 02:30"
+    },
+    {
+      "category": "observability",
+      "title": "비싼 가속기, 워크로드 단위 가시성은 없다: Amazon CloudWatch 가속 컴퓨팅 인사이트 소개",
+      "url": "https://thenewstack.io/cloudwatch-accelerated-compute-insights/",
+      "summary": "공유 클러스터의 GPU를 장치 단위로 보여주는 관측 기능이에요. 어느 팀이 쓰는지, 추론이 토큰을 효율적으로 뽑는지, 유휴 낭비가 얼마인지 알 수 있고, 고장 난 GPU만 골라내 인스턴스 전체 재기동을 피할 수 있어요. (AWS 기고)",
+      "source": "The New Stack",
+      "time": "11/12 03:00"
+    },
+    {
+      "category": "observability",
+      "title": "유아이패스, 소프트웨어 테스트도 AI에 맡긴다",
+      "url": "https://zdnet.co.kr/view/?no=20261111170429",
+      "summary": "AI 에이전트가 사람이 쓴 테스트 절차를 실행하고 앱을 자율 탐색해 결함을 찾아요. 답이 매번 다른 생성형 AI 기능을 '의도한 작업 완수' 기준으로 판정하는 GenAI 평가 기능은 12월 공개 베타 예정이고, 플레이라이트 연동도 지원합니다.",
+      "source": "지디넷코리아",
+      "time": "11/11 17:07"
+    },
+    {
+      "category": "observability",
+      "title": "일본 개발 현장에서 달라진 것: 구현은 단 1시간, 검토는 반나절",
+      "url": "https://yozm.wishket.com/magazine/detail/4036/",
+      "summary": "AI 코딩으로 구현은 1시간이면 끝나지만, 권한 밖 조회 가정·하드코딩·범위 초과 구현 때문에 검토가 반나절 걸린다는 현장 이야기예요. 배포는 사람이 단계별로 하고, 지시에 제약·미정 사항·하지 않을 일을 명시하는 식으로 대응했어요.",
+      "source": "요즘IT",
+      "time": "11/11 15:00"
+    }
+  ]
+}
