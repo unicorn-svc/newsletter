@@ -1,0 +1,48 @@
+{
+  "published_at": "2026-11-13T13:45",
+  "title": "온톨로지와 GraphRAG 뉴스레터",
+  "emoji": "🕸️",
+  "sources": ["AI타임스", "지디넷코리아", "Neo4j 블로그", "Enterprise Knowledge", "Graphwise"],
+  "articles": [
+    {
+      "category": "kg",
+      "title": "인포시즈, 서울대와 산업 도면 특화 AI모델 개발 나서",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217311",
+      "summary": "인포시즈가 서울대와 함께 산업 도면 속 심볼과 연결 관계를 그래프 데이터로 바꾸는 '이미지 투 그래프' 모델을 개발합니다. 첫 대상은 배관계장도(P&ID) 약 2만 장이며, 뽑아낸 그래프를 설계·설비 데이터와 엮어 AI 에이전트 업무 자동화에 활용할 계획입니다.",
+      "source": "AI타임스",
+      "time": "11/12 14:37"
+    },
+    {
+      "category": "kg",
+      "title": "Neo4j 변경 데이터 캡처(CDC)로 AI 에이전트 오케스트레이션하기",
+      "url": "https://neo4j.com/blog/developer/change-data-capture-to-orchestrate-agents/",
+      "summary": "그래프에 쓰기가 확정되면 CDC 이벤트로 멀티 에이전트 작업을 이어 실행하는 패턴입니다. 별도 메시지 브로커 없이 상태·이벤트·감사 기록을 한 그래프에 두고 Cypher로 조회할 수 있습니다. 단계당 약 750ms 지연과 엔터프라이즈 에디션 필요 등 한계도 함께 정리했습니다.",
+      "source": "Neo4j 블로그",
+      "time": "11/12 18:47"
+    },
+    {
+      "category": "kg",
+      "title": "꿈은 이루어진다: 안에서부터 지식 그래프 구축하기",
+      "url": "https://graphwise.ai/blog/dreams-do-come-true-building-a-knowledge-graph-from-the-inside-out/",
+      "summary": "Graphwise가 사내에서 쓰는 Google Workspace 애드온 'Smart Tags' 사례입니다. 문서·시트·슬라이드를 쓰는 동안 지식 그래프의 합의된 개념(정의·동의어)을 바로 태깅해, 고객 사례 같은 자료의 의미를 일관되게 유지하고 검색·AI 활용도를 높입니다.",
+      "source": "Graphwise",
+      "time": "11/12 19:39"
+    },
+    {
+      "category": "semantic_layer",
+      "title": "시맨틱 레이어 심포지엄 2026: 일상 업무를 쉽게 — 신뢰할 수 있는 AI를 위한 어도비의 HR 지식 전략",
+      "url": "https://enterprise-knowledge.com/semantic-layer-symposium-2026-making-the-everyday-effortless-adobes-hr-knowledge-strategy-for-ai-worth-trusting/",
+      "summary": "어도비 HR 사례 발표 정리입니다. 문제는 정보 부족이 아니라 AI가 제대로 쓸 수 없는 콘텐츠였고, 콘텐츠·택소노미·거버넌스를 다시 설계해 신뢰할 수 있는 HR AI 서비스를 만들었다는 내용입니다.",
+      "source": "Enterprise Knowledge",
+      "time": "11/13 02:57"
+    },
+    {
+      "category": "kg",
+      "title": "대기업도 인정…케이엠에스랩, 'AI 풀스택' 들고 해외 간다",
+      "url": "https://zdnet.co.kr/view/?no=20261113124317",
+      "summary": "케이엠에스랩이 LLM 서빙 스택과 업무 플랫폼을 묶어 해외 진출에 나섭니다. 업무 플랫폼 'K-포탈 브레인위브'는 직원이 남긴 업무 기록에서 키워드·문서 간 연관성을 뽑아 개인별 지식그래프 '세컨드 브레인'을 만들며, 포스코 적용 사례가 소개됐습니다.",
+      "source": "지디넷코리아",
+      "time": "11/13 12:47"
+    }
+  ]
+}
