@@ -1,0 +1,120 @@
+{
+  "published_at": "2026-11-13T13:44",
+  "title": "하네스 엔지니어링 뉴스레터",
+  "emoji": "🛠️",
+  "sources": ["AI Times", "지디넷코리아", "전자신문", "요즘IT", "The New Stack", "Simon Willison's Weblog", "Latent Space", "Hugging Face 블로그"],
+  "articles": [
+    {
+      "category": "cost",
+      "title": "구글 Gemini 4 코딩 에이전트, 작업 중 모델을 바꿔가며 19% 더 빨리 끝낸다",
+      "url": "https://thenewstack.io/gemini-4-hydrogen-orchestrator/",
+      "summary": "구글 Antigravity의 Orchestrator는 설계·디버깅 같은 어려운 추론은 상위 모델 Carbon에, 코드 수정·테스트는 저가 모델 Hydrogen에 나눠 맡깁니다. Carbon만 쓸 때와 결과는 거의 같고 쿼터는 24% 덜 쓰며 작업은 19% 빨리 끝난다고 합니다.",
+      "source": "The New Stack",
+      "time": "11/13 06:26"
+    },
+    {
+      "category": "cost",
+      "title": "구글, '제미나이 4 하이드로젠' 출시…상위 모델 '아르곤' 성능 추월",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217352",
+      "summary": "구글이 코딩·에이전트용 경량 모델 하이드로젠을 내놨습니다. 터미널벤치 성공률 57%에 속도는 2.5배 빨라졌고, 가격은 100만 토큰당 입력 1.5달러·출력 7.5달러입니다. 안티그래비티는 어려운 판단은 카본, 반복 코딩은 하이드로젠에 자동 배분합니다.",
+      "source": "AI Times",
+      "time": "11/13 07:58"
+    },
+    {
+      "category": "cost",
+      "title": "llm-gemini 0.37: 가장 저렴한 Gemini 4 Hydrogen 지원과 가격 비교",
+      "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+      "summary": "Hydrogen은 지금 Carbon·Argon보다 약 25% 싸지만, 12월 1일 두 모델 가격이 두 배로 오르면 차이가 약 62.5%로 벌어집니다. 에이전트용 모델을 고를 때 비용 계산에 참고할 만한 정리입니다.",
+      "source": "Simon Willison's Weblog",
+      "time": "11/13 07:55"
+    },
+    {
+      "category": "cost",
+      "title": "글을 쓰지 못하는 구글 AI 모델, 바로 그게 핵심이다",
+      "url": "https://thenewstack.io/google-gemini-decisions-api/",
+      "summary": "Gemini Decisions API는 텍스트를 만들지 않고 정해 둔 선택지 중 하나를 확률·신뢰도와 함께 돌려줍니다. 응답 150~250ms, 입력 100만 토큰당 0.1달러부터이며 출력 요금이 없어 에이전트의 반복 판단 단계 비용을 줄일 수 있습니다.",
+      "source": "The New Stack",
+      "time": "11/13 02:02"
+    },
+    {
+      "category": "cost",
+      "title": "[AINews] D-Day: 결정 모델의 날",
+      "url": "https://latent.space/p/ainews-d-day-decision-models-day/",
+      "summary": "Gemini Decision 1 출시와 함께 Cloudflare가 도구 선택은 결정 모델에, 진단은 대형 모델에 맡겨 LLM 호출 6번을 1번으로 줄인 사례를 다뤘습니다. Claude Fable 5.2 가격 인하, Claude Code의 저장소 삭제 사고 소식도 실렸습니다.",
+      "source": "Latent Space",
+      "time": "11/12 14:26"
+    },
+    {
+      "category": "cost",
+      "title": "Jev 혁명: 엔지니어들이 '시스템 1' 모델로 이미 만들고 있는 것들",
+      "url": "https://latent.space/p/jev-revolution/",
+      "summary": "선택·점수·확률만 빠르고 싸게 돌려주는 비생성 '시스템 1' 모델을 에이전트 부품으로 쓰는 흐름을 소개합니다. Glean, UiPath, Workday 사례가 나왔고, UiPath는 문서 조각 순위 매기기를 1초 안에 끝냈습니다.",
+      "source": "Latent Space",
+      "time": "11/12 14:08"
+    },
+    {
+      "category": "orchestration",
+      "title": "구글은 개발자 한 명을 위한 에이전트 '/swarm', 커서는 팀원 에이전트끼리 대화하는 '멀티플레이어'",
+      "url": "https://thenewstack.io/cursor-google-multiplayer-swarm/",
+      "summary": "여러 에이전트를 병렬로 돌릴 때 생기는 중복·충돌을 막는 두 방식입니다. 구글 Swarm은 개발자 한 명의 에이전트들을 묶어 조율하고, 커서 멀티플레이어는 팀원별 코디네이터 에이전트가 같은 작업 보드를 쓰며 메시지를 주고받습니다.",
+      "source": "The New Stack",
+      "time": "11/13 06:22"
+    },
+    {
+      "category": "orchestration",
+      "title": "네카오 3Q 수익, AI 투자 규모차로 희비…'실행형' 에이전트에 베팅",
+      "url": "https://zdnet.co.kr/view/?no=20261112182533",
+      "summary": "네이버는 쇼핑·예약·페이를 내부 API로 바로 잇는 개인형 AI 에이전트 앱을 연내 내놓고, 연동 안 된 외부 서비스는 격리된 브라우저 환경에서 처리합니다. 카카오는 카나나 스페이스로 설정 변경·송금 같은 기능을 대신 실행합니다.",
+      "source": "지디넷코리아",
+      "time": "11/13 10:36"
+    },
+    {
+      "category": "security",
+      "title": "LLMON: LLM 전용 마크업 언어, Granite 4.1 3B·8B에 탑재",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "summary": "IBM이 예약 특수 토큰으로 프롬프트 구성 요소를 명시하는 마크업 언어 LLMON을 공개했습니다. 지시와 데이터를 분리해 간접 프롬프트 인젝션 성공률을 크게 낮췄고, 성능은 기존 모델과 비슷합니다. 도구 호출·에이전트 예제도 제공합니다.",
+      "source": "Hugging Face 블로그",
+      "time": "11/13 04:07"
+    },
+    {
+      "category": "security",
+      "title": "옴니사, '엘라라'로 AI 위협 선제 차단…“파편화된 신호 엮어 방어”",
+      "url": "https://www.etnews.com/20261113000151",
+      "summary": "옴니사의 AI 거버넌스 플랫폼 '엘라라'는 프롬프트 인젝션, 미승인 모델 사용, 자격증명 접근 시도를 묶어 판단해 악성 에이전트를 막고 MCP 서버·플러그인도 검사합니다. 사용량·비용 게이트웨이와 소형 모델 라우팅 기능도 갖췄습니다.",
+      "source": "전자신문",
+      "time": "11/13 12:15"
+    },
+    {
+      "category": "security",
+      "title": "골드만삭스는 왜 트레이더에게서 클로드 코드를 뺏었을까",
+      "url": "https://yozm.wishket.com/magazine/detail/4037/",
+      "summary": "골드만삭스가 검증 안 된 도구가 회사 데이터를 다룰 위험을 줄이려 클로드 코드를 엔지니어에게만 허용한 사례입니다. AI로 만든 도구의 책임자 지정, 기존 권한 규칙 적용, 회수 시 사용 기록 관리를 제안합니다.",
+      "source": "요즘IT",
+      "time": "11/13 09:40"
+    },
+    {
+      "category": "security",
+      "title": "미 주요 은행 이어 항공사도 AI 에이전트 차단…거래·보안 통제 강화",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217315",
+      "summary": "유나이티드항공이 승인받지 않은 외부 AI 에이전트의 예약·계정 관리를 막았습니다. 계정 정보 노출과 원치 않는 결제를 막기 위해서입니다. 반면 델타·아메리칸항공은 인증된 에이전트를 받아들여 업계 대응이 엇갈립니다.",
+      "source": "AI Times",
+      "time": "11/12 15:11"
+    },
+    {
+      "category": "security",
+      "title": "AI 비서 전화에 지친 사업장…편리함의 대가는 누가 치르나",
+      "url": "https://zdnet.co.kr/view/?no=20261113100110",
+      "summary": "대신 예약·문의 전화를 거는 AI 전화 에이전트가 늘며 맥락 누락·반복 질문으로 사업장 부담이 커지고 있습니다. 전문가들은 AI 신원 고지, 사용자 최종 승인, 사업장 거부권 같은 기준이 필요하다고 봤습니다.",
+      "source": "지디넷코리아",
+      "time": "11/13 10:48"
+    },
+    {
+      "category": "observability",
+      "title": "AI, 프리랜서 업무 41.3% 전문가 수준 수행…1년 전 2.5%서 급상승",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217332",
+      "summary": "AI 안전센터와 스케일AI가 실제 프리랜서 프로젝트로 에이전트 실무 능력을 재는 원격 노동 지수(RLI)를 발표했습니다. AI가 41.3%를 전문가 수준으로 끝냈고 1년 전 최고치는 2.5%였습니다. 앤트로픽 모델이 1위였습니다.",
+      "source": "AI Times",
+      "time": "11/12 17:41"
+    }
+  ]
+}
