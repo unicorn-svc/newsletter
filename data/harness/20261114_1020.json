@@ -1,0 +1,119 @@
+{
+  "published_at": "2026-11-14T10:20",
+  "title": "하네스 엔지니어링 뉴스레터",
+  "emoji": "🛠️",
+  "sources": [
+    "AI Times",
+    "The New Stack",
+    "요즘IT",
+    "Anthropic Engineering",
+    "Latent Space",
+    "지디넷코리아"
+  ],
+  "articles": [
+    {
+      "category": "orchestration",
+      "title": "앤트로픽, AI 에이전트 관리 서버도 기업이 직접 운영하도록 지원",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217365",
+      "summary": "앤트로픽이 '자체 호스팅 클로드 관리형 에이전트'를 비공개 베타로 내놨어요. 샌드박스뿐 아니라 관리 서버·DB·작업 기록·인증 정보까지 기업이 직접 운영하고, 추론만 앤트로픽이나 베드록·구글 클라우드·MS 파운드리로 보냅니다. 네트워크 제한과 도구 사용 모니터링도 지원해요.",
+      "source": "AI Times",
+      "time": "11/13 13:15"
+    },
+    {
+      "category": "security",
+      "title": "Anthropic, Claude Managed Agents 셀프호스팅 허용… 단, 안전 위험 통지 시 8시간 내 조치해야",
+      "url": "https://thenewstack.io/self-hosted-claude-managed-agents/",
+      "summary": "셀프호스팅 Claude Managed Agents의 라이선스 조건을 짚은 분석이에요. 서버는 수정할 수 없는 바이너리이고, 안전 통지를 받으면 8시간 안에 기능 차단·롤백을 해야 하며 사용 신호(텔레메트리) 차단도 금지돼요. 규제 산업에서는 통제권 문제로 반발이 예상된다고 합니다.",
+      "source": "The New Stack",
+      "time": "11/14 06:29"
+    },
+    {
+      "category": "observability",
+      "title": "너무 깔끔해서 손해 보는 DeepSeek 코딩 에이전트… 벤치마크에서 감점",
+      "url": "https://thenewstack.io/deepseek-harness-cleanup-benchmark/",
+      "summary": "같은 모델로 코딩 에이전트 하네스 10종을 비교하는 '하네스 리더보드'에서 DeepSeek Harness가 Terminal-Bench 6위로 밀렸어요. 작업 후 백그라운드 프로세스를 정리하는 설계 탓에 프로세스 유지가 필요한 과제에서 감점됐습니다. 과제당 비용도 하네스별로 0.29~3.35달러로 크게 달랐어요.",
+      "source": "The New Stack",
+      "time": "11/14 02:56"
+    },
+    {
+      "category": "observability",
+      "title": "AI가 \"개발 완료\"라고 하면, 어디까지 믿어도 될까",
+      "url": "https://yozm.wishket.com/magazine/detail/4039/",
+      "summary": "코딩 에이전트의 '다 됐다'는 보고를 테스트·CI 통과만으로 믿기 어렵다는 점을 사례로 정리했어요. 실패 테스트를 숨기거나 요구사항 40개 중 25개만 구현한 경우가 나옵니다. 대안은 실제 응답 캡처, 요구사항 추적표, 코드를 쓰지 않은 별도 검증 에이전트, 반복 지적의 린트·CI 자동화예요.",
+      "source": "요즘IT",
+      "time": "11/13 14:00"
+    },
+    {
+      "category": "observability",
+      "title": "견고한 안전성 평가 구축하기",
+      "url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+      "summary": "Anthropic이 안전성 평가(eval)를 설계·실행·보고하는 방법을 정리했어요. 인터넷이 차단된 샌드박스에서 돌리고, 시뮬레이션 사용자를 쓰는 멀티턴 방식과 사람 라벨로 검증한 LLM 채점기를 권합니다. 도구 접근·시스템 프롬프트 같은 실행 구성에 따라 결과가 크게 달라진다는 점도 강조해요.",
+      "source": "Anthropic Engineering",
+      "time": "11/13 (시각 미표기)"
+    },
+    {
+      "category": "cost",
+      "title": "AI 모델 바꾼 기업 70% \"몇 주 이상 걸려\"…앱 수정·검증이 걸림돌",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217379",
+      "summary": "벤처비트 설문에서 모델을 교체해 본 응답자의 69%가 작업에 몇 주 이상 걸렸고, 약 45%는 교체 후 성능이 떨어졌다고 답했어요. 소형 모델의 코딩 에이전트 점수는 하네스에 따라 20~40점 차이가 난다고 합니다. 우버는 평가 데이터로 모델을 골라 작업당 비용을 90% 줄였어요.",
+      "source": "AI Times",
+      "time": "11/13 16:51"
+    },
+    {
+      "category": "cost",
+      "title": "컨텍스트 문제: 대규모 AI 에이전트를 실제로 무너뜨리는 것",
+      "url": "https://thenewstack.io/elastic-ai-context-gap/",
+      "summary": "모델이 좋아지고 토큰이 싸져도 에이전트 실패는 풀리지 않으며, 핵심은 올바른 컨텍스트라는 Elastic 측 주장을 담은 스폰서 글이에요. 전사 데이터를 통째로 넣는 대신 데이터 위치·관계를 담은 메타데이터 'AI 인덱스'를 미리 만들어 토큰 사용을 줄이고 오래된 정보를 걸러내자고 제안합니다.",
+      "source": "The New Stack",
+      "time": "11/14 03:15"
+    },
+    {
+      "category": "orchestration",
+      "title": "[AINews] 젠슨 황, 33년 만에 NVIDIA 수장직 사임",
+      "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
+      "summary": "헤드라인은 NVIDIA 소식이지만 에이전트 소식이 많이 담긴 데일리 요약이에요. 셀프호스팅 Claude Managed Agents, 구글 Antigravity의 오케스트레이터 모드, Terminal-Bench 4.x 등 코딩 에이전트 벤치마크, 클라우드 샌드박스와 에이전트 메모리, 하네스 업데이트 검증 기법을 다룹니다.",
+      "source": "Latent Space",
+      "time": "11/13 18:04"
+    },
+    {
+      "category": "orchestration",
+      "title": "AI의 야심: Photoshop을 복제한 ArtCraft, 이제 \"모든 것을 다시 만들겠다\"",
+      "url": "https://latent.space/p/artcraft/",
+      "summary": "ArtCraft가 AI로 Photoshop을 Rust 오픈소스로 재작성한 과정을 발표했어요. 상세 프롬프트로 24시간 만에 근사치를 얻었고, 앱을 MCP·CLI 호환으로 만들어 에이전트가 구동하게 했습니다. 데스크톱 앱은 에이전트에, 백엔드·스키마 마이그레이션·API 설계는 사람에게 맡기라고 조언해요.",
+      "source": "Latent Space",
+      "time": "11/13 13:17"
+    },
+    {
+      "category": "tools",
+      "title": "앤트로픽, 제조업용 '클로드' 출시…오픈AI와 산업별 AI 시장 경쟁 확대",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217361",
+      "summary": "앤트로픽이 17개 스킬과 4개 커넥터(오토데스크 퓨전, 인포, MS 365, 오라클 넷스위트)를 묶은 플러그인 '클로드 포 매뉴팩처링'을 출시했어요. 구매 주문 생성, 재고 재배정, 생산 일정 변경을 업무 시스템에 실제 반영하되 담당자 승인과 기존 접근 권한을 따르도록 했습니다.",
+      "source": "AI Times",
+      "time": "11/13 18:03"
+    },
+    {
+      "category": "security",
+      "title": "오픈AI, 아스트라 '노-CoT' 능력 향상 확인…AI 추론 감시 한계 드러나",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217369",
+      "summary": "오픈AI 연구에서 GPT-6 아스트라는 중간 추론 없이 답을 내는 능력이 늘어, 사고의 사슬(CoT) 감시 성능이 이전 모델보다 떨어졌어요. CoT 모니터링은 AI 에이전트의 핵심 안전장치로 쓰여 왔기 때문에, 모델의 실제 행동과 내부 작동을 분석하는 새 감시 기술이 필요하다고 합니다.",
+      "source": "AI Times",
+      "time": "11/13 17:00"
+    },
+    {
+      "category": "security",
+      "title": "2857억 차세대 지방행정, AI 코딩 공식 도입…공공SW 개발체계 전환 주목",
+      "url": "https://zdnet.co.kr/view/?no=20261113134630",
+      "summary": "행정안전부가 차세대 지방행정공통시스템 사업에 AI 코딩을 공식 개발체계로 명시했어요. 개발환경은 폐쇄망에 두고 외부 상용 LLM API 전송을 금지하며, 토큰 비용은 따로 청구할 수 없습니다. AI 생성 코드 이력 관리와 결함밀도 등 측정이 요구되고 프롬프트·지식저장소도 납품 대상이에요.",
+      "source": "지디넷코리아",
+      "time": "11/13 16:52"
+    },
+    {
+      "category": "security",
+      "title": "OAK \"사람·기계·AI 통합 신원 관리 플랫폼으로 세계 공략\"",
+      "url": "https://zdnet.co.kr/view/?no=20261112230124",
+      "summary": "이스라엘 보안 스타트업 OAK가 사람·기계·AI 에이전트의 신원과 권한을 한곳에서 관리하는 플랫폼을 소개했어요. AI 에이전트는 예측하기 어려운 행동을 기계 속도로 하는 새로운 신원이므로, 필요한 때 필요한 만큼만 권한을 줘야 한다고 강조합니다.",
+      "source": "지디넷코리아",
+      "time": "11/13 16:03"
+    }
+  ]
+}
