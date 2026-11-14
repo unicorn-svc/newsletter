@@ -3,6 +3,7 @@
 - {SUBJECT_ID}: {SUBJECT} 를 영문 소문자·하이픈으로 바꾼 식별자 (예: 반도체 → semiconductor, 클라우드 → cloud)
   - 처음 정할 때 `data/` 아래에 같은 주제의 기존 디렉토리가 있으면 그 이름을 그대로 재사용
 - {OBJECT}: {뉴스레터를 받고 싶은 목적 입력}
+- {TIMEBOX}: 최근 24시간
 
 [수행]
 - `prompts/routine-common.md` 를 읽고, 그 안의 {SUBJECT}·{SUBJECT_ID}·{OBJECT} 를 위 [변수] 값으로 바꿔서 그대로 수행함
