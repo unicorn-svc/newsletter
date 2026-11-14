@@ -1,0 +1,190 @@
+{
+  "published_at": "2026-11-13T17:05",
+  "title": "로봇 뉴스레터",
+  "emoji": "🤖",
+  "sources": [
+    "The Robot Report",
+    "전자신문",
+    "로봇신문",
+    "지디넷코리아",
+    "헬로티"
+  ],
+  "articles": [
+    {
+      "category": "business",
+      "title": "엔비디아, 中 AI·로봇 우려 속 CEO 교체",
+      "url": "https://www.therobotreport.com/nvidia-replaces-ceo-amid-china-ai-and-robotics-concerns/",
+      "summary": "주가가 일주일 새 약 18.5% 급락한 가운데 젠슨 황 CEO가 물러났습니다. 콜레트 크레스 CFO가 임시 CEO를 맡고, 엔비디아는 로보틱스 등 고객 지원을 계속하겠다고 밝혔습니다. 피지컬 AI 생태계에 미칠 파장이 주목됩니다.",
+      "source": "The Robot Report",
+      "time": "11/13 01:33"
+    },
+    {
+      "category": "policy_event",
+      "title": "日정부, 엔비디아 사태 주시…'피지컬 AI' 영향 우려",
+      "url": "https://www.etnews.com/20261113000155",
+      "summary": "로봇 등 피지컬 AI를 성장 동력으로 삼고 엔비디아와 협력해온 일본 정부가 젠슨 황 퇴진에 위기감을 보이고 있습니다. GPU 조달과 로보틱스 기반 모델 협력 등에 차질이 생길지 동향을 예의주시하고 있습니다.",
+      "source": "전자신문",
+      "time": "11/13 12:14"
+    },
+    {
+      "category": "business",
+      "title": "獨 애자일 로봇, 5억 달러 투자 유치…기업가치 85억 달러 평가",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49565",
+      "summary": "독일 피지컬 AI 기업 애자일 로봇이 약 7300억 원 규모 시리즈 F 투자를 받았습니다. 누적 투자는 20억 달러에 달하며, 연 1만 대 휴머노이드 생산이 가능한 공장을 기반으로 미국 시장 확대와 생산능력 증설에 나섭니다.",
+      "source": "로봇신문",
+      "time": "11/13 11:46"
+    },
+    {
+      "category": "business",
+      "title": "마키나락스, 3분기 만에 작년 연간 매출 돌파…피지컬 AI 성장 가속",
+      "url": "https://zdnet.co.kr/view/?no=20261113115246",
+      "summary": "마키나락스의 3분기 누적 매출이 143억 원으로 전년 동기보다 190% 늘며 이미 지난해 연간 매출을 넘어섰습니다. 3분기엔 역대 최대 분기 매출을 기록해 피지컬 AI 사업 성장세를 보여줬습니다.",
+      "source": "지디넷코리아",
+      "time": "11/13 11:53"
+    },
+    {
+      "category": "industrial",
+      "title": "한국, 제조업 로봇밀도 세계 1위…근로자 1만명당 1066대",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49559",
+      "summary": "국제로봇연맹(IFR) '월드 로보틱스 2026'에 따르면 한국의 제조업 로봇밀도는 근로자 1만 명당 1066대로 세계 최고입니다. EU는 240대로 5년간 약 35% 늘며 역대 최고치를 기록했습니다.",
+      "source": "로봇신문",
+      "time": "11/13 00:02"
+    },
+    {
+      "category": "humanoid",
+      "title": "KISTEP \"한국 휴머노이드 경쟁력, 하드웨어 넘어 AI·데이터 생태계로 확장해야\"",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49560",
+      "summary": "KISTEP 보고서는 한국이 액추에이터·배터리·센서 등 하드웨어는 세계 수준에 근접했지만, 로봇 파운데이션 모델과 대규모 행동데이터, AI 인프라는 미·중에 뒤처졌다며 개방형 생태계 구축을 제언했습니다.",
+      "source": "로봇신문",
+      "time": "11/13 00:14"
+    },
+    {
+      "category": "humanoid",
+      "title": "엑스와이지-KAIST, 휴머노이드 기반 인간–로봇 상호작용 공동 연구 협약 체결",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49571",
+      "summary": "엑스와이지가 KAIST와 휴머노이드가 사람의 의도와 상황을 이해하도록 돕는 HRI 공동 연구 협약을 맺었습니다. 두산로보틱스 기반 솔루션 5대를 기부하고 세미 휴머노이드 '듀스', 2족보행 '로코'도 지원합니다.",
+      "source": "로봇신문",
+      "time": "11/13 14:32"
+    },
+    {
+      "category": "physical_ai",
+      "title": "티로보틱스, KAIST 제조피지컬AI연구소와 MOU 체결… 피지컬 AI 사업화 협력 강화",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49580",
+      "summary": "티로보틱스가 KAIST 제조피지컬AI연구소와 피지컬 AI 표준화·실증·사업화 협력을 약속했습니다. KAIST의 '카이로스' 프로젝트에서 자체 휴머노이드 'TR-WORKS'와 AMR로 제조·물류 자동화를 검증 중입니다.",
+      "source": "로봇신문",
+      "time": "11/13 16:42"
+    },
+    {
+      "category": "physical_ai",
+      "title": "ETRI, 사람 특성까지 이해하는 로봇 AI 평가기술 개발",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49574",
+      "summary": "ETRI가 로봇이 환경뿐 아니라 서비스받는 사람의 특성까지 고려해 행동하는지 평가하는 벤치마크 '트리니티'를 개발했습니다. 예컨대 알레르기가 있는 사람과 채식주의자에게 다른 음식을 가져다주는지를 따집니다.",
+      "source": "로봇신문",
+      "time": "11/13 14:37"
+    },
+    {
+      "category": "physical_ai",
+      "title": "Runway의 로봇용 월드 액션 모델 'Praxis-1' 공개 출시",
+      "url": "https://www.therobotreport.com/runways-praxis-1-world-action-model-for-robotics-is-now-available/",
+      "summary": "Runway가 로봇용 월드 액션 모델 Praxis-1을 아파치 2.0 오픈 웨이트로 공개했습니다. 협력사들이 휴머노이드, 6축 산업용 팔, 양팔 창고 로봇 등 각자 하드웨어에서 이미 시험 운용해 적은 학습으로도 작업을 익혔다고 합니다.",
+      "source": "The Robot Report",
+      "time": "11/12 22:18"
+    },
+    {
+      "category": "physical_ai",
+      "title": "Viam Launchpad, 로봇 상용 배치 가속 지원",
+      "url": "https://www.therobotreport.com/viam-launchpad-aims-to-accelerate-robotics-deployments/",
+      "summary": "MongoDB 공동창업자가 만든 로봇 소프트웨어 플랫폼 Viam이 스타트업의 로봇 상용화를 돕는 Launchpad를 소개했습니다. '피지컬 AI용 하네스'를 표방하며 작은 팀도 몇 주 만에 시제품을 만들고 현장 배치까지 갈 수 있게 한다는 목표입니다.",
+      "source": "The Robot Report",
+      "time": "11/12 22:30"
+    },
+    {
+      "category": "physical_ai",
+      "title": "마음AI, '국방AX 100+ 협의체' 회원사 참여…국방 피지컬AI 협력 확대",
+      "url": "https://zdnet.co.kr/view/?no=20261112224047",
+      "summary": "피지컬 AI 전문기업 마음AI가 '국방AX 100+ 협의체' 정식 회원사로 합류했습니다. 군·산·학 협력을 통해 국방 분야 인공지능 전환과 피지컬 AI 적용을 넓혀갈 계획입니다.",
+      "source": "지디넷코리아",
+      "time": "11/12 22:40"
+    },
+    {
+      "category": "physical_ai",
+      "title": "어드밴텍, 로보월드 2026서 엣지 AI로 '보고 움직이는 로봇' 해법 제시",
+      "url": "https://www.hellot.net/news/article.html?no=116285",
+      "summary": "어드밴텍이 로보월드 2026에서 엔비디아 젯슨 토르 기반 인지 플랫폼과 인텔 기반 AMR·모바일 매니퓰레이터용 제어 플랫폼을 선보였습니다. 로봇의 인지·추론부터 이동·작업 제어까지 아우르는 구성입니다.",
+      "source": "헬로티",
+      "time": "11/13 14:41"
+    },
+    {
+      "category": "industrial",
+      "title": "로봇 '지능', 공장 밖으로...어드밴텍이 노리는 중장비 현장 속 '피지컬 AI'",
+      "url": "https://www.hellot.net/news/article.html?no=116271",
+      "summary": "로봇 무대가 공장에서 건설·광업·물류 현장으로 넓어지며 내구성까지 갖춘 컴퓨팅이 요구됩니다. 어드밴텍은 극한 환경용 러기드 엣지 AI 플랫폼 'REX-52N'으로 중장비 자율 운용 시장을 겨냥합니다.",
+      "source": "헬로티",
+      "time": "11/12 17:54"
+    },
+    {
+      "category": "industrial",
+      "title": "中 레노버, 오티스와 '엘리베이터 설치 로봇' 발표",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49564",
+      "summary": "레노버가 오티스와 손잡고 초고층 건물 엘리베이터 승강로 작업을 자동화하는 로봇을 내놨습니다. 중국 최고층 건설 현장인 '톈진 117' 타워에 처음 투입돼 설치 작업의 안전성과 효율을 높일 예정입니다.",
+      "source": "로봇신문",
+      "time": "11/13 01:00"
+    },
+    {
+      "category": "industrial",
+      "title": "다임 테크놀로지, 인텔과 손잡고 AI 다크팩토리 사업 확대 추진",
+      "url": "https://www.hellot.net/news/article.html?no=116290",
+      "summary": "다임 테크놀로지가 인텔코리아와 무인 공장(다크팩토리) 협력 MOU를 맺었습니다. 이기종 로봇 오케스트레이션, 공장 시뮬레이션, 팩토리 AI 에이전트를 인텔 컴퓨팅과 연계해 제조 현장 적용을 검증합니다.",
+      "source": "헬로티",
+      "time": "11/13 15:59"
+    },
+    {
+      "category": "service",
+      "title": "日 훼미리마트, 음료 보충 로봇 내년 1월 전국 확대",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49554",
+      "summary": "일본 훼미리마트가 일손 부족 해결을 위해 음료 진열대 자동 보충 로봇 'TX 스카라'를 내년 1월부터 전국 점포로 늘립니다. 하루 약 1000개 음료를 채우고, 문제가 생기면 원격 작업자가 VR로 조작합니다.",
+      "source": "로봇신문",
+      "time": "11/12 17:09"
+    },
+    {
+      "category": "service",
+      "title": "한국AI의료헬스케어연구원, 성남시와 'Physical AI 기반 의료로봇 기술통합센터 구축' 본격화",
+      "url": "https://www.etnews.com/20261113000129",
+      "summary": "성남시에 피지컬 AI 기반 의료로봇 기술통합센터가 세워집니다. 2030년까지 240억 원을 투입해 까다로운 규제·임상·인허가 단계를 전주기로 지원, 의료로봇 기업의 사업화 장벽을 낮출 계획입니다.",
+      "source": "전자신문",
+      "time": "11/13 11:03"
+    },
+    {
+      "category": "service",
+      "title": "中 '사과 수확 로봇' 기술 표준 발표",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49562",
+      "summary": "중국 윈난성에서 첫 사과 수확 로봇 시범 사용 기업 표준이 발표됐습니다. 카메라로 사과 위치를 찾아 로봇팔로 따는 시연과 함께 시범 사용 계약도 체결돼 농업 로봇이 시험 단계를 넘어 표준화로 나아가고 있습니다.",
+      "source": "로봇신문",
+      "time": "11/13 00:51"
+    },
+    {
+      "category": "others",
+      "title": "브릴스, '2026 대한민국 디지털 이노베이션 어워드' 부총리 표창 수상",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49579",
+      "summary": "로봇 모듈화 플랫폼 기업 브릴스가 제조 AX를 이끈 공로로 과기정통부 장관 표창을 받았습니다. 사람과 로봇의 충돌을 미리 막는 'AI 안전 관제 로봇'과 온디바이스 VLA 자율행동 로봇이 대표 기술입니다.",
+      "source": "로봇신문",
+      "time": "11/13 16:41"
+    },
+    {
+      "category": "policy_event",
+      "title": "한국급식학회-한국AI·로봇산업협회, '2026 AI-급식테크 컨퍼런스' 개최",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49572",
+      "summary": "AI와 로봇을 급식 현장에 적용하는 기업들이 모여 사례를 공유하는 컨퍼런스가 열립니다. 수요예측·위생관리 AI와 조리·배식 로봇 협업을 통한 급식 자동화 가능성을 논의합니다.",
+      "source": "로봇신문",
+      "time": "11/13 14:33"
+    },
+    {
+      "category": "policy_event",
+      "title": "한국AI·로봇산업협회, '2026 로봇기업 인사부서장 협의체' 개최",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49557",
+      "summary": "로봇기업 9곳의 인사 담당자들이 모여 기술 인재 확보·육성 방안을 논의했습니다. SW 개발자·현장 엔지니어 확보, 신입 조기 이탈 방지 등 로봇업계 HR 현안과 휴머노이드 산업 동향 특강이 진행됐습니다.",
+      "source": "로봇신문",
+      "time": "11/12 18:46"
+    }
+  ]
+}
