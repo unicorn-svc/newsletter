@@ -27,6 +27,12 @@
       "emoji": "🔗",
       "label": "지식그래프·GraphRAG",
       "color": "#ca8a04"
+    },
+    {
+      "id": "research",
+      "emoji": "📄",
+      "label": "연구·논문",
+      "color": "#4f46e5"
     }
   ]
 }
