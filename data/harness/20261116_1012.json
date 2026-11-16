@@ -1,0 +1,56 @@
+{
+  "published_at": "2026-11-16T10:12",
+  "title": "하네스 엔지니어링 뉴스레터",
+  "emoji": "🛠️",
+  "sources": ["AI Times", "지디넷코리아", "The New Stack", "Simon Willison's Weblog"],
+  "articles": [
+    {
+      "category": "cost",
+      "title": "Claude Fable 5.2 대 Opus 5.5: 점수는 같은데 비용은 약 4배",
+      "url": "https://thenewstack.io/claude-fable-5-2-vs-opus-5-5/",
+      "summary": "크론 스케줄러 구현, 인보이스 버그 수정, 장애 원인 조사 등 코딩·에이전트 과제 3종을 비교한 결과 두 모델 모두 만점이었지만 비용은 Fable 8.98달러, Opus 2.29달러였어요. 저자는 Opus로 시작하고 부족할 때만 Fable을 쓰라고 권합니다.",
+      "source": "The New Stack",
+      "time": "11/16 00:00"
+    },
+    {
+      "category": "cost",
+      "title": "[인터뷰] 시스코 부사장 \"AI 에이전트, 비용만 보지 말고 사업 가치 따져야\"",
+      "url": "https://zdnet.co.kr/view/?no=20261110212228",
+      "summary": "시스코는 스플렁크 '토크노믹스'로 에이전트의 토큰 사용량·비용을 추적하고, 처리량·성공률을 KPI·ROI와 연결하려 해요. 에이전트 자율 수준 설정, 평가 모델 검증, MCP 기반 클로드 코드·코덱스 연동도 소개했습니다.",
+      "source": "지디넷코리아",
+      "time": "11/15 12:00"
+    },
+    {
+      "category": "security",
+      "title": "오픈AI, '챗GPT 월렛' 출시…AI가 상품 구매부터 결제까지",
+      "url": "https://zdnet.co.kr/view/?no=20261115102351",
+      "summary": "AI 에이전트가 구매·결제를 대신하는 기능이에요. 결제마다 생체인증으로 승인하고, 실제 카드번호 대신 결제 토큰을 쓰며, 웹 봇 인증으로 정상 에이전트를 구분합니다. 에이전트 권한·승인 설계의 실제 사례로 참고할 만해요.",
+      "source": "지디넷코리아",
+      "time": "11/15 12:11"
+    },
+    {
+      "category": "tools",
+      "title": "[AI리더의 서가] AI 에이전트와 스프링 배치를 활용한 배치 엔지니어링",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217277",
+      "summary": "코딩 에이전트가 만든 배치 코드를 운영에 써도 될지 다룬 책 소개예요. 공용 지침 파일, 스킬, 서브에이전트, 훅, 비대화형 모드, CI 연동, 비용 절감 등 에이전트 운영법을 정리했고, 대용량 검증 책임은 개발자에게 있다고 강조합니다.",
+      "source": "AI Times",
+      "time": "11/16 09:00"
+    },
+    {
+      "category": "tools",
+      "title": "datasette-agent 0.6a0 릴리스",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
+      "summary": "Datasette용 AI 에이전트 플러그인의 새 알파 버전이에요. 첫 화면에 에이전트 프롬프트 입력창이 생겼고, '#'으로 테이블이나 쿼리를 바로 지목해 에이전트에게 맡길 수 있습니다.",
+      "source": "Simon Willison's Weblog",
+      "time": "11/15 12:49"
+    },
+    {
+      "category": "tools",
+      "title": "datasette-apps 0.4a0 릴리스",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
+      "summary": "샌드박스에서 실행되는 Datasette 앱끼리 URL 프래그먼트로 서로 링크할 수 있게 됐어요. 지원 URL 형식을 에이전트에게 알려 주므로, 에이전트가 서로 연결된 앱을 직접 만들 수 있습니다.",
+      "source": "Simon Willison's Weblog",
+      "time": "11/15 13:02"
+    }
+  ]
+}
