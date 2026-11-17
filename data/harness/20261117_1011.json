@@ -1,0 +1,96 @@
+{
+  "published_at": "2026-11-17T10:11",
+  "title": "하네스 엔지니어링 뉴스레터",
+  "emoji": "🛠️",
+  "sources": ["LangChain 블로그", "The New Stack", "AI Times", "전자신문"],
+  "articles": [
+    {
+      "category": "orchestration",
+      "title": "작업에서 목표로",
+      "url": "https://www.langchain.com/blog/from-tasks-to-goals",
+      "summary": "에이전트에 할 일 하나하나가 아니라 목표를 맡기는 흐름으로 바뀌고 있어요. 하위 작업 선택, 백그라운드 실행, 필요할 때 사람에게 묻기, 하트비트·크론 같은 깨우기 장치, 멈춤 규칙, 실행 간 메모리가 필요하다고 설명합니다.",
+      "source": "LangChain 블로그",
+      "time": "11/17 03:28"
+    },
+    {
+      "category": "orchestration",
+      "title": "델 테크놀로지스, 에이전틱 AI 인프라 시장 공략 강화…데이터부터 운영까지 풀스택 지원",
+      "url": "https://www.etnews.com/20261117000087",
+      "summary": "델이 'AI 팩토리 with 엔비디아'를 넓혀요. 에이전트가 기업 데이터에 통제된 방식으로 접근하게 하는 'Agentic Data Gateway', 데이터 오케스트레이션 강화, 랙 단위 운영 관리 도구 등을 추가했습니다.",
+      "source": "전자신문",
+      "time": "11/17 09:53"
+    },
+    {
+      "category": "observability",
+      "title": "에이전트를 중심으로 LangSmith를 다시 만들었습니다",
+      "url": "https://www.langchain.com/blog/we-rebuilt-langsmith-around-the-agent",
+      "summary": "추적·모니터링·배포가 따로 놀아 에이전트별 담당자와 비용을 파악하기 어려웠던 문제를 풀려고 LangSmith Agent Platform을 내놨어요. 에이전트마다 담당자·고정 ID·유형이 담긴 기록이 생기고, 유형별로 대시보드와 평가 기준이 정해집니다.",
+      "source": "LangChain 블로그",
+      "time": "11/17 03:00"
+    },
+    {
+      "category": "security",
+      "title": "KubeCon을 휩쓴 AI 에이전트, 하지만 프로덕션은 아직 먼 이야기",
+      "url": "https://thenewstack.io/cncf-bryce-ai-agents/",
+      "summary": "CNCF는 기존 시스템이 사람 속도에 맞춰져 에이전트 부하를 감당하기 어렵다고 봐요. 파일·네트워크·자격증명 접근을 정책으로 통제하는 Nvidia OpenShell, 쿠버네티스에서 에이전트를 격리·중단·재개하는 Google Agent Substrate가 샌드박스 프로젝트로 합류했습니다.",
+      "source": "The New Stack",
+      "time": "11/17 07:08"
+    },
+    {
+      "category": "security",
+      "title": "구글, 자율 AI 에이전트로 보안 패치를 익스플로잇으로 바꾸는 해커 포착",
+      "url": "https://thenewstack.io/autonomous-ai-exploit-agents/",
+      "summary": "공격자들이 오케스트레이터·전문 에이전트·MCP 도구 호출을 갖춘 멀티 에이전트 프레임워크로 패치 분석부터 익스플로잇 작성·실행까지 자동화하고 있어요. 코딩 에이전트와 같은 구조라 에이전트 보안 설계 시 참고할 만합니다.",
+      "source": "The New Stack",
+      "time": "11/17 06:27"
+    },
+    {
+      "category": "security",
+      "title": "[ET단상] AI 에이전트 시대, 기업의 속도를 결정하는 것은 '엔진'이 아닌 '브레이크'",
+      "url": "https://www.etnews.com/20261116000200",
+      "summary": "서비스나우 한국 대표의 기고로, 1년치 AI 예산을 3~6개월에 소진한 기업도 있다고 짚어요. 검증 가능한 자격증명 기반 런타임 접근 통제, 에이전트별 담당자·중앙 목록 관리, 에이전트별 비용·ROI 추적을 해법으로 제시합니다.",
+      "source": "전자신문",
+      "time": "11/16 16:00"
+    },
+    {
+      "category": "security",
+      "title": "파수 AI, AI 에이전트 활용·보안 강화 전략 제시…FDI 서밋 개최",
+      "url": "https://www.etnews.com/20261117000069",
+      "summary": "파수 AI가 CIO·CISO 50여 명과 서밋을 열고, 업무별 에이전트 확대와 정확도를 높이는 데이터·컨텍스트 계층 구축을 제안했어요. 도메인 특화 모델로 비용을 줄이고 통합 통제 구조로 AI 보안을 관리하자는 전략입니다.",
+      "source": "전자신문",
+      "time": "11/17 09:40"
+    },
+    {
+      "category": "cost",
+      "title": "노타, 두베에 금융권 특화 AI 코딩 에이전트 기술 제공",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217457",
+      "summary": "노타가 두베의 폐쇄망용 AI 코딩 에이전트에 금융 특화 LLM과 서버를 공급해요. 양자화·추론 최적화로 같은 GPU에서 분당 처리 요청을 최대 95% 늘리고 첫 응답 대기 시간을 절반 넘게 줄였다고 합니다.",
+      "source": "AI Times",
+      "time": "11/16 15:54"
+    },
+    {
+      "category": "cost",
+      "title": "알리바바, Qwen4-Max는 다시 비공개로… 오픈소스 노선에서 한발 물러서",
+      "url": "https://thenewstack.io/qwen4-max-alibaba-open-weights/",
+      "summary": "에이전트 작업용 Qwen4-Max가 API로만 공개됐어요. 100만 토큰 컨텍스트, 입력 100만 토큰당 1.5달러·출력 4.5달러이고 이전 모델보다 토큰을 24~35% 덜 씁니다. Vercel AI Gateway로 Claude Code·Codex·Cursor에서도 쓸 수 있어요.",
+      "source": "The New Stack",
+      "time": "11/17 01:54"
+    },
+    {
+      "category": "tools",
+      "title": "댁스 라드, 60달러로 브라우저 도구를 Rust로 재작성해 메모리 97% 절감",
+      "url": "https://thenewstack.io/opencode-browse-rust-rewrite/",
+      "summary": "코딩 에이전트를 크롬 확장·MCP 서버로 브라우저에 잇는 OpenCode Browse를 Node에서 Rust로 바꿔 커넥터당 메모리를 190MB에서 5.6MB로 줄였어요. Claude Opus를 주 모델, DeepSeek을 서브에이전트로 써서 60달러가 들었습니다.",
+      "source": "The New Stack",
+      "time": "11/17 02:59"
+    },
+    {
+      "category": "tools",
+      "title": "\"챗GPT에 SNS 데이터 연동\"...뉴엔AI, 소셜 분석 MCP 출시",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217458",
+      "summary": "뉴엔AI가 SNS 분석 서비스를 MCP로 연결하는 '퀘타아이 MCP'를 내놨어요. 별도 API 개발 없이 챗GPT·클로드가 알맞은 분석 도구를 골라 조회하며, 암호화 통신·OAuth 2.1 인증·사용량 기반 과금을 지원합니다.",
+      "source": "AI Times",
+      "time": "11/16 15:56"
+    }
+  ]
+}
