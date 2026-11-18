@@ -1,0 +1,88 @@
+{
+  "published_at": "2026-11-19T00:14",
+  "title": "온톨로지와 GraphRAG 뉴스레터",
+  "emoji": "🕸️",
+  "sources": ["지디넷코리아", "Neo4j 블로그", "arXiv"],
+  "articles": [
+    {
+      "category": "ontology",
+      "title": "[ZD SW 투데이] 몬드리안AI, 서울대 공대 AI 클라우드 플랫폼 공급",
+      "url": "https://zdnet.co.kr/view/?no=20261118150026",
+      "summary": "단신 묶음 중 솔트웨어가 '온톨로지 기반 AI 데이터 활용' 실습 워크숍을 열었다는 소식. 사내 데이터의 개념·관계·업무 규칙을 정의해 AI가 맥락을 이해하게 하는 전략을 소개했고, 온톨로지 초안 생성→검증→적용 전후 답변 비교 3단계로 문서 검색·SQL 생성·온톨로지 답변의 차이를 비교했어요.",
+      "source": "지디넷코리아",
+      "time": "11/18 16:39"
+    },
+    {
+      "category": "semantic_layer",
+      "title": "MS, '마이크로소프트 IQ' 공개…\"사내 데이터 이해하고 실제 업무 수행\"",
+      "url": "https://zdnet.co.kr/view/?no=20261118082628",
+      "summary": "MS가 이그나이트 2026에서 사내 문서·데이터·정책을 AI 에이전트가 쓰도록 정리하는 'Microsoft IQ'를 공개했어요. Fabric IQ는 비즈니스 개체 관계와 규칙을, Foundry IQ는 비정형 데이터용 지식그래프를 제공하고, 깃허브 코파일럿의 온톨로지 참조와 Power BI 시맨틱 모델 커넥터도 미리보기로 나왔어요.",
+      "source": "지디넷코리아",
+      "time": "11/18 08:36"
+    },
+    {
+      "category": "ontology",
+      "title": "엔터프라이즈 AI를 위한 지식 계층: 도메인 온톨로지",
+      "url": "https://neo4j.com/blog/developer/the-knowledge-layer-for-enterprise-ai-domain-ontology/",
+      "summary": "'이탈' 같은 용어도 팀마다 뜻이 달라 AI 에이전트가 헷갈리는 문제를 다뤄요. Neo4j 그래프에 용어별 정의·책임자·규칙·유효기간을 담은 도메인 온톨로지를 두고, 자동 추출 용어는 사람이 승인해야 정식 등록되게 하는 거버넌스 설계와 MCP 서버 질의 예시를 소개해요.",
+      "source": "Neo4j 블로그",
+      "time": "11/17 17:57"
+    },
+    {
+      "category": "kg",
+      "title": "Neo4j Virtual Graph 정식 출시(GA)",
+      "url": "https://neo4j.com/blog/news/neo4j-virtual-graph-is-now-generally-available/",
+      "summary": "Neo4j Aura의 Virtual Graph가 구글 클라우드용으로 정식 출시됐어요(AWS·Azure 예정). Cypher를 SQL로 바꿔 Snowflake·Databricks·BigQuery·Iceberg에서 바로 실행해, 데이터 복사 없이 'ETL 없는 지식그래프'로 GraphRAG와 에이전트 근거 연결에 쓸 수 있어요. 지연·쓰기가 중요한 작업은 여전히 네이티브 Neo4j가 필요해요.",
+      "source": "Neo4j 블로그",
+      "time": "11/17 02:25"
+    },
+    {
+      "category": "semantic_layer",
+      "title": "리빙 컨텍스트 그래프: 엔터프라이즈 데이터 추론을 위한 지속적 의미 학습",
+      "url": "https://arxiv.org/abs/2611.20976",
+      "summary": "데이터 웨어하우스는 그대로 두고, 업무 의미·관계·지표 정의를 담은 컨텍스트 그래프를 쿼리하면서 계속 학습해 쌓는 방식이에요. text-to-SQL에서 처음 보는 질문 정확도가 +22.6%p 올랐고, 그래프는 쿼리당 비용과 지연을 크게 줄여줬어요.",
+      "source": "arXiv",
+      "time": "11/16 09:00"
+    },
+    {
+      "category": "kg",
+      "title": "망분리 발전소의 제어로직 LLM 어시스턴트 배포: 원천 권위와 제한된 검색에 대한 교훈",
+      "url": "https://arxiv.org/abs/2611.20398",
+      "summary": "가스발전소 2곳에 온프레미스 지식그래프 어시스턴트를 배포한 실전 사례예요. PDF에서 VLM으로 추출하는 대신 원천 시스템의 정형 데이터를 버전 관리 KG(22만 노드)에 넣고, LLM은 의도 분류·설명만 맡기자 토큰 20배, 지연 3배가 줄었어요.",
+      "source": "arXiv",
+      "time": "11/16 09:00"
+    },
+    {
+      "category": "research",
+      "title": "Text-to-SQL 스키마 검색을 위한 적응형 엘보 그래프 탐색",
+      "url": "https://arxiv.org/abs/2611.20979",
+      "summary": "테이블이 수백 개인 DB에서 질문마다 가져올 테이블 수를 자동으로 정하고, 외래키 그래프를 따라가 임베딩으론 놓치는 조인용 테이블까지 찾는 저비용 검색기예요. 같은 재현율에서 정밀도가 약 2배라 에이전트 검색 앞단에 쓰기 좋아요.",
+      "source": "arXiv",
+      "time": "11/16 09:00"
+    },
+    {
+      "category": "research",
+      "title": "TUSI: 인용 근거 기반 그래프형 벤치마크",
+      "url": "https://arxiv.org/abs/2611.21823",
+      "summary": "법 조문 7,261건으로 조문·개념을 잇는 법률 지식그래프를 만들고 인용이 필요한 QA 약 2천 문항을 담은 벤치마크예요. 그래프 관계를 활용한 검색이 일반 방식보다 재현율이 최대 8%p 높아, 서로 참조하는 규정 문서엔 구조 기반 검색이 유리함을 보여줘요.",
+      "source": "arXiv",
+      "time": "11/16 09:00"
+    },
+    {
+      "category": "kg",
+      "title": "커지는 클러스터가 기준을 낮춘다: LLM 기반 점진적 개체 해소의 프로파일 누적 현상",
+      "url": "https://arxiv.org/abs/2611.22485",
+      "summary": "LLM으로 개체를 병합할 때 클러스터가 커질수록 병합 기준이 느슨해져, 이름이 비슷한 다른 회사까지 잘못 합치는 현상을 밝혔어요. 한 번 틀리면 연쇄 오류가 생기므로, KG 구축 시 라벨 데이터로 임계값을 보정해야 해요.",
+      "source": "arXiv",
+      "time": "11/17 09:00"
+    },
+    {
+      "category": "research",
+      "title": "사실이 바뀌면 어떤 결정이 깨지는가? 에이전트를 위한 의존성 인지 컨텍스트 그래프",
+      "url": "https://arxiv.org/abs/2611.19859",
+      "summary": "에이전트가 읽은 기록에서 필드 단위 의존성 그래프를 뽑아, 사실이 바뀔 때 영향받는 결정만 다시 계산하는 방식이에요. 비용은 줄지만 의존성이 빠지면 정확도가 떨어질 수 있고, 모델에 따라 100%와 84.8%로 결과 차이가 컸어요.",
+      "source": "arXiv",
+      "time": "11/17 09:00"
+    }
+  ]
+}
