@@ -39,6 +39,12 @@
       "emoji": "🔌",
       "label": "도구·프로토콜(MCP)",
       "color": "#15803d"
+    },
+    {
+      "id": "infra",
+      "emoji": "🖥️",
+      "label": "에이전트 인프라",
+      "color": "#b91c1c"
     }
   ]
 }
