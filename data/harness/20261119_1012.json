@@ -1,0 +1,168 @@
+{
+  "published_at": "2026-11-19T10:12",
+  "title": "하네스 엔지니어링 뉴스레터",
+  "emoji": "🛠️",
+  "sources": ["The New Stack", "LangChain 블로그", "Latent Space", "AI Times", "지디넷코리아", "전자신문", "요즘IT", "네이버 D2"],
+  "articles": [
+    {
+      "category": "orchestration",
+      "title": "구글 Gemini 4 Neon, 모델은 그대로 두고 코딩 점수를 세 배로 올렸다",
+      "url": "https://thenewstack.io/gemini-neon-antigravity-harness/",
+      "summary": "같은 Gemini 4 Neon인데 mini-SWE 하네스에서는 SWE-sweep 12.8%, 구글 Antigravity에서는 39.0%가 나왔어요. 불필요한 파일 읽기를 줄이고 서브에이전트를 Git worktree로 분리한 하네스 덕분이래요.",
+      "source": "The New Stack",
+      "time": "11/19 09:45"
+    },
+    {
+      "category": "orchestration",
+      "title": "AI 코딩 세션 10개를 동시에 관리하는 개발 워크플로우",
+      "url": "https://yozm.wishket.com/magazine/detail/4043/",
+      "summary": "AI 코딩 세션 8~10개를 동시에 돌려 보니 병목은 코드 생성이 아니라 사람의 조율이었대요. 이슈 작성 표준화, 기획·개발 세션 분리, 시작·종료 루틴을 갖추자 주간 머지 PR이 29개에서 211개로 늘었어요.",
+      "source": "요즘IT",
+      "time": "11/19 09:00"
+    },
+    {
+      "category": "orchestration",
+      "title": "퍼플렉시티, AI 에이전트 16개가 협업·상호 검증하는 기능 출시",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217543",
+      "summary": "퍼플렉시티 '컴퓨터'에 멀티에이전트 단계가 생겼어요. 주도 에이전트가 보조 에이전트를 최대 16개까지 부리고, 보조 에이전트끼리 직접 소통하며 결과를 교차 검증해요. 클로드·GPT·제미나이를 섞어 써요.",
+      "source": "AI Times",
+      "time": "11/18 17:28"
+    },
+    {
+      "category": "orchestration",
+      "title": "MS, '코파일럿'에 상시 업무 수행 AI 도입…기업용 에이전트 관리도 강화",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217532",
+      "summary": "MS가 이그나이트 2026에서 상시로 일하는 에이전트 '오토파일럿'을 공개했어요. 에이전트마다 디지털 신원과 담당 관리자를 붙이고, 도구·데이터 접근 제한, 작업 기록, 사람 승인을 설정할 수 있어요.",
+      "source": "AI Times",
+      "time": "11/18 14:38"
+    },
+    {
+      "category": "orchestration",
+      "title": "Orkes ParticleDB는 어떻게 그럴듯한 데모를 쓸 만한 애플리케이션으로 바꾸나",
+      "url": "https://thenewstack.io/orkes-particledb-agentic-database/",
+      "summary": "Orkes가 관계형·KV·벡터·분석 기능을 한데 묶은 에이전트용 DB 'ParticleDB'를 프리뷰로 공개했어요. Conductor와 함께 쓰면 고객 클라우드 안에서 워크플로 오케스트레이션, 장애 복구, 감사 추적이 가능해요.",
+      "source": "The New Stack",
+      "time": "11/19 01:54"
+    },
+    {
+      "category": "cost",
+      "title": "노타, AI 에이전트 성능 높이는 풀스택 최적화 기술 공개..\"시간 47%·토큰 60% 절감\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217515",
+      "summary": "노타가 에이전트 '하네스' 최적화 기술을 공개했어요. 상황에 맞게 추론 강도를 고르고 불필요한 재검토를 줄였어요. 추측 디코딩과 GPU 커널 튜닝까지 더해 클라인 기준 작업 시간은 최대 47%, 출력 토큰은 최대 60% 줄었대요.",
+      "source": "AI Times",
+      "time": "11/18 14:48"
+    },
+    {
+      "category": "cost",
+      "title": "Qwen4-Max 대 Claude Opus 5.5: 싼 모델은 다른 곳에서 비용을 치르게 한다",
+      "url": "https://thenewstack.io/qwen4-max-vs-claude-opus-5-5/",
+      "summary": "에이전트 과제 3개로 비교했더니 점수는 Opus 179점, Qwen4-Max 170점, 비용은 3.91달러 대 1.31달러였어요. 대신 Qwen은 시간이 약 3배 걸렸어요. 코딩·중요 작업엔 Opus, 조사엔 Qwen을 권해요(각 1회 실행 결과).",
+      "source": "The New Stack",
+      "time": "11/19 04:10"
+    },
+    {
+      "category": "cost",
+      "title": "코딩 에이전트용 LangSmith: 이제 성과별로 지출을 추적하세요",
+      "url": "https://www.langchain.com/blog/langsmith-coding-agents-roi",
+      "summary": "LangSmith에서 Claude Code·Codex·Cursor·Copilot 같은 코딩 에이전트 비용을 PR/MR 결과와 묶어 볼 수 있어요. PR 상태·작업 유형별 지출을 보여 주고, PR 없이 끝난 세션은 따로 집계해요. 지금은 퍼블릭 베타예요.",
+      "source": "LangChain 블로그",
+      "time": "11/19 01:27"
+    },
+    {
+      "category": "cost",
+      "title": "[AINews] 2위 프론티어 모델 GPT-6.2 Astra, 성능은 오르고 가격은 20~600% 내렸지만 평가는 엇갈려… 주력은 6.2 Sol이 될 듯",
+      "url": "https://www.latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol",
+      "summary": "OpenAI가 GPT-6.2 Astra(입력 100만 토큰당 8달러)와 Sol(2달러)을 공개했어요. 초기 혹평 상당수가 하네스 탓이라는 의견과 함께, 하네스에 따라 통과 작업당 비용이 최대 4.4배 벌어진다는 Baseten 측정도 소개해요.",
+      "source": "Latent Space",
+      "time": "11/18 19:19"
+    },
+    {
+      "category": "security",
+      "title": "\"역대 최고의 방탈출 선수들\": 레드햇 AI 아키텍트가 에이전트를 진짜로 어떻게 보는가",
+      "url": "https://thenewstack.io/openshell-ai-agent-security/",
+      "summary": "레드햇은 표류한 에이전트와 탈취된 에이전트를 밖에서 구분할 수 없다고 보고 침해를 전제로 설계해요. NVIDIA OpenShell로 네트워크를 모델·GitHub에만 열고, 새 규칙은 사람이 승인하며, 샌드박스는 Kata Containers로 격리해요.",
+      "source": "The New Stack",
+      "time": "11/19 05:25"
+    },
+    {
+      "category": "security",
+      "title": "티오리, 세계적 웹 서버 'nginx' 취약점 5건 발견…AI 자율 발굴",
+      "url": "https://www.etnews.com/20261119000034",
+      "summary": "티오리의 AI 보안 플랫폼 '진트'가 nginx 원격 코드 실행 취약점 5건 중 4건을 스스로 찾았어요. 약 5만 줄을 1시간 30분 만에 분석했는데, 탐색·가설·검증을 반복하게 짠 '하네스' 덕분이래요.",
+      "source": "전자신문",
+      "time": "11/19 09:09"
+    },
+    {
+      "category": "security",
+      "title": "팔로알토, AI 모델 플랫폼 기업 '어플라이드 컴퓨트' 6조원에 인수",
+      "url": "https://www.etnews.com/20261119000050",
+      "summary": "팔로알토네트웍스가 오픈 웨이트 모델과 에이전트의 학습·개선·운영 플랫폼 '어플라이드 컴퓨트'를 45억달러에 인수해요. 기업이 자체 관리 환경에서도 모델과 에이전트를 안전하게 운영하게 돕는 게 목표예요.",
+      "source": "전자신문",
+      "time": "11/19 09:21"
+    },
+    {
+      "category": "observability",
+      "title": "200 OK는 더 이상 AI 에이전트 상태 신호가 아니다. 그다음은 무엇인가",
+      "url": "https://thenewstack.io/silent-ai-agent-failures/",
+      "summary": "에이전트가 엉뚱하게 답해도 200 OK면 대시보드는 초록불이에요. 운영 트레이스 100건 중 27%가 정상 요청을 막은 오탐이었대요. 그래서 CPU에서 p95 88ms로 도는 비LLM 판정기(RoBERTa NLI)로 이런 실패를 잡아요.",
+      "source": "The New Stack",
+      "time": "11/19 01:00"
+    },
+    {
+      "category": "observability",
+      "title": "AI 코딩 ROI의 비결은 생성이 아니라 검증이다",
+      "url": "https://thenewstack.io/ai-code-verification-gap/",
+      "summary": "Sonar 조사에서 커밋 코드의 65%가 AI 몫인데, 76%는 생성 속도만큼 검증을 못 한다고 답했어요. 기대한 ROI를 얻은 곳은 27%뿐이에요. 의도를 먼저 정하고, 가드레일을 두고, 모든 변경을 독립 검증하라고 권해요.",
+      "source": "The New Stack",
+      "time": "11/18 23:00"
+    },
+    {
+      "category": "observability",
+      "title": "인프라 장애 나면 AI가 해결…베스핀글로벌, '클라우드플렉스' 개발한다",
+      "url": "https://zdnet.co.kr/view/?no=20261118171207",
+      "summary": "베스핀글로벌이 Git 저장소만 등록하면 멀티 클라우드 배포를 자동화하는 '클라우드플렉스'를 개발 중이에요. 로그를 분석해 장애를 감지·복구하는 AI 에이전트 관제 기능도 넣을 계획이에요.",
+      "source": "지디넷코리아",
+      "time": "11/18 17:18"
+    },
+    {
+      "category": "tools",
+      "title": "마이크로소프트 \"빙 사용자는 10억 명\"… 하지만 다음 검색엔진은 그들을 위한 게 아니다",
+      "url": "https://thenewstack.io/microsoft-web-iq-agents/",
+      "summary": "MS가 Bing 인덱스로 만든 에이전트 전용 검색 'Web IQ'를 소개했어요. 링크 대신 관련 구절만 돌려주고 1,000건당 7~9달러예요. Genspark는 도입 후 음성 응답 지연이 6초에서 0.6초로 줄었대요.",
+      "source": "The New Stack",
+      "time": "11/19 05:38"
+    },
+    {
+      "category": "tools",
+      "title": "구글, 제미나이 '태스크 모드' 한국에도 무료 제공…예약·쇼핑까지 대행",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217531",
+      "summary": "구글이 여러 단계 작업을 대신하는 에이전트 기능 '태스크 모드'를 한국 등 6개국 무료 이용자로 넓혀요. 결제에는 에이전트 결제 프로토콜(AP2)과 카드 토큰을 쓰고 지출 한도도 미리 정할 수 있어요.",
+      "source": "AI Times",
+      "time": "11/18 17:50"
+    },
+    {
+      "category": "infra",
+      "title": "\"경쟁보다 협력\": 허깅페이스, 모델 추론 트래픽을 OpenRouter에 넘긴다",
+      "url": "https://thenewstack.io/hugging-face-openrouter-inference/",
+      "summary": "허깅페이스 Inference Providers의 언어 모델 요청이 이제 OpenRouter를 거쳐 가격·속도·안정성 기준으로 라우팅돼요. 한 제공자가 실패하면 자동으로 다른 곳에 재시도해요. 대상은 160개 모델이에요.",
+      "source": "The New Stack",
+      "time": "11/18 22:39"
+    },
+    {
+      "category": "infra",
+      "title": "컨테이너처럼 쓰고, VM처럼 격리하기 1편 - 컨테이너와 VM의 차이, Kata Containers의 Pod 실행 구조",
+      "url": "https://d2.naver.com/helloworld/8055238",
+      "summary": "GPU 서버를 여러 사용자가 함께 쓸 때 컨테이너 탈출이 번지지 않게 하는 방법이에요. 네이버클라우드가 쿠버네티스에서 Kata Containers로 Pod를 VM 안에서 돌려 커널까지 격리했어요. 2~4편도 함께 올라왔어요.",
+      "source": "네이버 D2",
+      "time": "11/18 13:40"
+    },
+    {
+      "category": "infra",
+      "title": "망고부스트, 日 AI 반도체 기업과 맞손…AI 추론 인프라 효율 높인다",
+      "url": "https://zdnet.co.kr/view/?no=20261118182318",
+      "summary": "망고부스트가 일본 PFN과 손잡고 프리필은 GPU, 디코드는 MN-Core가 맡는 이종 반도체 추론 인프라를 검증해요. DPU와 KV 캐시 풀링 스토리지로 데이터 이동과 메모리 부담도 줄일 계획이에요.",
+      "source": "지디넷코리아",
+      "time": "11/18 18:23"
+    }
+  ]
+}
