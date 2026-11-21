@@ -1,0 +1,408 @@
+{
+  "published_at": "2026-11-21T09:30",
+  "title": "AI 뉴스레터",
+  "emoji": "🤖",
+  "sources": ["AI Times", "지디넷코리아", "전자신문", "TechCrunch", "VentureBeat", "MIT News"],
+  "articles": [
+    {
+      "category": "chip",
+      "title": "트럼프 \"젠슨 황에 두 번째 기회 줘야\"…CEO 복귀 재촉구",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217646",
+      "summary": "트럼프 대통령이 사생활 문제로 물러난 젠슨 황 전 엔비디아 CEO의 복귀를 다시 촉구했다. 미국 AI 산업 경쟁력을 위해 다시 기회를 줘야 한다는 주장이다.",
+      "source": "AI Times",
+      "time": "11/21"
+    },
+    {
+      "category": "chip",
+      "title": "미 민주당, 엔비디아의 메가스피드 조사 개입 의혹 조사 착수",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217641",
+      "summary": "미 민주당 하원의원들이 엔비디아가 메가스피드 관련 상무부 조사에 부당하게 개입했는지 조사를 시작했다. 메가스피드는 중국으로 반도체 우회 수출 의혹을 받고 있다.",
+      "source": "AI Times",
+      "time": "11/21"
+    },
+    {
+      "category": "policy",
+      "title": "트럼프·시진핑, 군사 AI에 인간 통제 합의…주요 군사작전까지 적용",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217640",
+      "summary": "트럼프 대통령과 시진핑 주석이 AI를 활용한 군사적 의사결정에는 인간이 개입해야 한다는 원칙에 합의했다. 주요 군사작전에도 적용된다.",
+      "source": "AI Times",
+      "time": "11/21"
+    },
+    {
+      "category": "tech",
+      "title": "구글 \"AGI는 끝이 아니다\"…AGI 이후 4가지 발전 경로 제시",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217605",
+      "summary": "구글이 AGI 이후의 발전 경로 4가지를 제시했다. 2030년 무렵 AGI 도달 전망이 나오면서 AGI 이후 논의의 필요성을 제기했다.",
+      "source": "AI Times",
+      "time": "11/21"
+    },
+    {
+      "category": "policy",
+      "title": "AI 시대 미래 사회 논의한다…과기정통부, 'AI 인사이트 페스티벌' 개최",
+      "url": "https://zdnet.co.kr/view/?no=20261121084337",
+      "summary": "과기정통부 주최 'AI 인사이트 페스티벌'에서 청소년, 대학생, 작가들이 AI 기술의 영향과 미래 사회의 방향을 논의한다.",
+      "source": "지디넷코리아",
+      "time": "11/21 08:43"
+    },
+    {
+      "category": "robot",
+      "title": "미래 피지컬 AI 인재 한자리에…청소년 114명, 로봇 실력 겨룬다",
+      "url": "https://zdnet.co.kr/view/?no=20261121081600",
+      "summary": "전국 초중고 학생 114명이 직접 만든 로봇으로 응급상황 해결에 도전하는 피지컬 AI 로봇 대회 결선이 열린다.",
+      "source": "지디넷코리아",
+      "time": "11/21 08:16"
+    },
+    {
+      "category": "service",
+      "title": "수능 끝나도 'AI 부정행위' 추적…시험장에 남은 무선 기록까지 살핀다",
+      "url": "https://zdnet.co.kr/view/?no=20261121072639",
+      "summary": "수능이 끝난 뒤에도 AI를 이용한 부정행위를 추적하며, 시험장에 남은 와이파이와 블루투스 무선 기록까지 확인한다.",
+      "source": "지디넷코리아",
+      "time": "11/21 07:26"
+    },
+    {
+      "category": "robot",
+      "title": "로크웰 오토메이션, 애질록스 인수 추진…피지컬 AI 강화",
+      "url": "https://zdnet.co.kr/view/?no=20261121091049",
+      "summary": "로크웰 오토메이션이 오스트리아 자율이동로봇(AMR) 기업 애질록스 인수를 추진하며 피지컬 AI 사업을 확대한다.",
+      "source": "지디넷코리아",
+      "time": "11/21 09:10"
+    },
+    {
+      "category": "biz",
+      "title": "앤트로픽, 상장 이틀째 8.5% 급락…공모가까지 위협",
+      "url": "https://www.etnews.com/20261121000022",
+      "summary": "역대 최대 규모 자금을 조달해 상장한 AI 기업 앤트로픽이 상장 이틀째 급락했다. 나스닥에서 주가는 8.5% 하락한 88.91달러로 마감했고, 장중 공모가(83달러) 수준까지 떨어졌다.",
+      "source": "전자신문",
+      "time": "11/21"
+    },
+    {
+      "category": "tech",
+      "title": "앤트로픽 연구원 \"AI 클로드, 수학 최대 난제 리만가설 증명\" 주장",
+      "url": "https://www.etnews.com/20261121000021",
+      "summary": "앤트로픽 연구원이 AI 모델 클로드와 협업해 167년 된 수학 난제 리만가설의 Lean 검증 가능한 증명을 발표했다고 주장했다.",
+      "source": "전자신문",
+      "time": "11/21"
+    },
+    {
+      "category": "policy",
+      "title": "울산 SK AI데이터센터 찾은 李…\"韓 AX는 AI 고속도로가 열 것\"",
+      "url": "https://www.etnews.com/20261121000052",
+      "summary": "이재명 대통령이 울산 SK AI데이터센터를 방문해 한국의 AX(AI 전환)는 AI 고속도로가 여는 것이라고 말했다.",
+      "source": "전자신문",
+      "time": "11/21"
+    },
+    {
+      "category": "service",
+      "title": "AI 커닝 안걸렸다고 끝?…\"수능장 와이파이·블루투스는 당신이 한 일을 기억하고 있다\"",
+      "url": "https://www.etnews.com/20261121000039",
+      "summary": "수능 시험장에서 AI를 이용한 부정행위를 적발하지 못해도 시험장 와이파이와 블루투스 기록이 증거로 남아 사후 추적이 가능하다.",
+      "source": "전자신문",
+      "time": "11/21"
+    },
+    {
+      "category": "service",
+      "title": "아이디어가 게임이 되기까지 24시간…'유니티 AI 게임잼' 현장 가보니",
+      "url": "https://zdnet.co.kr/view/?no=20261120190933",
+      "summary": "참가자들이 팀을 꾸려 24시간 만에 AI를 활용해 게임을 완성하는 '유니티 AI 게임잼' 현장 소식이다. AI 도구가 게임 개발 진입 장벽을 낮추고 있다.",
+      "source": "지디넷코리아",
+      "time": "11/20 19:09"
+    },
+    {
+      "category": "policy",
+      "title": "AI 데이터센터 구축 문턱 낮아진다…업계 기대 속 남은 과제는",
+      "url": "https://zdnet.co.kr/view/?no=20261120171231",
+      "summary": "정부가 AI 데이터센터(AIDC) 구축의 행정 절차를 개선해 국내 AI 인프라 사업자의 투자 부담이 줄어들 전망이다. 비수도권 50MW 이하 전력평가 면제도 발표됐다.",
+      "source": "지디넷코리아",
+      "time": "11/20 17:12"
+    },
+    {
+      "category": "biz",
+      "title": "'AI 억만장자' 1년새 45명 늘어…앤트로픽 직원 수백억 '잭팟'",
+      "url": "https://zdnet.co.kr/view/?no=20261120161849",
+      "summary": "AI 기업 가치가 급등하면서 신생 AI 기업 창업자와 직원들이 억만장자 대열에 합류하고 있다. 1년 새 45명이 늘었고 앤트로픽 직원의 주식 보상 사례를 집중 조명한다.",
+      "source": "지디넷코리아",
+      "time": "11/20 16:18"
+    },
+    {
+      "category": "policy",
+      "title": "中, APEC서 AI 주도권 확보 승부수…美 기술 통제에 '맞불'",
+      "url": "https://zdnet.co.kr/view/?no=20261120153836",
+      "summary": "미국과 중국의 AI 패권 경쟁이 반도체를 넘어 연산 자원과 데이터 협력망으로 확대되고 있으며, 중국이 APEC에서 AI 주도권 확보에 나섰다는 분석이다.",
+      "source": "지디넷코리아",
+      "time": "11/20 15:38"
+    },
+    {
+      "category": "security",
+      "title": "AI 해킹 고도화에…금감원, 코인사업자에 \"사고 발생 시 엄정 대응\"",
+      "url": "https://zdnet.co.kr/view/?no=20261120134402",
+      "summary": "AI를 활용한 해킹이 고도화되자 금융감독원이 코인사업자에게 사고 발생 시 엄정 대응하겠다고 경고했다.",
+      "source": "지디넷코리아",
+      "time": "11/20 13:44"
+    },
+    {
+      "category": "genai",
+      "title": "AI로 수능 풀었더니…GPT·제미나이 '만점', 한국 모델은",
+      "url": "https://zdnet.co.kr/view/?no=20261120133113",
+      "summary": "GPT-6.2와 제미나이 4에게 수능 문제를 풀게 한 결과 만점을 기록했다. 한국 AI 모델의 성적도 함께 비교 분석했다.",
+      "source": "지디넷코리아",
+      "time": "11/20 13:31"
+    },
+    {
+      "category": "policy",
+      "title": "AI와 전문가 말이 다른데 전문가가 틀리면 누구 책임일까",
+      "url": "https://zdnet.co.kr/view/?no=20261120102440",
+      "summary": "병원이나 법률 상담에서 AI의 답과 전문가의 말이 다를 때, 전문가가 틀리면 책임이 누구에게 있는지 다룬 카드뉴스다.",
+      "source": "지디넷코리아",
+      "time": "11/20 10:24"
+    },
+    {
+      "category": "policy",
+      "title": "비수도권 50MW 이하 AIDC 전력평가 면제...지원 기준 구체화",
+      "url": "https://zdnet.co.kr/view/?no=20261120104116",
+      "summary": "정부가 비수도권에서 50MW 이하 AI 데이터센터(AIDC)는 전력평가를 면제하고, 이에 따른 지원 기준을 구체화했다.",
+      "source": "지디넷코리아",
+      "time": "11/20 10:41"
+    },
+    {
+      "category": "biz",
+      "title": "AI 연구 도구 기업 미렌딜, 시리즈 A로 1조 3,347억 원 유치",
+      "url": "https://zdnet.co.kr/view/?no=20261120083147",
+      "summary": "AI 연구 개발 도구 스타트업 미렌딜(Mirendil)이 시리즈 A 투자로 10억 달러(약 1조 3,347억 원)를 유치했다.",
+      "source": "지디넷코리아",
+      "time": "11/20 08:31"
+    },
+    {
+      "category": "genai",
+      "title": "구글, AI 모델 이름에 원소 주기율표 활용...다음은 '헬륨'?",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217633",
+      "summary": "구글이 '제미나이 4'에 화학 원소 이름을 붙이면서 작명법이 화제가 되고 있다. 이용자들은 다음 모델명으로 어떤 원소가 나올지 예상하고 있다.",
+      "source": "AI Times",
+      "time": "11/20"
+    },
+    {
+      "category": "genai",
+      "title": "정체불명 모델 '게슈탈트', 디자인 평가서 인간 전문가 제치고 1위",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217630",
+      "summary": "개발사가 공개되지 않은 AI 모델 '게슈탈트'가 웹사이트와 앱 제작 디자인 평가에서 인간 전문 디자이너와 주요 AI 기업 모델을 모두 제쳤다.",
+      "source": "AI Times",
+      "time": "11/20"
+    },
+    {
+      "category": "biz",
+      "title": "오픈AI, 'GPT-6.2' 응답 늦게 받으면 API 요금 최대 40% 할인",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217632",
+      "summary": "오픈AI가 AI 모델 응답 속도에 따라 API 요금을 차등 적용하는 새 과금 방식을 선보였다. 응답 대기 시간을 길게 설정하면 최대 40%까지 할인된다.",
+      "source": "AI Times",
+      "time": "11/20"
+    },
+    {
+      "category": "tech",
+      "title": "메타, AI가 기억하는 방법도 스스로 개선...AI 자기개선 연구 잇따라",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217629",
+      "summary": "메타가 AI 에이전트가 작업 경험을 바탕으로 기억 관리 방식을 스스로 개선하고, 이를 모델 학습에도 반영하는 기술을 공개했다.",
+      "source": "AI Times",
+      "time": "11/20"
+    },
+    {
+      "category": "chip",
+      "title": "캘리포니아주, 엔비디아에 소환장...중국 기밀 유출·투자자 기만 조사",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217637",
+      "summary": "캘리포니아주 법무부가 젠슨 황 전 CEO와 중국의 연관성 의혹을 두고 엔비디아 조사에 착수했다. 중국 기밀 유출과 투자자 기만이 쟁점이다.",
+      "source": "AI Times",
+      "time": "11/20"
+    },
+    {
+      "category": "chip",
+      "title": "미 상무부, 중국군 연계 기업에 AI 칩 수출 허가...하원 자료 공개로 파장",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217634",
+      "summary": "미 상무부가 엔비디아와 AMD의 AI 칩 약 88만 개를 중국 기업에 수출하도록 승인한 사실이 공개됐다. 30% 이상은 중국군 연계 기업 물량이다.",
+      "source": "AI Times",
+      "time": "11/20"
+    },
+    {
+      "category": "tech",
+      "title": "오픈AI, 코덱스로 챗GPT 성능 문제 자동 진단·수정안 작성",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217626",
+      "summary": "오픈AI가 코덱스를 활용해 챗GPT 성능 저하 원인을 찾고 수정안까지 지원하는 내부 자동화 시스템을 공개했다. AI 에이전트가 로그와 코드를 분석한다.",
+      "source": "AI Times",
+      "time": "11/20"
+    },
+    {
+      "category": "genai",
+      "title": "구글, 제미나이에 '컴퓨터 유즈' 기능 도입...맥 앱 직접 제어",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217606",
+      "summary": "구글이 맥용 제미나이 앱에 컴퓨터를 직접 조작하는 '컴퓨터 유즈' 기능을 도입했다. 앤트로픽과 오픈AI가 1~2년 전 선보인 기능을 따라잡았다.",
+      "source": "AI Times",
+      "time": "11/20"
+    },
+    {
+      "category": "biz",
+      "title": "셀렉트스타, 출판협회와 AI 학습용 출판데이터 공급 협력",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217631",
+      "summary": "셀렉트스타가 대한출판문화협회와 저작권을 보호하면서 AI 학습용 출판데이터를 공급하기 위한 업무협약을 체결했다.",
+      "source": "AI Times",
+      "time": "11/20"
+    },
+    {
+      "category": "tech",
+      "title": "뉴로퓨전, AI 미래 예측 벤치마크서 공동 1위...구글·오픈AI 앞서",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217627",
+      "summary": "국내 AI 전문 뉴로퓨전이 글로벌 AI 미래 예측 벤치마크에서 구글 딥마인드, 오픈AI, 앤트로픽 등을 앞서며 공동 1위를 기록했다.",
+      "source": "AI Times",
+      "time": "11/20"
+    },
+    {
+      "category": "genai",
+      "title": "애플, 시리 넘어서는 범용 AI 에이전트 개발...앱 조작·코딩까지",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217602",
+      "summary": "애플이 기존 시리보다 복잡한 업무를 자율적으로 처리하는 범용 AI 에이전트 개발에 나섰다. 여러 앱 조작과 코드 작성·디버깅까지 목표로 한다.",
+      "source": "AI Times",
+      "time": "11/20"
+    },
+    {
+      "category": "tech",
+      "title": "모레, LLM 추론 효율 높이는 프레임워크 'TIDE' 공개",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217599",
+      "summary": "모레가 LLM의 추론 성능과 효율을 높이는 자기 개선형 추론 프레임워크 'TIDE'를 공개했다. 미국 시카고에서 열린 학회 발표 내용도 담겼다.",
+      "source": "AI Times",
+      "time": "11/20"
+    },
+    {
+      "category": "service",
+      "title": "AI가 먼저 걸렀다…스팸 데이터 개방으로 대량 악성문자·스팸전화 수신 전 차단",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217628",
+      "summary": "국민이 신고한 스팸 데이터를 AI로 분석해 개방한 결과 악성 문자 5억 건과 스팸 전화 1200만 건이 수신 전에 차단됐다.",
+      "source": "AI Times",
+      "time": "11/20"
+    },
+    {
+      "category": "chip",
+      "title": "AMD 리사 수 \"젠슨 황은 훌륭한 리더...엔비디아 논란과 거리 둘 것\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217625",
+      "summary": "리사 수 AMD CEO가 사임한 젠슨 황을 탁월한 리더로 평가하면서도 엔비디아를 둘러싼 논란과는 거리를 두겠다고 밝혔다.",
+      "source": "AI Times",
+      "time": "11/20"
+    },
+    {
+      "category": "biz",
+      "title": "엔비디아, dLLM 개발사 인셉션 6700억 이상에 인수 협상",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217611",
+      "summary": "엔비디아가 확산언어모델(dLLM) 스타트업 인셉션을 최소 5억 달러(약 6700억 원)에 인수하기 위해 막바지 협상 중인 것으로 알려졌다.",
+      "source": "AI Times",
+      "time": "11/20"
+    },
+    {
+      "category": "chip",
+      "title": "문샷 AI, 미국 수출 규제에 2000억 규모 엔비디아 칩 임대 계약 취소",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217613",
+      "summary": "문샷 AI가 인도네시아 데이터센터를 통해 엔비디아 최신 AI 칩을 임대하려던 1억5000만 달러 규모 계약을 미국 수출 규제로 취소했다.",
+      "source": "AI Times",
+      "time": "11/20"
+    },
+    {
+      "category": "genai",
+      "title": "'GPT-6.2 아스트라'·'제미나이 4 네온', 수능 만점…국산 1위는 LG",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217604",
+      "summary": "GPT-6.2 아스트라와 제미나이 4 네온이 2027학년도 수능에서 전 과목 만점을 기록했다. 국내 모델 중에서는 LG AI연구원 모델이 1위다.",
+      "source": "AI Times",
+      "time": "11/20"
+    },
+    {
+      "category": "tech",
+      "title": "구글, 우주 AI 데이터센터 구축 위해 블루 오리진과 계약...2029년 위성 발사",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217615",
+      "summary": "구글이 우주에 태양광 기반 AI 데이터센터를 구축하는 실험의 발사 파트너로 블루 오리진을 선정했다. 2029년 초 위성 발사가 목표다.",
+      "source": "AI Times",
+      "time": "11/20"
+    },
+    {
+      "category": "service",
+      "title": "삼성 첫 AI 안경, 내달 10일 출격",
+      "url": "https://www.etnews.com/20261120000037",
+      "summary": "삼성전자가 자체 개발한 첫 AI 안경을 다음 달 10일 출시한다. AI 기능을 탑재한 웨어러블 시장 경쟁이 가속화될 전망이다.",
+      "source": "전자신문",
+      "time": "11/20"
+    },
+    {
+      "category": "chip",
+      "title": "FT \"TSMC, 中 첨단 칩 출하 중단 통보\"…美 '우회 수출 원천 봉쇄' 여파",
+      "url": "https://www.etnews.com/20261120000030",
+      "summary": "TSMC가 미국의 대중 반도체 수출 통제 강화에 따라 중국 고객사향 일부 첨단 칩 출하를 중단했다고 FT 등 외신이 보도했다. AI 칩과 스마트폰용 AP도 대상에 포함된다.",
+      "source": "전자신문",
+      "time": "11/20"
+    },
+    {
+      "category": "tech",
+      "title": "AI, 167년 묵은 리만 가설 풀었다고 주장 — 인간 수학자도 별도 증명 발표",
+      "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+      "summary": "Anthropic 소속 수학자가 Claude와 협업해 리만 가설의 Lean 검증 가능한 해법을 발표했고, 여러 수학자들이 코드 컴파일을 확인했다. 스탠퍼드 박사후연구원도 일반 리만 가설의 별도 인간 증명을 제시했다.",
+      "source": "TechCrunch",
+      "time": "11/20 11:32"
+    },
+    {
+      "category": "biz",
+      "title": "다니엘 에크, 전 DeepMind AI 연구원의 핵융합 스타트업 Europa Fusion에 투자",
+      "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+      "summary": "Spotify 공동창업자 다니엘 에크가 전 Google DeepMind AI 연구원이 설립한 영국 핵융합 스타트업 Europa Fusion에 투자했다. 시뮬레이션·데이터 중심 접근법으로 펄스 파워 핵융합 기술 개발에 나선다.",
+      "source": "TechCrunch",
+      "time": "11/20 11:53"
+    },
+    {
+      "category": "chip",
+      "title": "우주용 AI 칩은 살아남았지만, 자금 조달은?",
+      "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+      "summary": "SpaceX의 400억 달러 칩 금융 대주단이 궤도 데이터센터 용도 사용에 반대하면서 우주 AI 인프라 금융 문제가 부각됐다. 구글 TPU-in-Space가 경쟁 우위를 가질 수 있다는 분석이 나왔다.",
+      "source": "TechCrunch",
+      "time": "11/20 09:40"
+    },
+    {
+      "category": "biz",
+      "title": "엔비디아 젠슨 황 스캔들 여파 지속 — 중국 H200 판매 중단 선언",
+      "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+      "summary": "엔비디아가 건강한 실적에도 불구하고 젠슨 황 CEO 교체 여파가 계속되며 중국향 H200 칩 판매 중단을 발표했다. Anthropic IPO가 AI 업계의 순환 자금 구조를 시험할 것이란 분석도 나왔다.",
+      "source": "TechCrunch",
+      "time": "11/20 10:00"
+    },
+    {
+      "category": "service",
+      "title": "홈 오피스를 스마트하게 만들 AI 탑재 가젯 6종",
+      "url": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
+      "summary": "회의 녹음·전사 스마트 펜(Flowtica Scribe), AI 노트 정리 킨들, 자동 프레이밍 웹캠, 활동 감지 스탠딩 데스크 등 AI 탑재 홈 오피스 기기 6종을 소개한다.",
+      "source": "TechCrunch",
+      "time": "11/20 06:00"
+    },
+    {
+      "category": "service",
+      "title": "T-Mobile, AI에 더 많은 문서 넣자 오히려 답변 품질 하락",
+      "url": "https://venturebeat.com/orchestration/giving-its-ai-more-to-read-made-t-mobiles-answers-worse",
+      "summary": "T-Mobile이 대형 컨텍스트 모델에 전체 지원 문서를 로드하자 상충 정보로 AI 에이전트가 오답을 냈고, 단순 키-값 조회 테이블로 대체해 성능을 회복했다. AI 에이전트 도입 기업의 78%가 맥락 오류로 인한 오답을 경험했다고 답했다.",
+      "source": "VentureBeat",
+      "time": "11/20 13:51"
+    },
+    {
+      "category": "tech",
+      "title": "멀티모달 기반 모델에서 더 인간적인 상호작용 가능하게 하려면",
+      "url": "https://news.mit.edu/2026/qa-enabling-more-human-interactions-understanding-multimodal-foundation-models-1120",
+      "summary": "MIT CSAIL의 Jim Glass 연구원이 소리·영상 인식과 언어를 연결하는 멀티모달 AI 연구를 소개했다. 오디오-언어 모델의 벤치마크 한계, 약한 지도 학습 방법, 전이중 대화 시스템 연구 계획도 밝혔다.",
+      "source": "MIT News",
+      "time": "11/20 09:00"
+    },
+    {
+      "category": "tech",
+      "title": "혼돈계 AI 모델에 물리적 일관성 부여하는 새로운 접근법",
+      "url": "https://news.mit.edu/new-approach-enables-physically-consistent-ai-models-chaotic-systems-1120",
+      "summary": "MIT 연구팀이 날씨·기후·난류 등 혼돈계 예측 AI 모델에 에너지 제약을 하드 조건으로 내장하는 방법을 개발했다. 에너지 소산 투영 레이어가 장기 예측에서도 물리적으로 타당한 결과를 유지한다.",
+      "source": "MIT News",
+      "time": "11/20 09:00"
+    },
+    {
+      "category": "tech",
+      "title": "'수학종말' 이후 수학자들이 바라본 미래",
+      "url": "https://news.mit.edu/2026/following-mathocalypse-mathematicians-consider-future-1120",
+      "summary": "AI가 미해결 수학 난제를 빠르게 풀면서 MIT 패널에서 수학자들이 미래를 논의했다. AI 생성 증명의 수학적 이해 여부와 학술 평가 기준 변화를 두고 의견이 엇갈렸다.",
+      "source": "MIT News",
+      "time": "11/20 09:00"
+    }
+  ]
+}
