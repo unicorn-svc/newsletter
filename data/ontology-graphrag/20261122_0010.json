@@ -1,0 +1,122 @@
+{
+  "published_at": "2026-11-22T00:10",
+  "title": "온톨로지와 GraphRAG 뉴스레터",
+  "emoji": "🕸️",
+  "sources": ["지디넷코리아", "전자신문", "Neo4j 블로그", "Enterprise Knowledge", "Graphwise", "VentureBeat", "arXiv"],
+  "articles": [
+    {
+      "category": "case",
+      "category_label": "도입 사례",
+      "category_emoji": "🏢",
+      "title": "AWS, 미래에셋증권 금융 AI 구축 지원…상품 검색에 AI 에이전트 적용",
+      "url": "https://zdnet.co.kr/view/?no=20261120140503",
+      "summary": "미래에셋증권이 금융상품·기업의 개념과 관계를 정의한 온톨로지로 상품 정보와 공시·리서치 문서 약 1만3000건을 잇는 지식그래프를 만들었어요. Amazon Neptune·Bedrock 기반이고, 직원 450여 명이 써 봤으며 250문항 벤치마크에서 답변 품질이 약 84% 올랐어요.",
+      "source": "지디넷코리아",
+      "time": "11/20 14:05"
+    },
+    {
+      "category": "case",
+      "title": "비아이매트릭스, AI 기반 토지 인허가 사전진단 서비스 개발…내년 1월 실증",
+      "url": "https://www.etnews.com/20261119000162",
+      "summary": "법령·조례·용도지역·규제 조건의 관계를 구조화한 온톨로지 기반 지식그래프에 RAG를 붙여, AI가 인허가 가능 여부와 법적 근거까지 추적해요. 내년 1월 5개 지자체에서 시범운영을 시작하고, 준비 절차를 6단계에서 3단계로 줄이는 게 목표예요.",
+      "source": "전자신문",
+      "time": "11/19 10:55"
+    },
+    {
+      "category": "case",
+      "title": "그 어떤 제약 문서에도 질문하고 모든 답의 근거를 추적할 수 있다면?",
+      "url": "https://graphwise.ai/blog/what-if-you-could-ask-pharma-documents-anything-and-trace-every-answer/",
+      "summary": "글로벌 제약사 CMC 문서 177개를 대상으로 한 PoC예요. 범용 어휘 대신 문서 표현으로 택소노미를 만들고 경량 온톨로지를 기존 사내 온톨로지와 SKOS로 연결한 뒤, 벡터 검색을 끈 GraphRAG 에이전트로 모든 답에 출처를 달았어요.",
+      "source": "Graphwise",
+      "time": "11/19 22:57"
+    },
+    {
+      "category": "case",
+      "title": "AI에게 더 많이 읽게 했더니 T-Mobile의 답변이 오히려 나빠졌다",
+      "url": "https://venturebeat.com/orchestration/giving-its-ai-more-to-read-made-t-mobiles-answers-worse",
+      "summary": "T-Mobile은 롱컨텍스트도, 지식그래프도 느리거나 헷갈려서 결국 '고객 표현→처리 경로' 키-값 표로 바꿨어요. 반면 Uber는 컨텍스트 그래프로 테이블 찾기를 20분에서 38초로 줄였죠. GraphRAG가 언제 맞고 안 맞는지 보여주는 반면교사 사례예요.",
+      "source": "VentureBeat",
+      "time": "11/21 06:51"
+    },
+    {
+      "category": "ontology",
+      "title": "[제28회 공공솔루션마켓] 모비젠 \"온톨로지 기반 데이터 연결로 공공 AX 실현\"",
+      "url": "https://www.etnews.com/20261119000012",
+      "summary": "모비젠 CTO가 공공 AX의 핵심으로 온톨로지를 꼽았어요. '그래피오' 플랫폼이 데이터를 가상화로 연결하고 출처·이력·권한을 관리하며, 현장 엔지니어가 '온톨로지 빌더'로 기관별 지식 체계를 만들고 데이터 변화에 따라 업무를 자동 실행하는 구조예요.",
+      "source": "전자신문",
+      "time": "11/19 17:00"
+    },
+    {
+      "category": "ontology",
+      "title": "조직 맥락 지식이란 무엇이며, AI 에이전트에 어떻게 제공할까",
+      "url": "https://neo4j.com/blog/agentic-ai/contextual-organizational-knowledge/",
+      "summary": "에이전트가 조직이 어떻게 돌아가는지 몰라 추측한다는 문제를 6계층 '비즈니스 온톨로지' 그래프로 풀자는 글이에요. Neo4j Context Engine(비공개 프리뷰)이 Databricks·Snowflake에서 온톨로지를 만들고 사람이 승인하며, MCP로 GraphRAG 맥락을 제공해요.",
+      "source": "Neo4j 블로그",
+      "time": "11/21 04:03"
+    },
+    {
+      "category": "semantic_layer",
+      "title": "새로운 엔터프라이즈 시맨틱 레이어 운영 모델이란? 왜 투자해야 하나",
+      "url": "https://enterprise-knowledge.com/what-is-the-new-enterprise-semantic-layer-operating-model-why-your-organization-should-invest-in-one/",
+      "summary": "택소노미·온톨로지로 된 시맨틱 레이어를 한 번 만들고 끝내지 말고 '운영 프로그램'으로 돌려야 한다는 주장이에요. 역할, 도메인 온보딩, 모델 수명주기, 기술 연계, 거버넌스 5요소와 경영 후원·공동 예산·정의 분쟁 조정 기구가 전제 조건이에요.",
+      "source": "Enterprise Knowledge",
+      "time": "11/19 02:04"
+    },
+    {
+      "category": "semantic_layer",
+      "title": "디토닉 AI 데이터 플랫폼 D.Hub, '2026 차세대 세계일류상품' 선정",
+      "url": "https://zdnet.co.kr/view/?no=20261119164849",
+      "summary": "ERP·MES·SCM·CRM과 문서·영상·센서 데이터를 통합하는 D.Hub가 '온톨로지 기반 시맨틱 레이어'로 데이터의 의미와 숙련자의 판단 기준을 지식 자산으로 구조화해요. 데이터 리니지와 다중 에이전트 조율 기능도 갖췄어요.",
+      "source": "지디넷코리아",
+      "time": "11/19 16:48"
+    },
+    {
+      "category": "kg",
+      "title": "Amazon S3 Tables에서 Neo4j Virtual Graph 사용해 보기",
+      "url": "https://neo4j.com/blog/auradb/a-walkthrough-of-neo4j-virtual-graph-on-amazon-s3-tables/",
+      "summary": "S3의 Iceberg 테이블을 복사 없이 그래프로 조회하는 실습 가이드예요. 사기 탐지 예제에서 1~3홉 송금 추적을 SQL 자기조인 대신 Cypher 패턴 하나로 끝내요. AWS는 아직 프리뷰이고, 네이티브 그래프보다 느리고 일부 Cypher는 지원하지 않아요.",
+      "source": "Neo4j 블로그",
+      "time": "11/20 04:08"
+    },
+    {
+      "category": "kg",
+      "title": "코딩 에이전트는 코드를 읽을 수 있다. Relate by Neo4j로 히스토리까지 주자",
+      "url": "https://neo4j.com/blog/developer/your-coding-agent-can-read-the-code-give-it-the-history-with-relate-by-neo4j/",
+      "summary": "git 히스토리를 임베디드 그래프 DB Relate에 넣어 MCP로 에이전트에 줬어요. FastAPI 커밋 8102개를 4.6초에 적재했고, 서로 import하지 않지만 함께 바뀌는 '숨은 결합'을 찾아냈어요. 그래프가 있을 때만 에이전트가 관련 모듈과 담당자를 찾았어요.",
+      "source": "Neo4j 블로그",
+      "time": "11/19 06:00"
+    },
+    {
+      "category": "research",
+      "title": "KnowledgeClaw: 옴니모달 하이퍼그래프를 통한 에이전트형 지식 엔지니어링",
+      "url": "https://arxiv.org/abs/2611.24294",
+      "summary": "5종류 원본 파일을 타입이 있는 지식 하이퍼그래프로 바꾸고, 수명주기 에이전트가 파일 변화에 맞춰 계속 갱신해요. 새 벤치마크 6개 과제 모두 1위(기존 최고 대비 +14.6점)였고 코드도 공개됐어요. 일회성 GraphRAG를 넘어 스스로 유지되는 사내 지식베이스 방향이에요.",
+      "source": "arXiv",
+      "time": "11/19 09:00"
+    },
+    {
+      "category": "research",
+      "title": "LSP-RAG: 지식그래프 RAG를 위한 잠재 점수 관점",
+      "url": "https://arxiv.org/abs/2611.25229",
+      "summary": "학습된 여러 '점수 관점'으로 후보 사실을 홉마다 골라, 큰 LLM 없이 작은 고정 모델(LLaMA2-7B 등)로도 멀티홉 그래프 검색을 해요. 더 큰 LLM을 쓰는 기존 검색기보다 낫다고 보고해, GraphRAG 검색 비용을 줄이는 데 참고할 만해요.",
+      "source": "arXiv",
+      "time": "11/20 09:00"
+    },
+    {
+      "category": "semantic_layer",
+      "title": "값 의미 계층(Value Semantics Layer): 에이전트형 AI를 위한 기계가 이해하는 데이터베이스",
+      "url": "https://arxiv.org/abs/2611.23629",
+      "summary": "스키마·카탈로그·리니지를 넘어 데이터 값의 의미(분포, 관계, 단위, 정책 규칙)를 쿼리 플래너가 읽는 인프라로 저장하자는 제안이에요. 분석 단계가 타당한지 검사하는 데 쓰여, LLM 에이전트·text-to-SQL용 시맨틱 레이어 설계에 바로 참고할 수 있어요.",
+      "source": "arXiv",
+      "time": "11/19 09:00"
+    },
+    {
+      "category": "research",
+      "title": "GenSPARQL: 불완전한 지식그래프를 위한 SPARQL의 생성형 확장",
+      "url": "https://arxiv.org/abs/2611.26062",
+      "summary": "SPARQL에 LLM이 쿼리 실행 중 값을 생성해 채우는 연산자를 더하고, 유사도 매칭으로 그래프의 실제 엔터티에 다시 연결해요. LLM이 말한 엔터티의 83%를 매핑했고 오매칭은 1건뿐이었어요. 늘 빈틈이 있는 사내 KG를 쿼리 엔진 안에서 보완하는 방법이에요.",
+      "source": "arXiv",
+      "time": "11/20 09:00"
+    }
+  ]
+}

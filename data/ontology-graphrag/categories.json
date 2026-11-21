@@ -33,6 +33,12 @@
       "emoji": "📄",
       "label": "연구·논문",
       "color": "#4f46e5"
+    },
+    {
+      "id": "case",
+      "emoji": "🏢",
+      "label": "도입 사례",
+      "color": "#15803d"
     }
   ]
 }
