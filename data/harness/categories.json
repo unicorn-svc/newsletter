@@ -45,6 +45,12 @@
       "emoji": "🖥️",
       "label": "에이전트 인프라",
       "color": "#b91c1c"
+    },
+    {
+      "id": "others",
+      "emoji": "📌",
+      "label": "기타",
+      "color": "#9333ea"
     }
   ]
 }
