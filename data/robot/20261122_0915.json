@@ -1,0 +1,24 @@
+{
+  "published_at": "2026-11-22T09:15",
+  "title": "로봇 뉴스레터",
+  "emoji": "🤖",
+  "sources": ["The Robot Report", "헬로티"],
+  "articles": [
+    {
+      "category": "physical_ai",
+      "title": "피지컬 AI의 발목을 잡는 제조 현장의 데이터 공백",
+      "url": "https://www.therobotreport.com/the-manufacturing-data-gap-holding-back-physical-ai/",
+      "summary": "로봇이 공장에서 스스로 배우려면 실제 생산 데이터가 필요한데, 대부분의 공장은 이런 데이터를 제대로 모아 두지 않았어요. VulcanForms CTO는 실제 생산 조건 데이터 수집, 공정 전체 데이터 연결, 품질 중심 피드백 체계 구축을 해법으로 제안합니다.",
+      "source": "The Robot Report",
+      "time": "11/22 07:25"
+    },
+    {
+      "category": "others",
+      "title": "[봇규의 헬로BOT] 로봇 스케일업 ③ | 전기차 시대에 2행정 엔진이라니? 오토모비의 ‘역주행’",
+      "url": "https://www.hellot.net/news/article.html?no=116487",
+      "summary": "스타트업 오토모비가 국민대 연구실과 함께 소형 무인기용 4.8kW급 2행정 엔진을 개발 중이에요. 엔진+발전기 하이브리드 방식으로 배터리(약 30분)보다 긴 1~1.5시간 비행이 가능해, 농약 살포 드론·수직이착륙 무인기 활용이 기대됩니다.",
+      "source": "헬로티",
+      "time": "11/21 15:34"
+    }
+  ]
+}
