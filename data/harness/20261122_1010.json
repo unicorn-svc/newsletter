@@ -1,0 +1,72 @@
+{
+  "published_at": "2026-11-22T10:10",
+  "title": "하네스 엔지니어링 뉴스레터",
+  "emoji": "🛠️",
+  "sources": ["AI Times", "LangChain 블로그", "The New Stack", "Hugging Face 블로그"],
+  "articles": [
+    {
+      "category": "tools",
+      "title": "챗GPT·클로드, 모바일 앱 나란히 개편…AI 에이전트 기능 전면에",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217654",
+      "summary": "오픈AI와 앤트로픽이 모바일 앱을 함께 개편했어요. 챗GPT에는 자기 클라우드 컴퓨터에서 계속 일하는 개인 에이전트 '닷츠' 탭이 생겼고, 클로드 앱은 '클로드 코드'를 메인 메뉴로 올려 휴대폰에서 PC의 코딩 세션을 열고 지시할 수 있게 했어요.",
+      "source": "AI Times",
+      "time": "11/22 09:09"
+    },
+    {
+      "category": "orchestration",
+      "title": "'지식 공장'을 만드는 법",
+      "url": "https://www.langchain.com/blog/knowledge-factory",
+      "summary": "해리슨 체이스는 업무용 에이전트에는 더 좋은 모델보다 더 좋은 지식이 중요하다고 봐요. 에이전트가 빠지거나 틀린 지식을 표시하면, 주기적으로 도는 큐레이터 에이전트가 실행 기록과 노션·슬랙 자료를 읽어 SKILL.md 같은 스킬 파일을 고쳐 나가는 구조를 제안해요.",
+      "source": "LangChain 블로그",
+      "time": "11/22 01:45"
+    },
+    {
+      "category": "infra",
+      "title": "엔비디아, 2만 건 학습 데이터로 AI 실수를 고치자 코딩 점수가 뛰었다",
+      "url": "https://thenewstack.io/nvidia-droid-harness-nemotron/",
+      "summary": "엔비디아는 Factory의 코딩 에이전트 하네스 'Droid'를 폐쇄망에 설치해 도구 호출 오류, 지시 미준수, 복구 실패 사례를 재현 가능한 형태로 모았어요. 이렇게 만든 약 2만 건의 데이터로 Nemotron 3 Ultra의 계획 수립과 도구 사용 능력을 끌어올렸어요.",
+      "source": "The New Stack",
+      "time": "11/22 00:30"
+    },
+    {
+      "category": "observability",
+      "title": "다이나트레이스가 KubeCon에서 공개한 AI 관측성 전략, 개발자에게 중요한 이유",
+      "url": "https://thenewstack.io/ai-feature-flags-observability/",
+      "summary": "새 AI 모델을 일부 사용자에게 먼저 배포할 때 피처 플래그와 텔레메트리를 함께 보면 문제 원인을 빨리 찾을 수 있어요. 다이나트레이스는 OpenFeature로 코드·인프라·AI 워크로드 데이터를 한곳에 모으고, 이상이 생기면 기능을 바로 끄는 방식을 제안했어요.",
+      "source": "The New Stack",
+      "time": "11/22 01:08"
+    },
+    {
+      "category": "cost",
+      "title": "GPT-6.2 Sol 대 Claude Opus 5.5: 정확도는 낮아도 더 나은 선택일 수 있다",
+      "url": "https://thenewstack.io/gpt-6-2-sol-vs-claude-opus-5-5/",
+      "summary": "같은 에이전트·코딩·데이터 분석 작업으로 두 모델의 정확도, 토큰 사용량, 비용, 속도를 비교했어요. Sol은 토큰 단가가 Opus 5.5의 절반이고 작업당 비용도 훨씬 낮아, 정확도가 조금 떨어져도 가성비는 더 나을 수 있다는 평가예요.",
+      "source": "The New Stack",
+      "time": "11/22 02:08"
+    },
+    {
+      "category": "observability",
+      "title": "코드를 더 이상 읽지 않는다면, 무엇을 읽어야 할까?",
+      "url": "https://thenewstack.io/ai-agent-code-review/",
+      "summary": "'클린 코드'의 로버트 마틴은 에이전트가 쓴 코드의 95%를 직접 읽지 않는대요. 대신 에이전트가 만든 UML 같은 구조도와 CRAP 같은 위험 지표로 문제 지점을 찾아요. 코드 리뷰가 한 줄씩 읽기에서 상위 수준의 신호 보기로 옮겨가고 있다는 이야기예요.",
+      "source": "The New Stack",
+      "time": "11/22 02:23"
+    },
+    {
+      "category": "security",
+      "title": "Act-or-Ask: 가정용 AI가 언제 먼저 물어봐야 하는지 소형 모델에 가르치기",
+      "url": "https://huggingface.co/blog/someshrahul/act-or-ask",
+      "summary": "Phi-4-mini를 미세조정해 잠금장치·오븐 같은 기기 요청을 실행할지, 먼저 허락을 구할지, 거절할지 판단하게 했어요. 요청 출처도 함께 받아 TV처럼 믿기 어려운 출처는 의심하도록 했고, 프롬프트에 규칙을 붙이는 방식보다 정책을 더 잘 지켰어요.",
+      "source": "Hugging Face 블로그",
+      "time": "11/22 05:26"
+    },
+    {
+      "category": "tools",
+      "title": "\"롤러코스터 같다\": 에이전틱 AI 재단 앤지 존스가 말하는 AI 에이전트 따라잡기",
+      "url": "https://thenewstack.io/junior-developers-ai-agents-block/",
+      "summary": "Block의 신입 개발자 10명이 AI 에이전트로 첫날부터 낯선 코드베이스의 고객 문제를 해결한 사례예요. 앤지 존스는 MCP·A2A 같은 표준이 있어야 빠르게 바뀌는 도구 위에서도 안정적으로 만들 수 있고, 에이전트를 쓰는 것과 믿을 만한 에이전트를 만드는 건 다르다고 강조해요.",
+      "source": "The New Stack",
+      "time": "11/22 06:58"
+    }
+  ]
+}
