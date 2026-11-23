@@ -1,0 +1,184 @@
+{
+  "published_at": "2026-11-23T09:15",
+  "title": "로봇 뉴스레터",
+  "emoji": "🤖",
+  "sources": ["로봇신문", "전자신문"],
+  "articles": [
+    {
+      "category": "humanoid",
+      "title": "1X, 가정용 휴머노이드 '네오' 12월 개발자 공급…로봇 학습 생태계 구축",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49725",
+      "summary": "1X가 가정용 휴머노이드 '네오'를 12월부터 개발자와 일부 소비자에게 공급해요. 데이터 수집 장치·시뮬레이션 도구·API를 제공하는 개방형 플랫폼으로 로봇 학습 생태계를 키울 계획이지만, 출하 규모는 아직 확인되지 않았어요.",
+      "source": "로봇신문",
+      "time": "11/23 00:46"
+    },
+    {
+      "category": "humanoid",
+      "title": "지멘스·애지봇, AI 에이전트 활용한 휴머노이드 로봇 그리퍼 설계 기술 공개",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49728",
+      "summary": "자연어로 작업 요구를 말하면 AI 에이전트가 그리퍼 유형을 고르고 설계를 바꿔요. MCP로 지멘스 엔지니어링 SW를 불러 시뮬레이션·검증부터 3D 프린팅용 데이터까지 준비하며, 폼넥스트 2026에서 시연됐어요.",
+      "source": "로봇신문",
+      "time": "11/23 01:03"
+    },
+    {
+      "category": "humanoid",
+      "title": "中 의류 생산라인에 휴머노이드 로봇 적용 추진",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49720",
+      "summary": "중국 닝보의 의류기업 피스버드가 업계 최초라는 휴머노이드 재봉 로봇을 생산라인에 투입했어요. 의류 전용 AI 모델과 비전 알고리즘으로 재단 위치 지정, 원단 인식, 궤적 보정을 자동으로 처리해요.",
+      "source": "로봇신문",
+      "time": "11/22 20:58"
+    },
+    {
+      "category": "humanoid",
+      "title": "\"휴머노이드 판매부터 훈련까지\"...中 윈저우에 '8S' 센터 설립",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49722",
+      "summary": "중국 윈저우에 판매·부품·전시·서비스·교육·실증 등 8가지 기능을 묶은 '8S' 휴머노이드 체험 센터가 문을 열었어요. 약 3,000㎡ 공간에 50여 종 제품을 갖췄고, 플라이코의 중국 내 다섯 번째 센터예요.",
+      "source": "로봇신문",
+      "time": "11/22 21:31"
+    },
+    {
+      "category": "humanoid",
+      "title": "獨 슝크 휴머노이드 로보틱스, 택틸리아 로보틱스로 브랜드 변경",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49715",
+      "summary": "뮌헨의 슝크 휴머노이드 로보틱스가 '택틸리아 로보틱스'로 이름을 바꿨어요. 휴머노이드·협동로봇·모바일 매니퓰레이터에 두루 쓰는 모듈형 산업용 로봇 손을 개발하며, 전 세계 15곳 슝크 코랩에서 고객 테스트 중이에요.",
+      "source": "로봇신문",
+      "time": "11/22 20:28"
+    },
+    {
+      "category": "humanoid",
+      "title": "대만 로봇 부품업체들, 휴머노이드 로봇 공급망 진입 서두른다",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49705",
+      "summary": "하이윈·TBI 모션 등 대만 정밀부품 업체들이 휴머노이드 손·팔·다리 부품 시장에 뛰어들고 있어요. 하이윈은 미국 휴머노이드 제조사에서 리니어 가이드 1만 개 이상을 수주했고, 업계는 2028년을 본격 성장기로 봐요.",
+      "source": "로봇신문",
+      "time": "11/22 18:50"
+    },
+    {
+      "category": "physical_ai",
+      "title": "獨 셰플러, 반델봇과 피지컬 AI 분야 기술 협력…글로벌 생산공장에 로봇 플랫폼 확대",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49706",
+      "summary": "셰플러가 반델봇과 개방형 로봇 플랫폼 '노바'를 공동 개발해요. 엔비디아 옴니버스·아이작 심으로 가상 검증한 작업을 다른 공장에 옮겨 쓸 수 있고, 자동화 생애주기 비용을 최대 40% 줄이는 게 목표예요.",
+      "source": "로봇신문",
+      "time": "11/22 19:07"
+    },
+    {
+      "category": "physical_ai",
+      "title": "노타, 독일 '피지컬 AI 연구' 강화…로봇 최적화 시장 공략",
+      "url": "https://www.etnews.com/20261122000039",
+      "summary": "AI 경량화 기업 노타가 독일 베를린 연구조직을 중심으로 피지컬 AI 연구를 강화해요. 로봇 파운데이션 모델·월드모델을 로봇에서 효율적으로 돌리는 최적화 기술에 집중하고, 성과는 넷츠프레소 플랫폼에 반영해요.",
+      "source": "전자신문",
+      "time": "11/22 12:00"
+    },
+    {
+      "category": "physical_ai",
+      "title": "스스로 길 찾고 균형까지…산길 달리는 'AI 자전거 로봇'",
+      "url": "https://www.etnews.com/20261120000267",
+      "summary": "ETH 취리히와 RAI 연구진의 자율주행 자전거 로봇 'UMV'가 카메라·라이다와 AI로 바위·나무뿌리 산길을 달렸어요. 약 1km 중 946m를 자율주행했고, 일부 구간에선 원격조종보다 2.3배 빨랐어요.",
+      "source": "전자신문",
+      "time": "11/23 06:00"
+    },
+    {
+      "category": "physical_ai",
+      "title": "[Books] 더 피지컬라이제이션(The Physicalization)",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49730",
+      "summary": "로봇과 센서가 모은 현실 데이터를 AI가 분석해 기업 운영을 바꾸는 과정을 다룬 책 소개예요. 저자는 로봇의 진짜 가치는 동작이 아니라 데이터에 있고, 판단과 책임은 사람에게 남아야 한다고 말해요.",
+      "source": "로봇신문",
+      "time": "11/23 02:17"
+    },
+    {
+      "category": "industrial",
+      "title": "\"미국, 기존 공장 로봇 자동화만으론 중국과 경쟁 역부족\"",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49709",
+      "summary": "올해 3분기 북미 산업용 로봇 주문은 전년보다 25% 늘어난 약 1만1000대, 협동로봇은 56% 증가했어요. 하지만 중국은 새 공장을 짓는 반면 미국은 기존 공장 개조에 머물러 경쟁이 어렵다는 지적이 나와요.",
+      "source": "로봇신문",
+      "time": "11/22 19:04"
+    },
+    {
+      "category": "industrial",
+      "title": "[르포] 로봇이 도축하고 베테랑이 발골…제주 축산물 세계 식탁으로",
+      "url": "https://www.etnews.com/20261122000015",
+      "summary": "제주양돈농협 유통센터에서는 비전 카메라로 돼지 위치를 인식해 절단하는 로봇과 세척 로봇이 도축 공정을 맡고, 발골은 숙련공이 해요. 신선 돼지고기 수출은 올해 10월까지 219% 늘었어요.",
+      "source": "전자신문",
+      "time": "11/22 14:24"
+    },
+    {
+      "category": "service",
+      "title": "연구진, 기체 폭 절반 이하로 줄이는 변형 드론 개발…15cm 좁은 틈 통과",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49727",
+      "summary": "장애물에 닿으면 팔이 휘어지는 쿼드로터 드론이 나왔어요. 폭 31.3cm 기체가 14.1cm로 줄어 15cm 틈을 통과하며, 복잡한 센서 대신 기계 구조를 활용해 재난 현장 탐색 등에 쓰일 전망이에요.",
+      "source": "로봇신문",
+      "time": "11/23 00:57"
+    },
+    {
+      "category": "service",
+      "title": "지오로봇, 美 매사추세츠대 의대와 MOU… 북미 병원 물류 로봇 시장 정조준",
+      "url": "https://www.etnews.com/20261123000053",
+      "summary": "AMR 기업 지오로봇이 미국 매사추세츠대 챈 의대와 협약을 맺고 병원 물류 로봇의 사용성·안전성을 검증해요. 현지 실증을 거쳐 북미 헬스케어 시장으로 사업을 넓힐 계획이에요.",
+      "source": "전자신문",
+      "time": "11/23 08:58"
+    },
+    {
+      "category": "service",
+      "title": "[인터뷰] 김송현 시에라베이스 대표 \"사람이 오르던 굴뚝, 이제 드론이 먼저 오른다\"",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49700",
+      "summary": "시에라베이스는 자율주행 드론이 굴뚝·사일로를 촬영하면 AI가 손상을 찾아내는 점검 솔루션으로 국제로봇콘테스트 1위를 했어요. 점검 시간 80% 단축 효과를 내세우며 연내 일본 법인 설립을 목표로 해요.",
+      "source": "로봇신문",
+      "time": "11/23 02:24"
+    },
+    {
+      "category": "service",
+      "title": "中 아톰로봇, 위성 탑재 우주 로봇 공개",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49721",
+      "summary": "중국 아톰로봇이 상업용 궤도 서비스에 쓸 수 있는 재사용형 우주 로봇을 공개했어요. 테스트 플랫폼이 '윈야오 1호28' 위성에 실려 궤도에 올랐고, 영상 촬영·환경 감지 데이터를 보내오고 있어요.",
+      "source": "로봇신문",
+      "time": "11/22 21:06"
+    },
+    {
+      "category": "business",
+      "title": "로보티즈, 폴렌로보틱스에 40억원 규모 액추에이터 공급",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49712",
+      "summary": "로보티즈가 프랑스 폴렌로보틱스와 약 39억8천만원 규모 '다이나믹셀-X' 1차 공급계약을 맺었어요. 2027년 상반기부터는 우즈베키스탄 공장으로 연 100만 개 생산능력을 더할 계획이에요.",
+      "source": "로봇신문",
+      "time": "11/22 19:29"
+    },
+    {
+      "category": "business",
+      "title": "존디어, 농업 AI 기업 '오차드 로보틱스' 인수…작물 단위 정밀농업 강화",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49726",
+      "summary": "존디어가 과수 등 작물을 나무 한 그루 단위로 분석하는 오차드 로보틱스를 인수했어요. 이 기술을 자사 정밀농업·농기계 플랫폼에 결합할 계획이며, 인수 금액은 공개되지 않았어요.",
+      "source": "로봇신문",
+      "time": "11/23 00:52"
+    },
+    {
+      "category": "business",
+      "title": "中 샤오미 CEO \"로봇 산업, 자동차 산업 넘어설 것\"",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49719",
+      "summary": "레이쥔 샤오미 CEO가 APEC CEO 서밋에서 로봇 산업이 자동차 산업을 넘어설 것이라고 전망했어요. 샤오미는 자체 모델을 쓴 가정용 로봇을 시범 운영 중이고, 자동차 공장 휴머노이드도 검증했어요.",
+      "source": "로봇신문",
+      "time": "11/22 20:37"
+    },
+    {
+      "category": "policy_event",
+      "title": "한국로봇산업진흥원-육군 제2작전사령부, 국방 분야 첨단로봇·피지컬 AI 도입 확대를 위한 업무협약 체결",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49713",
+      "summary": "로봇산업진흥원과 육군 2작전사가 국방 로봇·피지컬 AI 도입 확대 협약을 맺었어요. 진흥원은 현장 수요를 실증과제로 기획하고, 2작전사는 시범부대·테스트베드를 제공해 병력 감소에 대응해요.",
+      "source": "로봇신문",
+      "time": "11/22 19:42"
+    },
+    {
+      "category": "policy_event",
+      "title": "유엔, '킬러로봇' 국제 규제 합의 불발…2028년까지 논의 연장",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49724",
+      "summary": "제네바 CCW 회의에서 AI 자율살상무기(킬러로봇)에 대한 법적 구속력 있는 규제 합의가 무산됐어요. 약 100개국이 규제를 지지했지만 미국·러시아 등이 반대해, 2028년까지 논의만 이어가기로 했어요.",
+      "source": "로봇신문",
+      "time": "11/23 00:40"
+    },
+    {
+      "category": "policy_event",
+      "title": "금주의 로봇 캘린더(2026. 11. 23~ 11. 29)",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49729",
+      "summary": "이번 주 로봇 행사 일정이에요. 24일 서울역에서 휴머노이드 플랫폼 챌린지 대회 사전 설명회가, 25일에는 클로봇의 보스턴다이내믹스 SPOT 데모룸 공개 행사가 열려요.",
+      "source": "로봇신문",
+      "time": "11/23 01:48"
+    }
+  ]
+}
