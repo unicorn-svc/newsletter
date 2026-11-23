@@ -1,0 +1,272 @@
+{
+  "published_at": "2026-11-24T09:00",
+  "title": "AI 뉴스레터",
+  "emoji": "🤖",
+  "sources": ["AI Times", "지디넷", "전자신문", "TechCrunch", "VentureBeat", "MIT News"],
+  "articles": [
+    {
+      "category": "genai",
+      "title": "애플, 실시간 영상 생성 AI '패스트프레임' 공개…36ms 지연",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217686",
+      "summary": "애플이 실시간 상호작용이 가능한 영상 생성 AI 모델 '패스트프레임'을 공개. 디코딩과 캐시 갱신 단계를 최적화해 지연을 36ms로 낮췄다고 소개.",
+      "source": "AI Times",
+      "time": "11/23 --:--"
+    },
+    {
+      "category": "genai",
+      "title": "앤트로픽, AI 에이전트가 코드 변경을 검토·수정·승인하는 'Claude Ship' 출시",
+      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "summary": "앤트로픽이 AI 에이전트가 코드 변경 사항을 검토하고 수정하며 승인까지 수행하는 개발자용 서비스 'Claude Ship'을 출시했다. 코드 리뷰 자동화에 AI 에이전트가 직접 개입하는 첫 사례로 주목받고 있다.",
+      "source": "TechCrunch",
+      "time": "11/23 --:--"
+    },
+    {
+      "category": "genai",
+      "title": "Claude Fable 5.2, VentureBeat 버그 수정 테스트에서 Opus 5.5와 비슷한 성과에 비용은 약 3배",
+      "url": "https://venturebeat.com/orchestration/claude-fable-5-2-cost-three-times-as-much-as-opus-5-5-for-nearly-the-same-results-in-a-venturebeat-bug-fixing-test",
+      "summary": "VentureBeat가 코드베이스에 버그를 심어 Claude Fable 5.2와 Opus 5.5를 비교한 결과, 어려운 버그에서만 차이가 났으며 Fable 5.2는 Opus 5.5 대비 약 3배의 비용이 들었다는 분석이다.",
+      "source": "VentureBeat",
+      "time": "11/23 --:--"
+    },
+    {
+      "category": "tech",
+      "title": "애플, 사진·영상 속 실제 거리 추정하는 AI '뎁스 프로 2' 공개",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217692",
+      "summary": "애플이 일반 카메라 사진과 영상만으로 사물까지의 실제 거리를 m 단위로 추정하는 AI 모델 '뎁스 프로 2'를 공개. 별도 센서 없이 거리 측정이 가능해진다.",
+      "source": "AI Times",
+      "time": "11/23 --:--"
+    },
+    {
+      "category": "tech",
+      "title": "엔비디아, 차량에서 직접 추론하는 자율주행 모델 '알파마요 2 엣지' 공개",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217700",
+      "summary": "엔비디아가 차량용 컴퓨팅에서 복잡한 추론을 수행하는 경량 AI 모델 '알파마요 2 엣지'를 공개하며 자율주행 온디바이스화에 속도를 내고 있다.",
+      "source": "AI Times",
+      "time": "11/23 --:--"
+    },
+    {
+      "category": "tech",
+      "title": "AI 컨텍스트 창만 키워선 오답 못 줄여…정보 선별이 핵심",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217701",
+      "summary": "기업이 AI 에이전트에 내부 정보를 많이 넣는다고 정확도가 오르지 않으며, 고객지원 문서에 상충하는 지침이 섞이면 오답이 난다는 연구 결과가 나왔다.",
+      "source": "AI Times",
+      "time": "11/23 --:--"
+    },
+    {
+      "category": "tech",
+      "title": "\"AI 에이전트 경쟁 불붙었는데\"…애플, 개발 방식이 발목 잡나",
+      "url": "https://zdnet.co.kr/view/?no=20261123122408",
+      "summary": "AI 에이전트 경쟁이 본격화된 상황에서 애플의 폐쇄적 개발 방식이 경쟁력의 발목을 잡고 있다는 분석이 나왔다.",
+      "source": "지디넷",
+      "time": "11/23 12:24"
+    },
+    {
+      "category": "chip",
+      "title": "캘리포니아, 엔비디아 형사법 위반 가능성 조사…불법 수익 환수도 검토",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217680",
+      "summary": "캘리포니아주가 엔비디아의 중국 AI 칩 판매 의혹과 관련해 형사법 위반 가능성을 조사 중이다. 위법이 확인되면 불법 수익 환수와 판매 금지도 가능하다.",
+      "source": "AI Times",
+      "time": "11/23 --:--"
+    },
+    {
+      "category": "chip",
+      "title": "앨리스 황 뒤 숨은 실세 기소…엔비디아 칩 중국 유출 거래망 주도",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217678",
+      "summary": "엔비디아 첨단 AI 칩을 동남아를 거쳐 중국으로 빼돌린 것으로 의심되는 거래망의 핵심 운영자 중국인 리밍이 기소됐다.",
+      "source": "AI Times",
+      "time": "11/23 --:--"
+    },
+    {
+      "category": "chip",
+      "title": "미 재무장관, 젠슨 황 복귀 여부에 \"수출 규제 위반부터 확인해야\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217675",
+      "summary": "스콧 베선트 미 재무장관이 젠슨 황의 엔비디아 복귀에 앞서 수출 통제 위반 의혹의 책임 소재를 먼저 확인해야 한다고 밝혔다.",
+      "source": "AI Times",
+      "time": "11/23 --:--"
+    },
+    {
+      "category": "chip",
+      "title": "아마존, AI 최적화 기술 기업 'Decart'를 75억 달러에 인수…Trainium 칩 판매 준비",
+      "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+      "summary": "아마존이 AI 최적화 기술 기업 Decart를 75억 달러(약 10조원)에 인수했다. 아마존은 자체 AI 칩 Trainium을 외부에 판매할 준비도 하고 있는 것으로 알려졌다.",
+      "source": "TechCrunch",
+      "time": "11/23 --:--"
+    },
+    {
+      "category": "chip",
+      "title": "전력반도체 시장 2031년 92조원…AI·로봇이 성장 이끌어",
+      "url": "https://www.etnews.com/20261123000330",
+      "summary": "전력반도체 시장이 2031년 약 92조원 규모로 성장할 것이라는 전망이 나왔다. AI와 로봇 수요가 주요 성장 동력으로 꼽혔다.",
+      "source": "전자신문",
+      "time": "11/23 --:--"
+    },
+    {
+      "category": "chip",
+      "title": "AI 기반 기법으로 엔지니어가 아날로그 칩을 더 빠르고 저렴하게 설계",
+      "url": "https://news.mit.edu/2026/ai-driven-technique-could-help-engineers-design-analog-chips-faster-and-less-expensive-1123",
+      "summary": "MIT 연구팀이 개발한 'SLIC' 학습 방법을 적용하면 소규모 AI 모델이 복잡한 아날로그 회로 설계 과제에서 대형 모델과 경쟁할 수 있다는 연구 결과가 나왔다.",
+      "source": "MIT News",
+      "time": "11/23 --:--"
+    },
+    {
+      "category": "biz",
+      "title": "머스크, AI 업계 자금난 재차 경고…\"2027년 수천억달러 추가 필요\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217699",
+      "summary": "일론 머스크가 AI 데이터센터 가동 지연으로 내년 업계 전체에 수천억 달러의 자금 부족이 생길 수 있다고 경고했다.",
+      "source": "AI Times",
+      "time": "11/23 --:--"
+    },
+    {
+      "category": "biz",
+      "title": "AI 데이터센터 IPO 잇단 차질…데이원도 50억달러 미국 상장 보류",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217688",
+      "summary": "싱가포르 데이터센터 기업 데이원이 최대 50억 달러 규모 미국 IPO를 잠정 보류했다. 최근 AI 데이터센터 관련 기업들의 IPO 추진이 잇따라 차질을 빚고 있다.",
+      "source": "AI Times",
+      "time": "11/23 --:--"
+    },
+    {
+      "category": "biz",
+      "title": "앤트로픽, IPO 은행에 오픈AI 등 경쟁사 업무 6개월 제한 요구…월가 불만",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217689",
+      "summary": "앤트로픽이 IPO에 참여한 투자은행 담당자들에게 오픈AI 등 경쟁사와의 업무를 6개월간 제한하도록 요구했다는 보도가 나왔다. 월가에서 불만이 나오고 있다.",
+      "source": "AI Times",
+      "time": "11/23 --:--"
+    },
+    {
+      "category": "biz",
+      "title": "앤트로픽 상장 이틀째 급락…차익실현에 SK텔레콤도 주가 6%↓",
+      "url": "https://www.etnews.com/20261123000284",
+      "summary": "앤트로픽이 상장 이틀째 급락했고 차익실현 매물의 영향으로 SK텔레콤 주가도 6% 하락했다.",
+      "source": "전자신문",
+      "time": "11/23 --:--"
+    },
+    {
+      "category": "biz",
+      "title": "중국 AI 열풍 급랭…5개월간 기술주 시총 2300조 증발",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217683",
+      "summary": "중국의 AI 투자 열기가 식으면서 주요 기술주 지수 기업들의 시가총액이 5개월간 약 1조7000억 달러(약 2300조원) 감소한 것으로 나타났다.",
+      "source": "AI Times",
+      "time": "11/23 --:--"
+    },
+    {
+      "category": "biz",
+      "title": "Sierra, AI 고객경험 수요 급증에 6개월 만에 기업가치 300억달러로 두 배",
+      "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+      "summary": "고객 서비스용 AI 에이전트 기업 Sierra의 기업가치가 6개월 만에 두 배인 300억 달러가 됐다는 소식이다. 기업용 AI 에이전트 시장의 급성장을 보여주는 사례로 꼽힌다.",
+      "source": "TechCrunch",
+      "time": "11/23 --:--"
+    },
+    {
+      "category": "biz",
+      "title": "구글 AI 검색 광고 수익성 저하…애플·레딧도 영향",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217698",
+      "summary": "구글 AI 검색 이용이 늘면서 기존 검색보다 광고 수익성이 낮아지는 문제가 부각되고 있다. 광고 수익을 나누는 애플과 레딧도 영향을 받고 있다.",
+      "source": "AI Times",
+      "time": "11/23 --:--"
+    },
+    {
+      "category": "service",
+      "title": "[단독] 카카오표 '모두의 AI', 상표명 '톡톡' 유력",
+      "url": "https://zdnet.co.kr/view/?no=20261123150151",
+      "summary": "카카오의 AI 서비스 '모두의 AI'의 상표명으로 '톡톡'이 유력하다는 단독 보도가 나왔다.",
+      "source": "지디넷",
+      "time": "11/23 15:01"
+    },
+    {
+      "category": "service",
+      "title": "AI 에이전트 '피클' 등장…'모두의 AI' 출시 전 선보인 에이전트",
+      "url": "https://www.etnews.com/20261123000346",
+      "summary": "카카오의 '모두의 AI' 출시 전에 AI 에이전트 '피클'이 등장했다. 출시를 앞두고 선보이는 사전 에이전트 서비스로 주목받고 있다.",
+      "source": "전자신문",
+      "time": "11/23 --:--"
+    },
+    {
+      "category": "service",
+      "title": "구글 검색 AI 모드, Drive·Wallet 연동으로 개인화 답변 강화",
+      "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
+      "summary": "구글 검색의 AI 모드가 Google Drive와 Wallet 정보를 활용해 사용자에게 더 개인화된 답변을 제공할 수 있게 됐다.",
+      "source": "TechCrunch",
+      "time": "11/23 --:--"
+    },
+    {
+      "category": "service",
+      "title": "KT, 한국수자원공사와 물관리 분야 피지컬AI 협력",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217690",
+      "summary": "KT와 한국수자원공사가 물관리 분야 피지컬 AI 구축 협력을 위한 업무협약(MOU)을 체결했다.",
+      "source": "AI Times",
+      "time": "11/23 --:--"
+    },
+    {
+      "category": "service",
+      "title": "파리크라상, AI 스캐너 연내 250개 매장 추진…빵집 계산 자동화",
+      "url": "https://www.etnews.com/20261123000315",
+      "summary": "파리크라상이 빵집 계산 자동화를 위해 AI 스캐너를 연내 250개 매장에 도입하는 방안을 추진 중이다.",
+      "source": "전자신문",
+      "time": "11/23 --:--"
+    },
+    {
+      "category": "service",
+      "title": "AI가 코딩해도 개발자는 살아남는다…AWS가 전한 생존 전략",
+      "url": "https://zdnet.co.kr/view/?no=20261123090554",
+      "summary": "AWS 개발자 애드보킷이 AI 코딩 시대의 개발자 생존 전략으로 호기심과 실험 정신, 신입 개발자의 지속적 학습을 강조했다.",
+      "source": "지디넷",
+      "time": "11/23 09:05"
+    },
+    {
+      "category": "policy",
+      "title": "오픈AI \"사전학습으로 AI 지능 급성장…RSI 대비해 개발 제한해야\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217665",
+      "summary": "오픈AI가 AI 지능 수준을 측정할 수 있는 사전학습 성능 수치를 공개하고, 주요 AI 기업이 공동으로 지킬 개발 제한선을 제안했다.",
+      "source": "AI Times",
+      "time": "11/23 --:--"
+    },
+    {
+      "category": "policy",
+      "title": "오픈AI 이사 \"1년 내 AI 재앙 위험 4%→10% 수준\"…개발 중단 촉구",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217696",
+      "summary": "오픈AI 재단 이사회 AI 안전 전문가 폴 크리스티아노가 향후 1년 내 AI가 통제를 벗어나 재앙적 사태를 일으킬 위험이 10%에 가까워졌다고 경고하며 개발 중단을 촉구했다.",
+      "source": "AI Times",
+      "time": "11/23 --:--"
+    },
+    {
+      "category": "policy",
+      "title": "미 주지사들 \"AI 규제, 연방정부 독점 안 돼\"",
+      "url": "https://zdnet.co.kr/view/?no=20261123092146",
+      "summary": "미 민주·공화 양당 주지사들이 연방 차원의 AI 규제 도입을 촉구하면서 주정부의 규제 권한도 유지해야 한다고 요구했다.",
+      "source": "지디넷",
+      "time": "11/23 09:21"
+    },
+    {
+      "category": "policy",
+      "title": "AI 안경 '몰래 촬영' 막는다…촬영 표시·사적 촬영 고지 의무화 추진",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217681",
+      "summary": "AI 안경으로 촬영할 때 상대방이 알 수 있도록 하는 법안이 발의됐다. 제조 단계 촬영표시 기능 탑재 의무화와 사적 촬영 고지 의무가 포함된다.",
+      "source": "AI Times",
+      "time": "11/23 --:--"
+    },
+    {
+      "category": "policy",
+      "title": "INSS \"한국, AI 속도조절 영향력 부족\"",
+      "url": "https://zdnet.co.kr/view/?no=20261123220125",
+      "summary": "한국은 AI 공급망 경쟁력은 높지만 프런티어 AI의 출시 전 평가에 접근하지 못해 AI 속도조절 국제 논의에서 영향력이 제한된다는 분석이 나왔다.",
+      "source": "지디넷",
+      "time": "11/23 22:01"
+    },
+    {
+      "category": "robot",
+      "title": "'GPT-6'가 로봇의 두뇌까지 맡기 시작했다는 것의 의미",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217684",
+      "summary": "유니트리 CEO가 오픈AI 'GPT-6 아스트라'를 활용해 휴머노이드가 별도 작업별 훈련 없이 그림을 그리고 체스를 두는 모습을 공개했다. 범용 AI가 로봇 두뇌로 활용되는 시대의 시작을 알리는 사례다.",
+      "source": "AI Times",
+      "time": "11/23 --:--"
+    },
+    {
+      "category": "security",
+      "title": "비드래프트, AI 보안 커널 공개 검증…70명 참가해 공격 사례 245건 제출",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217670",
+      "summary": "비드래프트가 AI 에이전트의 위험한 도구 실행을 차단하는 보안 기술을 해커톤으로 공개 검증했다. 약 70명이 참가해 245건의 공격 사례를 제출했다.",
+      "source": "AI Times",
+      "time": "11/23 --:--"
+    }
+  ]
+}
