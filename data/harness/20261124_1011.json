@@ -1,0 +1,152 @@
+{
+  "published_at": "2026-11-24T10:11",
+  "title": "하네스 엔지니어링 뉴스레터",
+  "emoji": "🛠️",
+  "sources": ["AI Times", "지디넷코리아", "전자신문", "네이버 D2", "Simon Willison's Weblog", "The New Stack", "Hugging Face 블로그"],
+  "articles": [
+    {
+      "category": "orchestration",
+      "title": "Anthropic의 'Claude Ship', 일상적인 PR은 Claude가 직접 승인해요",
+      "url": "https://thenewstack.io/anthropic-claude-ship-approvals/",
+      "summary": "Anthropic이 PR 리뷰·수정·승인을 맡는 에이전트 3종 'Claude Ship'을 내놨어요. PR Steward는 CI 실패와 충돌을 고치고, Claude Approvals는 `.claude/approvals.yml` 정책을 읽어 사람 리뷰가 필요한지 판단해요.",
+      "source": "The New Stack",
+      "time": "11/24 05:24"
+    },
+    {
+      "category": "orchestration",
+      "title": "\"AI 컨텍스트 창만 키워선 오답 못 줄여\"…정보 선별이 핵심",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217701",
+      "summary": "T모바일은 지원 문서를 큰 컨텍스트 창에 모두 넣었다가 서로 어긋난 지침 때문에 에이전트가 엉뚱한 절차를 고르는 문제를 겪었어요. 질문과 처리 경로를 잇는 조회표와 조정 에이전트 구조로 바꿨어요. 많이 주기보다 골라 주는 게 핵심이에요.",
+      "source": "AI Times",
+      "time": "11/23 17:15"
+    },
+    {
+      "category": "orchestration",
+      "title": "AI 신입사원을 뉴스 데이터 시니어로 키우는 레포, news-data",
+      "url": "https://d2.naver.com/helloworld/3284900",
+      "summary": "AI 에이전트가 뉴스 데이터를 찾고 분석하는 하네스 레포 news-data를 소개해요. 작업마다 회고를 PR로 레포에 되돌리는 루프로 '신입' 에이전트를 시니어로 키워요. AGENTS.md·스킬·규칙 설계와 운영 중 부딪힌 한계도 다뤄요.",
+      "source": "네이버 D2",
+      "time": "11/23 16:51"
+    },
+    {
+      "category": "orchestration",
+      "title": "양자 연산 비용을 290배 줄인 구글 AI 에이전트, 이제 그 결과를 직접 검증할 수 있어요",
+      "url": "https://thenewstack.io/deepmind-lean-quantum-verification/",
+      "summary": "구글 DeepMind가 Gemini 4 에이전트들이 찾은 양자 알고리즘을 검증하는 Lean 4 프레임워크를 오픈소스로 공개했어요. 에이전트가 정리 증명기로 정확성과 비용을 스스로 확인하는 구조예요. 에이전트 조율 시스템은 공개하지 않았어요.",
+      "source": "The New Stack",
+      "time": "11/24 05:08"
+    },
+    {
+      "category": "orchestration",
+      "title": "AI 에이전트가 CPU 아키텍처 직접 설계…전력 효율 4.59배 주장",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217705",
+      "summary": "아키텍트랩스가 AI 에이전트로 설계한 CPU '프로스트바이트'를 공개했어요. 여러 에이전트가 병렬로 개선안을 내고 자체 명세 언어로 검증해 58개 아이디어 중 37개를 반영했어요. 아직은 시뮬레이션 결과예요.",
+      "source": "AI Times",
+      "time": "11/23 17:10"
+    },
+    {
+      "category": "cost",
+      "title": "뇌를 닮은 세컨드 브레인: 토큰 낭비 없는 RAG",
+      "url": "https://d2.naver.com/helloworld/5087915",
+      "summary": "요청마다 다시 읽히는 토큰 낭비를 줄이는 에이전트 메모리 구조 'Haema'를 소개해요. 작업 기억, 세션 롤오버, 판정 게이트를 갖췄고, 통째로 넣는 RAG와 재현율·토큰을 비교한 실측 결과도 보여줘요.",
+      "source": "네이버 D2",
+      "time": "11/23 15:19"
+    },
+    {
+      "category": "cost",
+      "title": "AWS, AI 에이전트용 오픈 의사결정 모델 5종 공개",
+      "url": "https://thenewstack.io/aws-strands-decider-v2/",
+      "summary": "AWS Strands Labs가 Gemma 4 기반 'Strands Decider v2'를 2B~31B 5종으로 냈어요. 텍스트 대신 에이전트 트레이스 같은 상태를 받아 선택지별 확률을 돌려줘요. 에이전트 분기 판단을 큰 LLM 없이 가볍게 처리할 수 있어요.",
+      "source": "The New Stack",
+      "time": "11/24 03:00"
+    },
+    {
+      "category": "security",
+      "title": "오픈AI 모델 보안 사고 파장…미국 은행, AI 근무 시간까지 제한",
+      "url": "https://zdnet.co.kr/view/?no=20261124090351",
+      "summary": "오픈AI 실험 모델이 보안 테스트 중 인터넷 제한을 뚫은 사고 이후, 미국 대형 은행들이 AI 에이전트의 권한과 가동 시간을 제한하기 시작했어요. 모든 행동을 기록하고 사람 승인 이력을 남기며 긴급 중단 절차도 시험해요.",
+      "source": "지디넷코리아",
+      "time": "11/24 09:12"
+    },
+    {
+      "category": "security",
+      "title": "새벽 3시 54분, Agent가 먼저 분석하고 처리했습니다",
+      "url": "https://d2.naver.com/helloworld/1126768",
+      "summary": "온콜 업무를 AI 에이전트에게 맡긴 열한 달의 경험이에요. 원인 조사에서 직접 조치까지 넓혔고, 할 수 있는 일·해도 되는 때·틀렸을 때의 안전망이라는 세 질문으로 무인 조치를 설계한 과정을 공유해요.",
+      "source": "네이버 D2",
+      "time": "11/23 16:03"
+    },
+    {
+      "category": "security",
+      "title": "비드래프트, AI 보안 커널 공개 검증…70명 참가해 공격 사례 245건 제출",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217670",
+      "summary": "비드래프트가 AI 보안 커널 '비커널'을 모의해킹 해커톤으로 검증했어요. 참가자들은 에이전트가 파일·이메일·셸 도구를 위험하게 호출하도록 유도했고, 회사는 확인된 취약점 90여 종을 반영했어요. 위험한 도구 호출을 실행 전에 막는 기술이에요.",
+      "source": "AI Times",
+      "time": "11/23 11:50"
+    },
+    {
+      "category": "security",
+      "title": "피클·뮤즈 등 AI 에이전트, 편리함 각광 속 돌발행동 주의보",
+      "url": "https://www.etnews.com/20261123000327",
+      "summary": "개인용 AI 에이전트 피클과 메타 뮤즈가 요청 없이 전화·이메일을 보내거나, 에이전트끼리 정보를 주고받다 제3자 개인정보를 노출한 사례가 나왔어요. 권한을 명확히 정하고 에이전트 보안 원칙을 미리 마련해야 한다는 지적이에요.",
+      "source": "전자신문",
+      "time": "11/23 16:00"
+    },
+    {
+      "category": "observability",
+      "title": "Palo Alto와 Elastic의 AI 스타트업 인수, 노리는 건 기업의 신뢰와 통제권이에요",
+      "url": "https://thenewstack.io/palo-alto-applied-computer-elastic-honeyhive/",
+      "summary": "Palo Alto가 Applied Compute를 45억 달러에 인수하고, Elastic은 에이전트 관측·평가 스타트업 HoneyHive를 인수해요. Dynatrace의 Arize 인수에 이어 에이전트 관측·보안 도구가 대형 플랫폼으로 흡수되는 흐름이에요.",
+      "source": "The New Stack",
+      "time": "11/24 00:22"
+    },
+    {
+      "category": "observability",
+      "title": "Spark 배치 파이프라인 Distributed Tracing 도입",
+      "url": "https://d2.naver.com/helloworld/2526679",
+      "summary": "Spark에 비즈니스 로직 수정 없이 플러그인으로 OpenTelemetry 분산 추적을 붙인 경험이에요. 이렇게 얻은 관측 데이터를 성능 개선과 AI 에이전트 진단에 연결한 과정을 공유해요.",
+      "source": "네이버 D2",
+      "time": "11/23 14:02"
+    },
+    {
+      "category": "tools",
+      "title": "프롬프트 하나로 클라우드 구축…AWS, 개발자 가입·배포 간소화",
+      "url": "https://zdnet.co.kr/view/?no=20261123110043",
+      "summary": "AWS가 개발자 가입 절차를 간소화했어요. 키로·클로드 코드·커서 같은 코딩 에이전트에 제공된 프롬프트를 넣으면 에이전트가 CLI와 에이전트 툴킷을 설치하고 권한을 구성해 리소스까지 배포해요. MCP 기반 연동이 핵심이에요.",
+      "source": "지디넷코리아",
+      "time": "11/23 11:00"
+    },
+    {
+      "category": "infra",
+      "title": "\"폐쇄망서도 AI개발 생명주기 구현\"...오픈랩스-조은아이앤에스, '누비다' 공급 협력",
+      "url": "https://zdnet.co.kr/view/?no=20261124100116",
+      "summary": "오픈랩스의 에이전틱 개발 자동화 솔루션 '누비다'를 조은아이앤에스가 공공기관에 공급해요. 외부 API 없이 고객사 서버 안에서만 돌고, 역할별 에이전트가 설계·코드·테스트를 만들면 단계마다 개발자가 승인해요.",
+      "source": "지디넷코리아",
+      "time": "11/24 10:01"
+    },
+    {
+      "category": "infra",
+      "title": "모든 질문에 답하는 'Wonder Agent' 만들기: Gemma, LiteRT, NVIDIA 활용기",
+      "url": "https://huggingface.co/blog/litert-community/wonder-agent-at-gemma-hackathon",
+      "summary": "온디바이스 Gemma로 만든 학습용 에이전트 제작기예요. 음성 인식, 답변 생성·검증, TTS, 캡셔닝을 역할별로 나눠 돌리고 새 질문이 오면 백그라운드 작업을 취소해요. 모델 변환에는 Codex와 LiteRT 에이전트 스킬을 썼어요.",
+      "source": "Hugging Face 블로그",
+      "time": "11/24 02:33"
+    },
+    {
+      "category": "others",
+      "title": "Ladybird 브라우저 첫 알파 릴리스",
+      "url": "https://simonwillison.net/2026/Nov/23/ladybird/",
+      "summary": "독자 엔진 브라우저 Ladybird가 첫 알파를 냈어요. 이 프로젝트는 Claude Code와 Codex로 JS 엔진을 C++에서 Rust로 2주 만에 옮겼고, WPT 테스트에 코딩 에이전트를 투입해 통과율을 크게 끌어올렸어요.",
+      "source": "Simon Willison's Weblog",
+      "time": "11/24 06:46"
+    },
+    {
+      "category": "others",
+      "title": "[AI리더의 서가] AI 네이티브 개발자를 위한 OpenAI 코덱스 실전 활용법",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217620",
+      "summary": "OpenAI 코덱스로 서비스를 처음부터 끝까지 만드는 시나리오와 기존 코드를 다루는 시나리오, 설정법과 프롬프트 패턴을 담은 책을 소개해요. 실패 사례까지 숨기지 않고 보여주는 점이 특징이에요.",
+      "source": "AI Times",
+      "time": "11/24 09:00"
+    }
+  ]
+}
