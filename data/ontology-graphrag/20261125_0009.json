@@ -1,0 +1,77 @@
+{
+  "published_at": "2026-11-25T00:09",
+  "title": "온톨로지와 GraphRAG 뉴스레터",
+  "emoji": "🕸️",
+  "sources": [
+    "전자신문",
+    "AI Times",
+    "Neo4j 블로그",
+    "arXiv"
+  ],
+  "articles": [
+    {
+      "category": "semantic_layer",
+      "title": "'2027 AX 성패, 맥락이 가른다'...컨텍스트 플랫폼 전략 세미나 12월 10일 개최",
+      "url": "https://www.etnews.com/20261124000302",
+      "summary": "12월 10일 'AI가 우리 회사를 이해하게 만드는' 컨텍스트 플랫폼 세미나가 열려요. 메가존클라우드는 지식·메모리·도구·거버넌스 4계층 구조를, 빅스터는 기업 온톨로지 기반 시맨틱 레이어 설계를 시연하고 딜로이트·KT 등 구축 사례도 소개해요.",
+      "source": "전자신문",
+      "time": "11/24 13:25"
+    },
+    {
+      "category": "case",
+      "title": "\"AI 컨텍스트 창만 키워선 오답 못 줄여\"…정보 선별이 핵심",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217701",
+      "summary": "T모바일은 지식그래프가 느리고 고객 표현 해석이 약해 단순 조회 테이블로 바꿨지만, 우버는 지식그래프로 데이터 테이블 탐색을 20분에서 38초로 줄였어요. 과제에 맞는 정보 구조를 골라야 한다는 실무 교훈이에요.",
+      "source": "AI Times",
+      "time": "11/23 17:15"
+    },
+    {
+      "category": "ontology",
+      "title": "\"2027년 업무 경쟁력, 12월에 준비한다\" AI 실전교육 4종 개최",
+      "url": "https://www.etnews.com/20261124000154",
+      "summary": "12월 AI 실습 교육 4종 중 17일 과정은 비개발자를 위한 '온톨로지 기반 지식체계 설계' 워크숍이에요. 온톨로지·지식그래프·GraphRAG의 차이와 역할을 실습으로 다뤄 사내 역량 강화에 참고할 만해요.",
+      "source": "전자신문",
+      "time": "11/24 10:18"
+    },
+    {
+      "category": "case",
+      "title": "유럽 기관을 위한 신뢰할 수 있는 인텔리전스와 AI 구축: 흩어진 데이터에서 연결된 지식으로",
+      "url": "https://neo4j.com/blog/government/trusted-ai-for-european-institutions/",
+      "summary": "유럽연합 집행위원회의 식품 안전·사기 조사 시스템 TraceMap이 Neo4j 지식그래프로 국경을 넘어 흩어진 정보를 연결한 사례예요. 데이터 거버넌스와 엔터티 해석(entity resolution)이 신뢰할 수 있는 AI의 핵심이라고 강조해요.",
+      "source": "Neo4j 블로그",
+      "time": "11/24 18:14"
+    },
+    {
+      "category": "kg",
+      "title": "Neo4j GraphAware 솔루션, AWS 마켓플레이스 출시",
+      "url": "https://neo4j.com/blog/news/graphaware-solutions-aws-marketplace/",
+      "summary": "그래프 기반 조사 플랫폼 GraphAware Hume 위의 정보 분석·금융범죄 분석 솔루션을 AWS 마켓플레이스에서 살 수 있게 됐어요. 고객 AWS 환경(GovCloud 포함)에 CloudFormation으로 배포해 Neo4j Enterprise와 연결해 써요.",
+      "source": "Neo4j 블로그",
+      "time": "11/23 18:40"
+    },
+    {
+      "category": "research",
+      "title": "SuSi-RAG: 설비 유지보수를 위한 하이브리드 그래프 RAG",
+      "url": "https://arxiv.org/abs/2611.30588",
+      "summary": "질문과 정비 기록을 서브그래프 유사도로 매칭하는 하이브리드 그래프 RAG예요. 보쉬 생산라인에서 8개월 넘게 1만 건 이상 실운영했고, 벡터 RAG 대비 top-1 검색 정확도 61.5%→96.2%, 답변 품질 44.9%→84.1%로 올랐어요.",
+      "source": "arXiv",
+      "time": "11/23 21:27"
+    },
+    {
+      "category": "research",
+      "title": "프롬프트만이 아니라 지식을 캐시하라: LLM 에이전트의 행동 언어로서의 동적 Datalog",
+      "url": "https://arxiv.org/abs/2611.29709",
+      "summary": "지식그래프 질의 에이전트에게 Datalog REPL을 줘서 앞서 도출한 관계를 다음 질문에 재사용하게 해요. 1,300만 개 사실 위 연속 질문에서 처리 시간이 줄고, SQL·Python 에이전트보다 출력 토큰도 적게 썼어요.",
+      "source": "arXiv",
+      "time": "11/23 04:20"
+    },
+    {
+      "category": "research",
+      "title": "LLM이 데이터 모델을 추측할 때의 함정: Text-to-SQL의 팬아웃 오류를 막는 그레인 인식 가드와 벤치마크",
+      "url": "https://arxiv.org/abs/2611.29009",
+      "summary": "일대다 조인에서 합계·건수가 중복 집계되는 '팬아웃' 오류는 스키마에 드러나지 않는 측정 단위(그레인) 정보 때문이에요. 이를 명시하면 오류를 줄일 수 있어 시맨틱 레이어 설계에 참고할 만해요.",
+      "source": "arXiv",
+      "time": "11/22 04:39"
+    }
+  ]
+}
