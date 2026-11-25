@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>하네스 엔지니어링 뉴스레터 | 2026년 11월 25일</title>
+  <style>
+    body{margin:0;background:#f3f6fb;color:#172033;font-family:Arial,"Noto Sans KR",sans-serif;line-height:1.65}
+    .wrap{max-width:900px;margin:0 auto;padding:28px 16px 60px}
+    .hero{padding:36px 40px;border-radius:20px;background:linear-gradient(135deg,#172554,#2563eb);color:#fff;margin-bottom:32px}
+    .hero h1{margin:0 0 8px;font-size:26px;font-weight:800;letter-spacing:-0.5px}
+    .hero .meta{opacity:.8;font-size:14px}
+    .hero .stats{margin-top:18px;display:flex;gap:24px;flex-wrap:wrap}
+    .hero .stat{background:rgba(255,255,255,.12);border-radius:10px;padding:8px 18px;font-size:13px}
+    .hero .stat strong{font-size:20px;display:block;font-weight:800}
+    .cat-section{margin-bottom:36px}
+    .cat-header{display:flex;align-items:center;gap:10px;margin-bottom:16px}
+    .cat-badge{padding:6px 18px;border-radius:30px;font-size:15px;font-weight:700;color:#fff;white-space:nowrap}
+    .cat-count{font-size:13px;color:#64748b}
+    .article-card{background:#fff;border-radius:14px;padding:18px 22px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,.07);border-left:4px solid #e2e8f0;transition:box-shadow .2s}
+    .article-card:hover{box-shadow:0 4px 16px rgba(0,0,0,.12)}
+    .article-title{font-size:15px;font-weight:700;margin:0 0 8px;line-height:1.45}
+    .article-title a{text-decoration:none}
+    .article-title a:hover{text-decoration:underline}
+    .article-summary{font-size:13.5px;color:#374151;margin:0 0 10px;line-height:1.6}
+    .article-meta{display:flex;gap:12px;font-size:12px;color:#94a3b8;align-items:center}
+    .article-meta .source{font-weight:600;color:#64748b}
+    .article-meta .time{background:#f1f5f9;border-radius:6px;padding:2px 8px}
+    footer{text-align:center;font-size:12px;color:#94a3b8;margin-top:40px}
+  </style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="hero">
+    <div class="meta">2026년 11월 25일 (수) 오전 10:15</div>
+    <h1>🛠️ 하네스 엔지니어링 뉴스레터</h1>
+    <p style="margin:4px 0 0;opacity:.85;font-size:14px">AI Times · 지디넷코리아 · 요즘IT · LangChain 블로그 · Simon Willison&#39;s Weblog · The New Stack 종합</p>
+    <div class="stats">
+      <div class="stat"><strong>18</strong>기사</div>
+      <div class="stat"><strong>6</strong>개 소스</div>
+      <div class="stat"><strong>7</strong>개 카테고리</div>
+    </div>
+  </div>
+
+  <!-- ===== 에이전트 오케스트레이션 ===== -->
+  <div class="cat-section">
+    <div class="cat-header">
+      <span class="cat-badge" style="background:#db2777">🧩 에이전트 오케스트레이션</span>
+      <span class="cat-count">3개 기사</span>
+    </div>
+
+    <div class="article-card" style="border-left-color:#db2777">
+      <div class="article-title">
+        <a href="https://yozm.wishket.com/magazine/detail/4045" target="_blank" style="color:#db2777">자동 예약 작업 98개, 오류 복구까지 클로드 코드에 맡겨봤습니다</a>
+      </div>
+      <div class="article-summary">예약 작업 98개에 클로드 코드 기반 3단계 자동 복구(재실행→원인 진단→코드 수정)를 30일간 운영한 기록이에요. AI가 코드를 함부로 고치지 못하게 안전 등급·금지 목록을 설계했고, 실패 110건 중 재실행 복구 15건, 코드 수정 반영은 1건이었어요.</div>
+      <div class="article-meta"><span class="source">요즘IT</span><span class="time">11/25 08:00</span></div>
+    </div>
+    <div class="article-card" style="border-left-color:#db2777">
+      <div class="article-title">
+        <a href="https://yozm.wishket.com/magazine/detail/4050" target="_blank" style="color:#db2777">AI 에이전트로 유튜브 댓글 추천 서비스 만들기(프롬프트와 하네스 차이)</a>
+      </div>
+      <div class="article-summary">프롬프트는 그때그때의 부탁, 하네스는 에이전트가 매번 돌아와 일하는 작업장이라고 구분해요. 댓글 1만 2천여 개로 추천 에이전트를 4개월간 만들며, 완료 기준과 비교 기준선 없이는 진짜 결과를 가려낼 수 없다는 교훈을 정리했어요.</div>
+      <div class="article-meta"><span class="source">요즘IT</span><span class="time">11/25 09:00</span></div>
+    </div>
+    <div class="article-card" style="border-left-color:#db2777">
+      <div class="article-title">
+        <a href="https://thenewstack.io/confluent-kafka-rust-agents/" target="_blank" style="color:#db2777">컨플루언트, AI로 Kafka 자바 클라이언트를 3개월간 Rust로 옮기다 처음부터 다시 했다</a>
+      </div>
+      <div class="article-summary">컨플루언트가 코딩 에이전트로 Kafka 자바 클라이언트를 Rust로 번역하다 첫 구현을 버리고 다시 시작했어요. 최종적으로 에이전트 3개가 역할을 나눈 멀티 에이전트 워크플로로 업스트림 커밋 191개를 이틀도 안 돼 반영했어요.</div>
+      <div class="article-meta"><span class="source">The New Stack</span><span class="time">11/25 04:26</span></div>
+    </div>
+  </div>
+  <!-- ===== 비용·요금 ===== -->
+  <div class="cat-section">
+    <div class="cat-header">
+      <span class="cat-badge" style="background:#0891b2">💰 비용·요금</span>
+      <span class="cat-count">1개 기사</span>
+    </div>
+
+    <div class="article-card" style="border-left-color:#0891b2">
+      <div class="article-title">
+        <a href="https://www.aitimes.com/news/articleView.html?idxno=217733" target="_blank" style="color:#0891b2">벤처비트 &#34;페이블 5.2, 오퍼스 5.5와 버그 수정 성능 비슷…비용은 3배&#34;</a>
+      </div>
+      <div class="article-summary">8,400줄 코드의 버그 수정 과제에서 페이블 5.2는 15회 중 10회 성공에 89달러, 오퍼스 5.5는 9회 성공에 29달러가 들었어요. 토큰 단가가 아니라 &#39;성공 작업 1건당 비용&#39;을 직접 측정해야 한다는 제언이에요.</div>
+      <div class="article-meta"><span class="source">AI Times</span><span class="time">11/24 13:57</span></div>
+    </div>
+  </div>
+  <!-- ===== 보안·신뢰 ===== -->
+  <div class="cat-section">
+    <div class="cat-header">
+      <span class="cat-badge" style="background:#ca8a04">🔐 보안·신뢰</span>
+      <span class="cat-count">3개 기사</span>
+    </div>
+
+    <div class="article-card" style="border-left-color:#ca8a04">
+      <div class="article-title">
+        <a href="https://thenewstack.io/teleport-agent-delegated-identity/" target="_blank" style="color:#ca8a04">로봇에게 내 SSH 키를 주지 마세요: AI 에이전트를 사고 없이 쓰는 법</a>
+      </div>
+      <div class="article-summary">Teleport는 에이전트에 개발자 자격증명을 넘기지 말고 &#39;위임된 신원&#39;을 쓰라고 강조해요. 새 에이전트 런타임 Beams는 샌드박스 격리·신원·접근 제어·감사를 묶어, 권한 0에서 시작해 필요한 자원만 요청하고 계획을 벗어나면 중단할 수 있어요.</div>
+      <div class="article-meta"><span class="source">The New Stack</span><span class="time">11/25 06:57</span></div>
+    </div>
+    <div class="article-card" style="border-left-color:#ca8a04">
+      <div class="article-title">
+        <a href="https://thenewstack.io/vercel-audited-zdr-inference/" target="_blank" style="color:#ca8a04">버셀, AI 제공사에 &#39;프롬프트 미보관&#39; 입증 요구… 개발자에게 중요한 이유</a>
+      </div>
+      <div class="article-summary">버셀 AI Gateway에 &#39;Audited ZDR&#39; 등급이 생겨요. 독립 보안업체가 제공사의 데이터 무보관 주장을 코드·인프라·실제 트래픽으로 검증하고 보고서를 공개해야 해요. 일부 제공사의 프롬프트 노출이 드러난 실험이 배경이에요.</div>
+      <div class="article-meta"><span class="source">The New Stack</span><span class="time">11/24 21:00</span></div>
+    </div>
+    <div class="article-card" style="border-left-color:#ca8a04">
+      <div class="article-title">
+        <a href="https://www.langchain.com/blog/ai-governance-iso-iec-42001-langsmith" target="_blank" style="color:#ca8a04">LangSmith로 ISO 42001 인증을 획득한 방법</a>
+      </div>
+      <div class="article-summary">LangChain이 AI 경영시스템 표준 ISO/IEC 42001 인증을 받으며, 에이전트 권한 설정·트레이스·평가 결과 등 LangSmith 기록을 감사 증빙으로 썼어요. 거버넌스 업무를 돕는 Deep Agents 기반 Security Agent도 소개했어요.</div>
+      <div class="article-meta"><span class="source">LangChain 블로그</span><span class="time">11/25 10:04</span></div>
+    </div>
+  </div>
+  <!-- ===== 테스트·관측 ===== -->
+  <div class="cat-section">
+    <div class="cat-header">
+      <span class="cat-badge" style="background:#4f46e5">🧪 테스트·관측</span>
+      <span class="cat-count">3개 기사</span>
+    </div>
+
+    <div class="article-card" style="border-left-color:#4f46e5">
+      <div class="article-title">
+        <a href="https://thenewstack.io/ai-coding-delivery-bottleneck/" target="_blank" style="color:#4f46e5">빠르게, 하지만 앱 100개를 망가뜨리지 않게: 댄 가필드가 말하는 AI 코딩 통제법</a>
+      </div>
+      <div class="article-summary">코딩 에이전트의 변경 속도를 검증·배포가 따라가지 못하는 문제를 다뤄요. Octopus Deploy가 공개한 오픈소스 Octo Doctor는 규칙 기반으로 Argo CD 설정을 점검하고, CLI·Claude 스킬·CI로 돌려 위험한 PR을 걸러내요.</div>
+      <div class="article-meta"><span class="source">The New Stack</span><span class="time">11/25 04:48</span></div>
+    </div>
+    <div class="article-card" style="border-left-color:#4f46e5">
+      <div class="article-title">
+        <a href="https://zdnet.co.kr/view/?no=20261125100243" target="_blank" style="color:#4f46e5">데이터이쿠, AI 에이전트 관리 사각지대 해법 내놓는다</a>
+      </div>
+      <div class="article-summary">데이터이쿠가 구축 이후의 에이전트 관리 원칙으로 전체 에이전트·소유자 파악, 사용량·성능·비용 모니터링, 위험 통제·감사 기록을 제시해요. Bedrock·Databricks·Vertex 등에서 만든 에이전트를 벤더 중립적으로 관리해요.</div>
+      <div class="article-meta"><span class="source">지디넷코리아</span><span class="time">11/25 10:02</span></div>
+    </div>
+    <div class="article-card" style="border-left-color:#4f46e5">
+      <div class="article-title">
+        <a href="https://www.aitimes.com/news/articleView.html?idxno=217719" target="_blank" style="color:#4f46e5">LGU+, 데이터독과 통화 에이전트 &#39;익시오&#39; 안정성 높인다</a>
+      </div>
+      <div class="article-summary">LG유플러스가 데이터독과 손잡고 AI 통화 에이전트 &#39;익시오&#39;의 장애 대응을 강화해요. 데이터독 &#39;비츠 AI&#39;가 운영 데이터에서 이상 신호를 찾아 원인과 영향 범위를 빠르게 파악해요.</div>
+      <div class="article-meta"><span class="source">AI Times</span><span class="time">11/24 11:23</span></div>
+    </div>
+  </div>
+  <!-- ===== 도구·프로토콜(MCP) ===== -->
+  <div class="cat-section">
+    <div class="cat-header">
+      <span class="cat-badge" style="background:#15803d">🔌 도구·프로토콜(MCP)</span>
+      <span class="cat-count">3개 기사</span>
+    </div>
+
+    <div class="article-card" style="border-left-color:#15803d">
+      <div class="article-title">
+        <a href="https://thenewstack.io/mcp-skills-tasks-claude/" target="_blank" style="color:#15803d">MCP 2주년, Claude에 &#39;Skills over MCP&#39;와 장기 실행 작업 지원 추가</a>
+      </div>
+      <div class="article-summary">앤트로픽이 MCP 서버가 도구와 함께 스킬도 배포하는 &#39;Skills over MCP&#39;를 공개 베타로 내놨어요. 장기 실행 작업(Tasks)과 Elicitation은 정식 출시됐고, MCP SDK 월 다운로드는 7억 회를 넘었어요.</div>
+      <div class="article-meta"><span class="source">The New Stack</span><span class="time">11/25 03:08</span></div>
+    </div>
+    <div class="article-card" style="border-left-color:#15803d">
+      <div class="article-title">
+        <a href="https://zdnet.co.kr/view/?no=20261124161527" target="_blank" style="color:#15803d">어도비, 챗GPT·클로드·제미나이에 고객 경험 AI 에이전트 통합</a>
+      </div>
+      <div class="article-summary">어도비가 고객 경험 에이전트 &#39;CX 엔터프라이즈 코워커&#39;를 챗GPT·클로드·제미나이·코파일럿 등에서 쓸 수 있게 했어요. MCP·A2A 같은 개방형 표준 위에 만들었고, MCP 기반 신규 커넥터도 함께 내놨어요.</div>
+      <div class="article-meta"><span class="source">지디넷코리아</span><span class="time">11/24 17:47</span></div>
+    </div>
+    <div class="article-card" style="border-left-color:#15803d">
+      <div class="article-title">
+        <a href="https://simonwillison.net/2026/Nov/24/datasette-charts/" target="_blank" style="color:#15803d">datasette-charts 0.2a0 공개</a>
+      </div>
+      <div class="article-summary">Datasette 차트 플러그인이 Datasette Agent와 연동돼 채팅으로 차트를 요청하면 도구 호출로 만들어줘요. 사용자가 차트 빌더에서 차트를 바꾸면 에이전트가 그 변화를 알아채고 설명할 수 있어요.</div>
+      <div class="article-meta"><span class="source">Simon Willison&#39;s Weblog</span><span class="time">11/24 13:24</span></div>
+    </div>
+  </div>
+  <!-- ===== 에이전트 인프라 ===== -->
+  <div class="cat-section">
+    <div class="cat-header">
+      <span class="cat-badge" style="background:#b91c1c">🖥️ 에이전트 인프라</span>
+      <span class="cat-count">2개 기사</span>
+    </div>
+
+    <div class="article-card" style="border-left-color:#b91c1c">
+      <div class="article-title">
+        <a href="https://zdnet.co.kr/view/?no=20261124120458" target="_blank" style="color:#b91c1c">에이전트가 일하는 클라우드 만든다…AWS가 그리는 차세대 AI 인프라는</a>
+      </div>
+      <div class="article-summary">AWS는 2029년까지 에이전트 10억 개 이상이 배포된다고 보고 클라우드를 에이전트 중심으로 바꾸고 있어요. 실행 환경을 격리하는 니트로 칩으로 보안을 강화하고, 삼성전자는 에이전트 20여 개로 재해복구 시간을 90% 줄였어요.</div>
+      <div class="article-meta"><span class="source">지디넷코리아</span><span class="time">11/24 12:06</span></div>
+    </div>
+    <div class="article-card" style="border-left-color:#b91c1c">
+      <div class="article-title">
+        <a href="https://thenewstack.io/kubernetes-gpu-inference-startup/" target="_blank" style="color:#b91c1c">GPU 확보는 시작일 뿐: AWS EKS에게 물어보라</a>
+      </div>
+      <div class="article-summary">추론 복제본이 트래픽을 받기까지 약 8분이 걸리는 이유(프로비저닝·이미지 풀·가중치 로드·GPU 코드 컴파일)를 분석해요. 용량 예약, Karpenter, GPU·EFA용 동적 자원 할당 같은 대책을 소개해요.</div>
+      <div class="article-meta"><span class="source">The New Stack</span><span class="time">11/25 02:17</span></div>
+    </div>
+  </div>
+  <!-- ===== 기타 ===== -->
+  <div class="cat-section">
+    <div class="cat-header">
+      <span class="cat-badge" style="background:#9333ea">📌 기타</span>
+      <span class="cat-count">3개 기사</span>
+    </div>
+
+    <div class="article-card" style="border-left-color:#9333ea">
+      <div class="article-title">
+        <a href="https://simonwillison.net/2026/Nov/24/llm-inflection-points/" target="_blank" style="color:#9333ea">12개월 사이 LLM의 세 가지 변곡점</a>
+      </div>
+      <div class="article-summary">사이먼 윌리슨이 지난 1년간 코딩 에이전트 능력의 세 변곡점을 정리했어요. 코딩 에이전트의 일상 업무 투입, 목표와 도구만 주면 끝까지 푸는 모델 등장, 3D·게임 개발까지 확장된 프런티어 모델이에요.</div>
+      <div class="article-meta"><span class="source">Simon Willison&#39;s Weblog</span><span class="time">11/25 08:02</span></div>
+    </div>
+    <div class="article-card" style="border-left-color:#9333ea">
+      <div class="article-title">
+        <a href="https://thenewstack.io/openclaw-vincent-koc-interview/" target="_blank" style="color:#9333ea">첫돌 맞은 OpenClaw: 수석 아키텍트가 말하는 폭발적 성장, 기업 공략, 그리고 메타의 영감</a>
+      </div>
+      <div class="article-summary">오픈소스 개인 AI 에이전트 OpenClaw가 1년을 맞아 OpenAI·GitHub·Nvidia가 후원하는 독립 재단으로 옮겼어요. 설치 편의성에 집중한 OpenClaw 2.0과 기업 시장 공략 계획을 들려줘요.</div>
+      <div class="article-meta"><span class="source">The New Stack</span><span class="time">11/24 21:39</span></div>
+    </div>
+    <div class="article-card" style="border-left-color:#9333ea">
+      <div class="article-title">
+        <a href="https://www.aitimes.com/news/articleView.html?idxno=217621" target="_blank" style="color:#9333ea">[AI리더의 서가] 에이전틱 코딩 완성의 기술</a>
+      </div>
+      <div class="article-summary">컨텍스트 관리, 작업 분할, 테스트로 AI 결과물을 설계·검증·완성하는 방법을 담은 책을 소개해요. PLAN.md 기반 워크플로, AI 완료 보고 검증, 깨진 세션 복구 방법이 특히 추천됐어요.</div>
+      <div class="article-meta"><span class="source">AI Times</span><span class="time">11/25 09:00</span></div>
+    </div>
+  </div>
+
+  <footer>
+    <p>하네스 엔지니어링 뉴스레터 | 2026년 11월 25일 오전 10:15 | AI Times · 지디넷코리아 · 요즘IT · LangChain 블로그 · Simon Willison&#39;s Weblog · The New Stack</p>
+  </footer>
+</div>
+</body>
+</html>
