@@ -51,6 +51,12 @@
       "emoji": "📌",
       "label": "기타",
       "color": "#9333ea"
+    },
+    {
+      "id": "memory",
+      "emoji": "🧠",
+      "label": "메모리·컨텍스트",
+      "color": "#0d9488"
     }
   ]
 }

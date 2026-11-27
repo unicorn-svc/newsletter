@@ -1,0 +1,154 @@
+{
+  "published_at": "2026-11-28T01:25",
+  "title": "하네스 엔지니어링 뉴스레터",
+  "emoji": "🛠️",
+  "sources": ["AI Times", "지디넷코리아", "전자신문", "Hugging Face 블로그", "The New Stack", "Latent Space"],
+  "articles": [
+    {
+      "category": "tools",
+      "title": "앤트로픽, MCP 서버에 '스킬' 도입…에이전트에 업무 노하우 전달",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217847",
+      "summary": "MCP 서버가 도구뿐 아니라 '스킬'(작업 절차·노하우)까지 에이전트에 전달할 수 있게 됐어요. 클로드·클로드 코드에 공개 베타로 들어갔고, 백그라운드 태스크와 작업 중 사용자 승인 요청(엘리시테이션)도 정식 출시됐어요.",
+      "source": "AI Times",
+      "time": "11/27 12:23"
+    },
+    {
+      "category": "tools",
+      "title": "Cloudflare, 토글 하나로 웹사이트에 AI 에이전트용 검색 추가… 쿼리 비용은 사이트 운영자 부담",
+      "url": "https://thenewstack.io/cloudflare-agent-search-endpoint/",
+      "summary": "Cloudflare가 토글 하나로 웹사이트에 AI 에이전트 전용 검색 엔드포인트를 붙이는 기능을 내놨어요. 다만 무료 한도를 넘는 에이전트 쿼리 비용은 사이트 운영자가 내야 해요.",
+      "source": "The New Stack",
+      "time": "11/27 03:46"
+    },
+    {
+      "category": "tools",
+      "title": "같은 코딩 모델로 토큰 속도 10배, Cognition은 어떻게 했나",
+      "url": "https://thenewstack.io/cognition-swe21-coding-model/",
+      "summary": "Cognition이 Kimi K3를 바탕으로 강화학습만으로 만든 코딩 에이전트용 모델 SWE-2.1을 공개했어요. Terminal-Bench 4.1 점수는 이전의 두 배, 토큰 처리 속도는 10배 빨라졌어요.",
+      "source": "The New Stack",
+      "time": "11/28 01:05"
+    },
+    {
+      "category": "security",
+      "title": "스위스 정부 \"AI 에이전트 활용 사이버 공격 5건 확인…4건 침해 성공\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217851",
+      "summary": "스위스 당국이 AI 에이전트를 쓴 해킹 시도 5건을 확인했고 그중 4건이 실제 침입에 성공했어요. 에이전트가 스스로 취약점을 찾고 다음 행동을 정했으며, 전력·통신 등 기반시설도 표적이 됐어요.",
+      "source": "AI Times",
+      "time": "11/27 12:02"
+    },
+    {
+      "category": "security",
+      "title": "같은 가중치, 다른 방어막: transformers 5가 프롬프트 인젝션 탐지기를 조용히 바꾸다",
+      "url": "https://huggingface.co/blog/korben99/same-weights-different-guard-transformers-5-silent",
+      "summary": "transformers 5.x로 올리면 텍스트 정규화 단계가 빠져 Llama Prompt Guard 2의 변형 인젝션 탐지율이 79%에서 0%로 떨어졌어요. 가드 모델은 라이브러리 버전을 고정하고 회귀 테스트를 돌리라고 권해요.",
+      "source": "Hugging Face 블로그",
+      "time": "11/27 18:48"
+    },
+    {
+      "category": "security",
+      "title": "소송 속 프롬프트 인젝션: 청원서가 AI를 공격할 때",
+      "url": "https://huggingface.co/blog/Leucassio/prompt-injection-peticao-processo",
+      "summary": "브라질 법원 제출 서류에 AI를 조작하려는 숨은 지시문이 들어간 실제 사례예요. LLM은 지시와 데이터를 확실히 구분하지 못하므로 완벽한 필터 대신 다층 방어와 사람의 검토가 필요하다고 강조해요.",
+      "source": "Hugging Face 블로그",
+      "time": "11/27 20:46"
+    },
+    {
+      "category": "security",
+      "title": "유럽 최대 SW기업 SAP, 해킹 의심 사고…깃허브 개발망타고 공격",
+      "url": "https://www.etnews.com/20261127000347",
+      "summary": "SAP 직원의 인증 토큰이 탈취돼 깃허브 소스코드까지 공격받은 것으로 알려졌어요. SAP는 깃허브 접근을 제한하고 자동화 작업을 멈춘 뒤 서명키를 교체했어요. AI 에이전트 사용 가능성도 거론되지만 확인되지 않았어요.",
+      "source": "전자신문",
+      "time": "11/27 18:48"
+    },
+    {
+      "category": "infra",
+      "title": "에이전트 50개를 동시에 돌렸더니 맥이 병목이 됐다",
+      "url": "https://thenewstack.io/ai-agents-remote-sandboxes/",
+      "summary": "코딩 에이전트 수십 개를 한꺼번에 돌리면 로컬 맥이 버티지 못해요. Vercel은 에이전트는 로컬에 두고 빌드·테스트만 원격 샌드박스로 넘기는 방식으로 이 문제를 풀었어요.",
+      "source": "The New Stack",
+      "time": "11/27 01:12"
+    },
+    {
+      "category": "infra",
+      "title": "래블업, 로컬AI PC 앱 '에이아이고 2.0' 출시",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217872",
+      "summary": "클라우드 없이 PC에서 모델과 에이전트를 돌리는 앱이에요. 폴더 단위 '코워크' 에이전트와 에이전트 팀 '스쿼드'를 갖췄고, 코드는 OS 샌드박스에서 실행하며 결제·삭제 같은 민감 작업은 매번 승인을 받아요.",
+      "source": "AI Times",
+      "time": "11/27 15:14"
+    },
+    {
+      "category": "cost",
+      "title": "사이오닉에이아이, AI 답변 기다리는 시간 줄인다…생성 속도 5배",
+      "url": "https://zdnet.co.kr/view/?no=20261127173116",
+      "summary": "커널 최적화와 투기적 디코딩을 적용한 LLM 게이트웨이 '오픈게이트웨이'가 나왔어요. 회사 측정으로 토큰 생성 속도가 타 제공업체 중앙값의 약 5배이고, 팀별 지출 관리와 폐쇄망 설치도 지원해요.",
+      "source": "지디넷코리아",
+      "time": "11/27 17:38"
+    },
+    {
+      "category": "cost",
+      "title": "[AI리더의 서가] 토큰을 지배하는 기업이 시장을 지배한다",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217624",
+      "summary": "토큰 단가가 떨어져도 AI 에이전트 때문에 총비용은 늘어나는 구조를 다룬 책 소개예요. 캐싱·RAG·라우팅, FinOps 대시보드 같은 토큰 비용 관리법이 담겼어요.",
+      "source": "AI Times",
+      "time": "11/27 09:00"
+    },
+    {
+      "category": "orchestration",
+      "title": "인젠트, 에이전틱 AI 도입 해법 제시…기존 시스템 연계 강화",
+      "url": "https://zdnet.co.kr/view/?no=20261127175604",
+      "summary": "기존 시스템을 다시 만들지 않고 AI 에이전트를 붙이는 'AI 인테그레이션 레이어'를 소개했어요. AI 게이트웨이로 사용자별 권한, 개인정보 노출, AI 사용 비용을 함께 관리해요.",
+      "source": "지디넷코리아",
+      "time": "11/27 17:56"
+    },
+    {
+      "category": "orchestration",
+      "title": "Clay는 GTM 에이전트를 어떻게 만드나: Jeff Barg(AI 총괄)",
+      "url": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/",
+      "summary": "Clay의 AI 총괄이 영업·마케팅(GTM) 에이전트 구축 방식을 이야기해요. 고객이 모델 선택 메뉴를 싫어하는 이유, 모든 에이전트를 위한 GTM 인프라 구상 등을 다뤄요.",
+      "source": "Latent Space",
+      "time": "11/27 08:02"
+    },
+    {
+      "category": "orchestration",
+      "title": "고위험 시추 작업에서 순수 LLM이 실패하는 이유: 멀티 에이전트 RAG와 결정론적 폴백 결합",
+      "url": "https://huggingface.co/blog/AEA1/hybrid-multi-agent-rag-deterministic-drilling-risk",
+      "summary": "멀티 에이전트 RAG로 시추 위험을 분석하되, AI가 멈추거나 수치를 지어낼 위험이 있으면 결정론적 계산 엔진으로 대체하는 하이브리드 설계 사례예요.",
+      "source": "Hugging Face 블로그",
+      "time": "11/27 20:52"
+    },
+    {
+      "category": "memory",
+      "category_label": "메모리·컨텍스트",
+      "category_emoji": "🧠",
+      "title": "실서비스 에이전트 메모리 아키텍처에는 무엇이 필요할까?",
+      "url": "https://huggingface.co/blog/MemTensor/what-does-a-production-agent-memory-architecture-n",
+      "summary": "에이전트 메모리를 워크플로 상태·수집·저장·권한 기반 검색·컨텍스트 조립·수명 관리 6가지 역할로 나눠요. 행동 전후 체크포인트로 장애 시 같은 요청을 두 번 처리하지 않게 하는 방법도 제안해요.",
+      "source": "Hugging Face 블로그",
+      "time": "11/27 19:28"
+    },
+    {
+      "category": "memory",
+      "title": "장기 AI 메모리는 어떻게 동작하나: 수집부터 망각까지",
+      "url": "https://huggingface.co/blog/MemTensor/how-long-term-ai-memory-works-from-ingestion-to-fo",
+      "summary": "규칙을 출처·버전과 함께 저장하고, 늦게 도착한 작업이 옛 규칙을 되살리지 못하게 막으며, 폐기한 규칙은 캐시·스냅샷에서도 지우는 장기 메모리 전 과정을 예시로 설명해요.",
+      "source": "Hugging Face 블로그",
+      "time": "11/27 19:39"
+    },
+    {
+      "category": "observability",
+      "title": "실서비스 에이전트 메모리 서비스에서 무엇을 기록하고 측정할까",
+      "url": "https://huggingface.co/blog/MemTensor/what-to-log-and-measure-in-a-production-agent-memo",
+      "summary": "검색 지표가 좋아도 기록이 모델에 전달되기 전에 빠질 수 있어요. 쓰기·검색·컨텍스트 조립·최종 행동을 따로 측정하자는 제안으로, 120턴 재현 중 14턴이 올바른 기록을 찾고도 모델에 넘기지 못했어요.",
+      "source": "Hugging Face 블로그",
+      "time": "11/27 13:01"
+    },
+    {
+      "category": "observability",
+      "title": "기업 위험 탐지부터 후속 조치까지 AI로…서비스나우, 에이전틱 신기능 공개",
+      "url": "https://zdnet.co.kr/view/?no=20261127172221",
+      "summary": "서비스나우가 AI 에이전트 기반 통제 모니터링을 공개했어요. 클라우드 설정 오류 같은 위험을 실시간으로 찾고 정해 둔 정책에 따라 자동 조치해요. 정식 출시는 내년 1분기예요.",
+      "source": "지디넷코리아",
+      "time": "11/27 17:22"
+    }
+  ]
+}
