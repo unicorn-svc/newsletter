@@ -1,0 +1,41 @@
+{
+  "published_at": "2026-11-28T01:22",
+  "title": "로봇 뉴스레터",
+  "emoji": "🤖",
+  "sources": ["로봇신문", "헬로티", "전자신문", "지디넷코리아", "The Robot Report", "Robohub"],
+  "articles": [
+    {"category": "humanoid", "title": "스웨덴 볼보자동차, 벨기에 공장에 휴머노이드 로봇 투입", "url": "https://www.irobotnews.com/news/articleView.html?idxno=49833", "source": "로봇신문", "time": "11/27 06:43", "summary": "볼보자동차가 헥사곤 로보틱스의 휴머노이드 로봇 ‘이온(AEON)’을 벨기에 겐트 공장에 배치했습니다. 완성차 생산 현장에 휴머노이드를 실제로 투입한 사례입니다."},
+    {"category": "humanoid", "title": "류재철 LG전자 사장 \"CES서 공개할 휴머노이드 열심히 준비\"", "url": "https://zdnet.co.kr/view/?no=20261127125050", "source": "지디넷코리아", "time": "11/27 14:00", "summary": "LG전자는 엔비디아와 함께 개발한 이족보행 휴머노이드를 내년 초 CES에서 공개할 예정입니다. 류재철 사장은 대한전자공학대상 시상식에서 휴머노이드 사업을 키우겠다는 의지를 보였습니다."},
+    {"category": "humanoid", "title": "\"전기차 한 대 값”…샤오펑 휴머노이드 로봇 ‘아이언’ 내년 출격", "url": "https://zdnet.co.kr/view/?no=20261127093132", "source": "지디넷코리아", "time": "11/27 09:31", "summary": "중국 전기차 회사 샤오펑이 휴머노이드 로봇 '아이언(IRON)'의 가격을 전기차 한 대 수준으로 잡겠다고 밝혔습니다. 이 로봇은 내년 출시를 앞두고 있어 관심을 모으고 있습니다."},
+    {"category": "humanoid", "title": "中 로봇기업 샤오펑 “휴머노이드, 1~2년 내 가정 진출 가능”", "url": "https://www.hellot.net/news/article.html?no=116726", "source": "헬로티", "time": "11/27 14:55", "summary": "샤오펑은 상업시설에 휴머노이드 도입이 성공하면 1~2년 안에 가정용 시장에도 진출할 수 있다고 내다봤습니다. 전기차에서 쌓은 AI 반도체와 자율주행 기술이 바탕입니다."},
+    {"category": "humanoid", "title": "AMD-카스봇, 휴머노이드 로봇용 '엣지 AI' 테스트", "url": "https://www.irobotnews.com/news/articleView.html?idxno=49825", "source": "로봇신문", "time": "11/27 11:34", "summary": "미국 반도체 기업 AMD와 중국 휴머노이드 기업 카스봇이 손잡고 로봇용 엣지 AI를 시험하고 있습니다. 클라우드를 거치지 않고 로봇 기기 안에서 바로 AI를 연산하는 방식입니다."},
+    {"category": "humanoid", "title": "中 휴머노이드 로봇 발전 속도 너무 빨라 \"인재 100만 명 부족\"", "url": "https://www.irobotnews.com/news/articleView.html?idxno=49824", "source": "로봇신문", "time": "11/27 11:34", "summary": "중국에서 휴머노이드 등 임바디드 인텔리전스 산업이 빠르게 커지면서 인재가 크게 모자란 것으로 나타났습니다. 중국 관영 CCTV는 관련 인재가 약 100만 명 부족하다고 전했습니다."},
+
+    {"category": "physical_ai", "title": "클로봇, 美 MIT 연구진과 제조 '피지컬 AI' 공동개발 착수… 글로벌 로봇 기술 패권에 도전", "url": "https://www.irobotnews.com/news/articleView.html?idxno=49838", "source": "로봇신문", "time": "11/27 12:02", "summary": "로봇 소프트웨어 기업 클로봇이 미국 MIT 연구진과 제조용 피지컬 AI 공동개발을 시작했습니다. 산업통상부와 KIAT가 추진하는 글로벌산업기술협력센터(GITCC) 국제공동연구로 진행됩니다."},
+    {"category": "physical_ai", "title": "어드밴텍, 로봇·피지컬 AI를 위한 통합 카메라 아키텍처 'UniCAM' 선보여", "url": "https://www.etnews.com/20261127000036", "source": "전자신문", "time": "11/27 09:10", "summary": "어드밴텍이 ADI의 GMSL2 기술을 기반으로 만든 통합 카메라 아키텍처 'UniCAM'을 공개했습니다. 로봇과 휴머노이드가 여러 카메라로 주변을 실시간 인식하도록 멀티 카메라 개발을 쉽게 해 줍니다."},
+    {"category": "physical_ai", "title": "[헬로AX] AI로 3D 로봇 비전 고도화…픽잇코리아, 다품종 제조·물류 자동화 대응", "url": "https://www.hellot.net/news/article.html?no=116668", "source": "헬로티", "time": "11/27 17:00", "summary": "3D 로봇 비전 기업 픽잇코리아가 AI로 다양한 물체를 알아보는 기술을 선보였습니다. 제품 형상을 미리 등록하지 않아도 로봇이 다품종 제조·물류 작업을 유연하게 처리할 수 있습니다."},
+    {"category": "physical_ai", "title": "스페이스뱅크, 사족보행로봇·무인지상차량 활용한 통합 원격 임무 교육", "url": "https://www.etnews.com/20261127000058", "source": "전자신문", "time": "11/27 09:30", "summary": "스페이스뱅크가 성균관대 국방 AX 교육센터에서 군 교육생을 대상으로 피지컬 AI 교육을 진행했습니다. 교육생들은 사족보행로봇과 무인지상차량에 음성과 문자로 임무를 지시하는 실습을 했습니다."},
+    {"category": "physical_ai", "title": "Robot Talk 에피소드 172 – 아이처럼 배우는 로봇, 레티시아 마라 베르투와 함께", "url": "https://robohub.org/robot-talk-episode-172-robots-that-learn-like-children-with-leticia-mara-berto/", "source": "Robohub", "time": "11/27 22:33", "summary": "맨체스터대 인지로봇연구실의 레티시아 마라 베르투 박사가 로봇의 자기 동기, 학습, 의사결정을 이야기합니다. 아이가 자라는 과정을 본떠 스스로 배우고 판단하는 자율 로봇 연구를 쉽게 들려줍니다."},
+
+    {"category": "industrial", "title": "GXO, 2027년 로보틱스 투자 두 배로 늘린다", "url": "https://www.therobotreport.com/gxo-doubling-down-on-robotics-in-2027/", "source": "The Robot Report", "time": "11/27 22:56", "summary": "물류기업 GXO가 앞으로 12개월간 미국 주요 거점부터 팔레트 AMR, 로봇팔, AI 비전, 자동 분류 시스템을 늘립니다. Apptronik·Agility의 휴머노이드, Exotec 자동창고 등 시험 중인 로봇도 소개됐습니다."},
+    {"category": "industrial", "title": "[헬로AX] 스마트 물류 자동화에 피지컬 AI 접목…LG CNS, 이기종 로봇 통합 운영 확대", "url": "https://www.hellot.net/news/article.html?no=116662", "source": "헬로티", "time": "11/27 07:00", "summary": "LG CNS가 자율이동로봇(AMR)과 모바일 셔틀을 활용한 스마트 물류에 피지컬 AI를 접목하고 있습니다. 서로 다른 로봇을 한데 묶어 유연하게 운영하는 방식을 넓혀 가고 있습니다."},
+    {"category": "industrial", "title": "英 덱소리, 창고안전 규제준수 모듈 ‘덱소리뷰인스펙트’ 출시", "url": "https://www.irobotnews.com/news/articleView.html?idxno=49837", "source": "로봇신문", "time": "11/27 11:57", "summary": "영국 물류 로봇 기업 덱소리가 창고 안전과 규정 준수를 위한 통합 모듈 ‘덱소리뷰 인스펙트’를 내놓았습니다. 보관 환경을 더 쉽게 점검하고 관리하도록 돕는 것이 목표입니다."},
+    {"category": "industrial", "title": "美 마키나랩스, 맞춤형 차량 제조 대행업체 ‘레벨리스’ 출범", "url": "https://www.irobotnews.com/news/articleView.html?idxno=49836", "source": "로봇신문", "time": "11/27 11:50", "summary": "AI 기반 로봇 제조 기업 마키나 랩스가 맞춤형 차량 제조 대행 브랜드 ‘레벨리스’를 출범했습니다. 로봇 제조 기술로 맞춤형 차량을 더 빠르고 저렴하게 생산하겠다는 계획입니다."},
+    {"category": "industrial", "title": "줌라이언, 바우마 차이나 2026에서 체화 지능 기반 업계 최초 AI 굴착 로봇 공개", "url": "https://zdnet.co.kr/view/?no=20261127141002", "source": "지디넷코리아", "time": "11/27 14:10", "summary": "중국 건설장비 기업 줌라이언이 바우마 차이나 2026에서 체화 지능 기반의 AI 굴착 로봇을 선보였습니다. 회사는 업계 최초라고 소개했으며, 보도자료 형식의 기사입니다."},
+
+    {"category": "service", "title": "LGU+-현대차기아 로보틱랩스, 배송로봇에 5G SA 실증 완료", "url": "https://www.etnews.com/20261127000064", "source": "전자신문", "time": "11/27 09:34", "summary": "LG유플러스가 현대차기아 로보틱스랩과 배송로봇 '달이 딜리버리'에서 5G 단독모드(SA) 실증을 마쳤습니다. 두 회사는 앞으로 피지컬 AI 협업도 이어갑니다."},
+    {"category": "service", "title": "둠둠, 드론·로버 연계 배송 기술 고도화…피지컬 AI 기반 라스트마일 혁신", "url": "https://www.etnews.com/20261127000346", "source": "전자신문", "time": "11/27 18:34", "summary": "둠둠이 드론과 지상 자율주행 로봇(로버)을 함께 쓰는 배송 기술을 고도화하고 있습니다. 드론이 물품을 나르고 로버가 마지막 목적지까지 전달하는 방식입니다."},
+    {"category": "service", "title": "모션어드바이저, 세종시 도시통합정보센터에 AI 다국어 브리핑 로봇 설치", "url": "https://www.etnews.com/20261127000163", "source": "전자신문", "time": "11/27 11:24", "summary": "모션어드바이저가 세종시 도시통합정보센터에 AI 다국어 안내로봇을 설치하고 현장 실증을 시작했습니다. 정부 첫 실증·구매 프로젝트에 뽑힌 과제입니다."},
+    {"category": "service", "title": "마을 주방부터 감귤 가공까지… 제주테크노파크, AI·로봇으로 지역 현장 지원", "url": "https://www.irobotnews.com/news/articleView.html?idxno=49842", "source": "로봇신문", "time": "11/27 12:56", "summary": "제주테크노파크가 AI와 로봇 기술로 지역 현장을 돕고 있습니다. 조리 인력 부족과 감귤 등 식품 제조 현장의 품질 관리 문제를 기술로 해결하고 있습니다."},
+
+    {"category": "business", "title": "오아, 사명 ‘오아투엑스’로 변경… AI·로봇·물류 자동화로 사업 영역 확장", "url": "https://www.irobotnews.com/news/articleView.html?idxno=49844", "source": "로봇신문", "time": "11/27 13:20", "summary": "코스닥 상장사 오아가 사명을 ‘오아투엑스(OATOX)’로 바꿨습니다. 앞으로 AI·로봇·물류 자동화 분야로 사업 영역을 넓혀 나간다고 밝혔습니다."},
+    {"category": "business", "title": "[봇규의 헬로BOT] 로봇 스케일업 ⑤ | “지원금 받고 끝?” 논문 밖으로 나온 기술, 성공 공식은 ‘기술·실증·투자’ 삼박자", "url": "https://www.hellot.net/news/article.html?no=116731", "source": "헬로티", "time": "11/27 18:26", "summary": "국민대 캠퍼스타운 사례로 로봇 스타트업이 연구실 기술을 사업으로 키우는 과정을 짚은 기획 기사입니다. 기술 자문, 실증, 후속 투자가 함께 맞물려야 성장할 수 있다고 강조합니다."},
+
+    {"category": "policy_event", "title": "AI 로봇이 배우는 동작 데이터, 국가표준(KS)으로 체계화 추진", "url": "https://www.hellot.net/news/article.html?no=116692", "source": "헬로티", "time": "11/27 11:32", "summary": "국가기술표준원이 휴머노이드 등 AI 로봇의 학습 데이터를 위한 KS 제정안을 60일간 예고합니다. 로봇마다 다른 데이터 구조를 표준화해 기업 간 공유와 활용을 쉽게 하려는 취지입니다."},
+    {"category": "policy_event", "title": "로봇·피지컬 AI 입법 속도 내는데…안전·책임 기준 '제각각'", "url": "https://zdnet.co.kr/view/?no=20261127164348", "source": "지디넷코리아", "time": "11/27 16:45", "summary": "국회가 로봇 관련 법을 서둘러 만들고 있지만 부처마다 규율 방식이 달라 조율이 필요하다는 지적이 나왔습니다. 안전인증 부담, 사고 책임, 공존 규범도 함께 마련해야 한다는 진단입니다."},
+    {"category": "policy_event", "title": "피지컬 AI '공존의 법제' 모색…“로봇 진흥 규범도 진화해야”", "url": "https://www.etnews.com/20261127000329", "source": "전자신문", "time": "11/27 17:11", "summary": "피지컬 AI와 지능형 로봇을 키우는 동시에 물리적 위험에 대비하는 법제가 필요하다는 제언이 나왔습니다. 윤리적 위험을 해소해야 사회가 로봇을 받아들일 수 있다는 지적입니다."},
+    {"category": "policy_event", "title": "나우로보틱스 이종주 대표, 중기부 장관 표창 수상… 모빌리티 분야 산업 성과 인정", "url": "https://www.irobotnews.com/news/articleView.html?idxno=49843", "source": "로봇신문", "time": "11/27 13:02", "summary": "지능형 로봇 기업 나우로보틱스의 이종주 대표가 중소벤처기업부 장관 표창을 받았습니다. 지역특화 프로젝트 ‘레전드50+’ 성과와 지역 모빌리티 산업 기여를 인정받았습니다."},
+
+    {"category": "others", "title": "'공학은 답을, 예술은 질문을“… 로봇공학자 데니스 홍, 디자인 무대 서다", "url": "https://www.etnews.com/20261127000265", "source": "전자신문", "time": "11/27 14:35", "summary": "로봇공학자 데니스 홍 UCLA 교수가 디자인코리아 2026 스페셜 토크 연사로 나섰습니다. 100여 명 앞에서 기술과 디자인의 경계를 넘는 창작 이야기를 나눴습니다."}
+  ]
+}
