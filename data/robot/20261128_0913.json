@@ -1,0 +1,15 @@
+{
+  "published_at": "2026-11-28T09:13",
+  "title": "로봇 뉴스레터",
+  "emoji": "🤖",
+  "sources": ["로봇신문", "헬로티", "전자신문"],
+  "articles": [
+    {"category": "service", "title": "“귀신인 줄 알고 기절할 뻔”…中 병원 고객 푹 숙인 '긴 생머리 여성' 정체는", "url": "https://www.etnews.com/20261127000322", "source": "전자신문", "time": "11/27 19:50", "summary": "중국 장쑤성인민병원이 환자 안내용 여성형 휴머노이드를 철거했습니다. 전원이 꺼진 채 고개를 숙인 모습에 방문객들이 놀라 항의했고, 온라인에서는 '불쾌한 골짜기' 논쟁이 다시 일었습니다."},
+    {"category": "industrial", "title": "나우로보틱스 이종주 대표, 레전드50+ 모빌리티 성과로 중기부 장관 표창 수상", "url": "https://www.hellot.net/news/article.html?no=116719", "source": "헬로티", "time": "11/27 14:19", "summary": "나우로보틱스 이종주 대표가 레전드50+ 성과로 중기부 장관 표창을 받았습니다. 회사는 한양로보틱스를 인수했고 다관절 'NX 시리즈', AMR, 산업용 이동형 휴머노이드로 사업을 넓히고 있습니다."},
+    {"category": "industrial", "title": "클레로보틱스, 스케일업 팁스 유공 중소벤처기업부 장관 표창 수상", "url": "https://www.hellot.net/news/article.html?no=116718", "source": "헬로티", "time": "11/27 14:18", "summary": "3D 비전 기업 클레로보틱스가 장관 표창을 받고 광시야 3D 카메라 'CoPick3D 350S-W'를 공개했습니다. 차체·배터리 같은 대형 부품의 로봇 조립을 돕는 장비로, 기아 사전시험을 통과했습니다."},
+    {"category": "business", "title": "[헬로스톡] 11/27 주목할 종목 : 파미셀·SK스퀘어·두산로보틱스·동아제약", "url": "https://www.hellot.net/news/article.html?no=116730", "source": "헬로티", "time": "11/27 18:10", "summary": "DS투자증권이 두산로보틱스 목표주가를 5만8천원으로 낮췄습니다. 3분기 매출은 59% 늘었지만 영업적자 134억원이 이어졌고, 손익분기에는 지금의 약 4배 매출이 필요하다고 봤습니다."},
+    {"category": "business", "title": "주간 로봇 기업 주가 동향(11/23 ~ 11/27)", "url": "https://www.irobotnews.com/news/articleView.html?idxno=49846", "source": "로봇신문", "time": "11/27 15:35", "summary": "11월 23~27일 한 주 동안 국내 로봇 기업들의 주가 흐름을 정리한 주간 시세 동향입니다."},
+    {"category": "business", "title": "오늘의 로봇 기업 주식 시세(2026-11-27)", "url": "https://www.irobotnews.com/news/articleView.html?idxno=49845", "source": "로봇신문", "time": "11/27 15:35", "summary": "11월 27일 장 마감 기준 국내 로봇 관련 상장사들의 주식 시세를 한눈에 정리한 일일 시세표입니다."},
+    {"category": "policy_event", "title": "인천TP, ‘제3회 인천 미래차 테크포럼’ 개최", "url": "https://www.irobotnews.com/news/articleView.html?idxno=49840", "source": "로봇신문", "time": "11/27 12:07", "summary": "인천TP와 인천시가 '제3회 인천 미래차 테크포럼'을 열고, 피지컬 AI 시대의 제조업 변화와 AI·로봇 정밀제어·검사 기반 공정 자동화 등 자동차 부품기업의 혁신 방안을 논의했습니다."}
+  ]
+}
