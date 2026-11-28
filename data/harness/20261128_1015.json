@@ -1,0 +1,72 @@
+{
+  "published_at": "2026-11-28T10:15",
+  "title": "하네스 엔지니어링 뉴스레터",
+  "emoji": "🛠️",
+  "sources": ["The New Stack", "Hugging Face 블로그", "AI Times", "전자신문", "Latent Space"],
+  "articles": [
+    {
+      "category": "infra",
+      "title": "AWS 니트로 샌드박스, AI 에이전트에 실행 공간을 제공하다",
+      "url": "https://thenewstack.io/aws-nitro-sandboxes-agents/",
+      "summary": "AWS가 KubeCon에서 니트로 샌드박스를 공개했어요. EC2 인스턴스 하나 안의 여러 워크로드를 하이퍼바이저 수준으로 격리하고, 컨테이너 이미지 수정 없이 EKS·ECS 런타임 설정만으로 쓸 수 있어요. 기밀 모드와 증명(attestation)도 지원해 코딩 에이전트가 만든 코드를 안전하게 돌리기에 적합해요.",
+      "source": "The New Stack",
+      "time": "11/28 04:16"
+    },
+    {
+      "category": "orchestration",
+      "title": "버셀 CEO \"다음 AI 속도 혁신은 더 똑똑한 모델에서 나오지 않는다\"",
+      "url": "https://thenewstack.io/vercel-workflow-sdk-harness/",
+      "summary": "기예르모 라우치는 모델이 똑똑해질수록 하네스의 역할이 에이전트 실행과 상태 보존으로 옮겨간다고 봤어요. 새 실행 엔진을 단 Workflow SDK 5.8은 스텝 간 오버헤드(p75)를 85ms→7ms, 병렬 256스텝 처리를 13.5초→2.5초로 줄였어요.",
+      "source": "The New Stack",
+      "time": "11/28 01:50"
+    },
+    {
+      "category": "memory",
+      "title": "250줄짜리 스킬 파일이 AI 공동창업자 페르소나를 지우는 이유, 그리고 9줄 '꼬리 앵커'로 7개 LLM에서 되살린 방법",
+      "url": "https://huggingface.co/blog/TonyDzi/kaper-tail-anchor-recency-bias-eval-2026-11-26",
+      "summary": "스킬 파일 맨 위의 페르소나 지시는 아래 200줄 넘는 절차 규칙에 묻혀 무시됐어요. 파일 끝에 9줄 '꼬리 앵커'를 붙이자 7개 모델·84회 실행에서 통과율이 1/28에서 18/28로 올랐어요. 스킬·컨텍스트 설계 시 지시 위치가 중요하다는 실험이에요.",
+      "source": "Hugging Face 블로그",
+      "time": "11/28 09:33"
+    },
+    {
+      "category": "security",
+      "title": "Bytebase DBHub MCP 서버 인증 우회 취약점(CVE-2026-136441) 분석 보고서",
+      "url": "https://huggingface.co/blog/sixujinzhu/single-event-security-analysis-report-bytebase-dbh",
+      "summary": "DB용 MCP 서버 DBHub에서 인증 없이 원격으로 인증을 우회할 수 있는 취약점(CVSS 9.8)이 제로데이로 공개됐고 아직 공식 패치가 없어요. 원인·영향·탐지·대응 방법을 정리했어요(직접 재현은 하지 않음). MCP 서버를 쓴다면 접근 통제를 점검하세요.",
+      "source": "Hugging Face 블로그",
+      "time": "11/28 02:43"
+    },
+    {
+      "category": "infra",
+      "title": "NKI 레이어 메가커널로 Trainium2 한 대에서 GLM-5.3-Flash 서빙하기",
+      "url": "https://huggingface.co/blog/sanmonga22/glm-5-3-flash-trainium2-nki-megakernels",
+      "summary": "3,200억 파라미터 MoE 모델을 AWS trn2 한 대로 서빙한 기록이에요. 실제 코딩 에이전트 세션을 재현한 벤치마크로 측정했고, 레이어 단위 커널 통합과 에이전트별 프리픽스 캐시로 동시 에이전트 4~32개를 처리했어요. 토큰 종류별 비용과 실패한 시도도 공개했어요.",
+      "source": "Hugging Face 블로그",
+      "time": "11/28 03:31"
+    },
+    {
+      "category": "security",
+      "title": "앤트로픽, AI 내부 뉴런 직접 분석…숨겨진 위험 행동 탐지 기술 연구",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217863",
+      "summary": "앤트로픽이 개별 뉴런을 분석해 모델의 숨겨진 위험 행동을 찾는 논문 2편을 공개했어요. 출력이나 사고 과정(CoT)만 보는 모니터링을 보완하는 방식으로, 클로드 기반 감사를 더하자 식별률이 40%에서 75%로 올랐어요. 단, 실험은 70억~320억 파라미터 오픈 모델 대상이에요.",
+      "source": "AI Times",
+      "time": "11/27 14:28"
+    },
+    {
+      "category": "others",
+      "title": "포시에스, 전자문서에 AI 에이전트 결합…기업 지식 자산화 시장 공략",
+      "url": "https://www.etnews.com/20261127000355",
+      "summary": "포시에스가 전자문서 SW에 AI 에이전트를 결합해 기업 지식 자산화 시장에 나서요. 핵심 제품 'AIOZ EKA'는 흩어진 사내 데이터를 모아 맥락을 해석하고 출처와 함께 답변해요. 30일 '디지털 문서 AX 컨퍼런스 2026'에서 로드맵을 공개할 예정이에요.",
+      "source": "전자신문",
+      "time": "11/27 21:39"
+    },
+    {
+      "category": "others",
+      "title": "AI 학습 데이터 시장의 내부 — G2i 게이브 그린버그",
+      "url": "https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i/",
+      "summary": "G2i 창업자가 프런티어 랩의 학습 데이터 구매 방식, 강화학습(RL) 환경과 결과 채점 검증기 설계법을 설명해요. 에이전트 작업에 맞는 엔지니어 선발법과 사내 멀티에이전트 코딩 플랫폼 ORC도 소개해요.",
+      "source": "Latent Space",
+      "time": "11/28 07:19"
+    }
+  ]
+}
